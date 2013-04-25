@@ -1,0 +1,185 @@
+<FlippingBook>
+	<width>1024</width>
+	<height>396</height>
+
+	<scaleContent>true</scaleContent>
+	<firstPage>0</firstPage>
+	<alwaysOpened> false </alwaysOpened>
+	<autoFlip> 50 </autoFlip>
+	<flipOnClick> true </flipOnClick>
+
+	<staticShadowsDepth> 1 </staticShadowsDepth>
+	<dynamicShadowsDepth> 1 </dynamicShadowsDepth>
+
+	<moveSpeed> 2 </moveSpeed>
+	<closeSpeed> 3 </closeSpeed>
+	<gotoSpeed> 3 </gotoSpeed>
+
+	<flipSound></flipSound>
+	<pageBack> 0x1C90CB </pageBack>
+
+	<loadOnDemand> true </loadOnDemand>
+	<cachePages> true </cachePages>
+
+   	<cacheSize> 4 </cacheSize>
+	<preloaderType> Progress Bar </preloaderType>
+	<userPreloaderId></userPreloaderId>
+
+	<pages>
+
+
+		<page>http://bigideastech.com/fan/Phase1_3_Page_001.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_002.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_003.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_004.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_005.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_006.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_007.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_008.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_009.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_010.jpg</page>
+
+		<page>http://bigideastech.com/img3/package3_Page_011.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_012.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_013.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_014.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_015.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_016.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_017.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_018.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_029.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_020.jpg</page>
+
+		<page>http://bigideastech.com/img3/package3_Page_021.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_022.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_023.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_024.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_025.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_026.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_027.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_028.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_029.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_030.jpg</page>
+
+		<page>http://bigideastech.com/img3/package3_Page_031.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_032.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_033.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_034.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_035.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_036.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_037.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_038.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_039.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_040.jpg</page>
+
+
+		<page>http://bigideastech.com/img3/package3_Page_041.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_042.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_043.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_044.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_045.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_046.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_047.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_048.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_049.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_050.jpg</page>
+
+		<page>http://bigideastech.com/img3/package3_Page_051.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_052.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_053.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_054.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_055.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_056.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_057.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_058.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_059.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_060.jpg</page>
+
+		<page>http://bigideastech.com/img3/package3_Page_061.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_062.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_063.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_064.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_065.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_066.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_067.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_068.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_069.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_070.jpg</page>
+
+		<page>http://bigideastech.com/img3/package3_Page_071.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_072.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_073.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_074.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_075.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_076.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_077.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_078.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_079.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_080.jpg</page>
+
+		<page>http://bigideastech.com/img3/package3_Page_081.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_082.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_083.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_084.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_085.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_086.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_087.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_088.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_089.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_090.jpg</page>
+
+		<page>http://bigideastech.com/img3/package3_Page_091.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_092.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_093.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_094.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_095.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_096.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_097.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_098.jpg</page>
+		<page>http://bigideastech.com/img3/package3_Page_099.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_100.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_101.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_102.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_103.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_104.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_105.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_106.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_107.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_108.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_109.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_110.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_111.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_112.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_113.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_114.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_115.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_116.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_117.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_118.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_119.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_120.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_121.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_122.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_123.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_124.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_125.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_126.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_127.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_128.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_129.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_130.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_131.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_132.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_133.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_134.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_135.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_136.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_137.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_138.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_139.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_140.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_141.jpg</page>
+<page>http://bigideastech.com/img3/package3_Page_142.jpg</page>
+
+	</pages>
+</FlippingBook>

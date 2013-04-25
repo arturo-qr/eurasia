@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="Default.aspx" title="Company Home"  description="Company Home">
+		<siteMapNode url="Company-Philosophy.aspx" title="Company Philosophy"  description="Company Philosophy">
+			<siteMapNode url="Default.aspx?tab=3" title="Introduction"  description="Introduction" />
+			<siteMapNode url="Table-of-Contents.aspx" title=""  description="" />
+		</siteMapNode>
+		<siteMapNode url="Company-Overview.aspx" title="Company Overview"  description="Company Overview">
+			<siteMapNode url="COMPANY-DESCRIPTION.aspx" title="COMPANY DESCRIPTION"  description="COMPANY DESCRIPTION" />
+			
+			<siteMapNode url="INDUSTRY-REFERENCES.aspx" title="INDUSTRY REFERENCES"  description="INDUSTRY REFERENCES" />
+			
+			<siteMapNode url="Executive-Team.aspx" title="Executive Team"  description="Executive Team" />
+			<siteMapNode url="Long-Term-Goals.aspx" title="Long Term Goals"  description="" />
+			
+				<siteMapNode url="Social-Gaming.aspx" title="Social Games"  description="" />
+			
+				<siteMapNode url="Financing.aspx" title="Financing"  description="" />
+			
+				<siteMapNode url="Short-Term-Projects.aspx" title="Short Term Projects"  description="" />
+			
+				<siteMapNode url="Resources-and-Facilities.aspx" title="Resources and Facilities"  description="" />
+			
+				<siteMapNode url="Aces-of-Acts.aspx" title="Aces of Acts"  description="" />
+			
+				<siteMapNode url="Global-Studios.aspx" title="Global Studios"  description="" />
+			
+				<siteMapNode url="The-CONTEXT.aspx" title="The CONTEXT"  description="" />
+			
+				
+		</siteMapNode>
+
+		<siteMapNode url="Management.aspx" title="Management"  description="Management">
+	
+			
+				<siteMapNode url="Charles-Prostak.aspx" title="Charles Prostak"  description="" />
+				
+					<siteMapNode url="Federico-Martinez-SR.aspx" title="Federico Martinez, SR."  description="" />
+				
+					<siteMapNode url="Sharunya-Galickate.aspx" title="Sharunya Galickate"  description="" />
+				
+					<siteMapNode url="Federico-Martinez-JR.aspx" title="Federico Martinez, JR."  description="" />
+				
+				
+					<siteMapNode url="Georgiy-Chipunov.aspx" title="Georgiy Chipunov"  description="" />
+				
+					<siteMapNode url="Elliot-Borin.aspx" title="Elliot Borin"  description="" />
+				
+					<siteMapNode url="Igor-Jijikine.aspx" title="Igor Jijikine"  description="" />
+				
+					<siteMapNode url="BARBARA-RUSTAD.aspx" title="Barbara Rustad"  description="" />
+				
+					<siteMapNode url="John-Sterling.aspx" title="John Sterling"  description="" />
+					<siteMapNode url="Mike-Musick.aspx" title="Mike Musick"  description="" />
+
+
+		</siteMapNode>
+
+		<siteMapNode url="Motivation-of-Management.aspx" title="Motivation of Management"  description="Motivation of Management">
+
+			<siteMapNode url="Stock-Rights-and-Salaries.aspx" title="Stock, Rights and Salaries"  description="" />
+			<siteMapNode url="Terms-of-Common-Stock-Purchase-Rights.aspx" title="Terms of Common Stock Purchase Rights"  description="" />
+		
+
+
+
+
+		</siteMapNode>
+
+		<siteMapNode url="The-Opportunity.aspx" title="The Opportunity"  description="The Opportunity">
+
+			
+			<siteMapNode url="Global-Markets.aspx" title="Global Markets"  description="" />
+			
+				<siteMapNode url="Media-Networks.aspx" title="Media Networks"  description="" />
+			
+				<siteMapNode url="TViMama-Selection.aspx" title="TViMama.com Selection"  description="" />
+			
+				<siteMapNode url="Current-Situation-in-Television-Production.aspx" title="Current Situation"  description="" />
+			
+				<siteMapNode url="The-Solution.aspx" title="The Solution"  description="" />
+			
+				<siteMapNode url="The-Plan.aspx" title="The Plan"  description="" />
+			
+				<siteMapNode url="Develop-Content.aspx" title="Develop Content"  description="" />
+			
+				<siteMapNode url="Package-TV-Properties.aspx" title="Package TV Properties"  description="" />
+			
+				<siteMapNode url="Market-TV-Properties.aspx" title="Market TV Properties"  description="" />
+			
+				<siteMapNode url="Produce-Shows.aspx" title="Produce Shows"  description="" />
+			
+				<siteMapNode url="Financing-Models.aspx" title="Financing Models"  description="" />
+			
+				<siteMapNode url="Revenue-Projections.aspx" title="Revenue Projections"  description="" />
+			
+				<siteMapNode url="Available-Projects.aspx" title="Available Projects"  description="" />
+			
+				<siteMapNode url="Foreign-Sales-Projections.aspx" title="Foreign Sales Projections"  description="" />
+			
+				<siteMapNode url="Social-Online-Gaming.aspx" title="Social Online Gaming"  description="" />
+			
+				<siteMapNode url="ES-PR-CN-TViMama-Libraries.aspx" title="Ethnic for TV-ON-Demand - TViMama.com"  description="" />
+
+
+
+
+		</siteMapNode>
+
+		<siteMapNode url="The-Opportunity2.aspx" title="The Opportunity 2"  description="The Opportunity 2">
+
+			
+
+			<siteMapNode url="Rich-Famous-Lucky.aspx" title="“The Rich, The Famous, The Lucky” TV Movie and TV Series"  description="" />
+			
+				<siteMapNode url="Financing-via-sales-of-Product-Placement.aspx" title="Financing “The Rich, The Famous, The Lucky”	via sales of “Product Placement”"  description="" />
+			
+				<siteMapNode url="Free-Content.aspx" title="Free Content"  description="" />
+			
+				<siteMapNode url="New-TV-Channels-and-Markets.aspx" title="New TV Channels and Markets"  description="" />
+			
+				<siteMapNode url="Marketing-of-TViMama.aspx" title="Marketing of TViMama.com"  description="" />
+			
+				<siteMapNode url="New-Television-content.aspx" title="New Television content"  description="" />
+			
+				<siteMapNode url="Acquisition-Entertainment-Assets.aspx" title="Acquisition of Entertainment Assets"  description="" />
+			
+				<siteMapNode url="Viral-Marketing.aspx" title="Viral Marketing"  description="" />
+		
+				<siteMapNode url="Strategic-Assets.aspx" title="Strategic Assets"  description="" />
+			
+		
+			
+				<siteMapNode url="Aces-of-Acts.aspx?tab=2" title="Aces of Acts"  description="" />
+			
+				<siteMapNode url="The-CONTEXT.aspx?tab=2" title="The CONTEXT"  description="" />
+
+
+
+
+		</siteMapNode>
+
+
+		<siteMapNode url="Risk-Factors.aspx?tab=3" title="Risk/Reward - Exit Strategy"  description="Risk/Reward - Exit Strategy">
+
+
+
+			<siteMapNode url="Risk-Factors.aspx?tab=2" title="Risk"  description="" />
+		
+				<siteMapNode url="Exit-Strategies.aspx" title="Exit Strategies"  description="" />
+			
+				<siteMapNode url="NASDAQ-Requirements.aspx" title="NASDAQ Requirements"  description="" />
+			
+				<siteMapNode url="Majority-Shareholders.aspx" title="Majority Shareholders"  description="" />
+			
+				<siteMapNode url="Going-Public.aspx" title="Going Public"  description="" />
+			
+				<siteMapNode url="Subsidiaries.aspx" title="Subsidiaries" description="" />
+
+
+
+
+		</siteMapNode>
+
+		<siteMapNode url="Five-Characteristics.aspx" title="Investments with Global"  description="Investments with Global">
+
+
+
+			
+			<siteMapNode url="Five-Characteristics.aspx?tab=3" title="Five Characteristics"  description="" />
+			
+				<siteMapNode url="Philosophy-of-Investments.aspx" title="Philosophy of Investments"  description="" />
+		
+				<siteMapNode url="Experiments-with-business-opportunities.aspx" title="Experiments with business opportunities"  description="" />
+			
+				<siteMapNode url="Phase-I-Investment.aspx" title="Phase I Investment"  description="" />
+		
+				<siteMapNode url="Phase-I-to-Phase-V-Financing.aspx" title="Phase I to Phase V Financing"  description="" />
+
+
+
+
+		</siteMapNode>
+		
+	</siteMapNode>
+	
+	
+					
+	
+			
+					
+		
+</siteMap>

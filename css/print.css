@@ -1,0 +1,734 @@
+.NoPrint {display: none;}
+/* Bellagio CSS Document */
+
+
+/* =universals
+These rules are applied to all elements unless otherwise specified below.*/
+* { margin : 0; padding : 0; }
+h2, h3, h4, h5, p, ul, ol, hr { margin : 0 0px; padding: 0em; }
+
+/***** Removes the dotted outline in FireFox when image links are clicked on *****/
+a { outline: none; }
+
+/* =html */
+/*This creates a persistent scroll bar in Firefox to prevent page jump*/
+html { overflow: -moz-scrollbars-vertical !important; }
+
+/* =body */
+body{ }
+
+/*a{color: #000000; text-decoration: none;}
+a:hover{color: #000000; text-decoration: none;}
+a:visited{color: #000000; text-decoration: none;}*/
+
+/*************************************
+	Header Styles
+*************************************/
+div#HeaderContainer { display: none; }
+
+/*************************************
+	Home Page Styles
+*************************************/
+#HomeColumn1{
+padding: 0px 0px 0px 0px;
+	float: left;
+	width: 470px;
+	color: #C5A88D;
+	font: normal  12px/20px Arial, Helvetica, sans-serif;
+}
+div#HomeGallery{ min-width: 426px; }
+div#HomeGalleryNavigation{ 
+	height: 72px;
+	background: url(../images/home/Gallery-Background.jpg) top left no-repeat;
+	margin: 0px 0px 0px 19px;
+	padding: 0px 0px 0px 2px;
+}
+div#HomeGalleryNavigation img{ float: left; }
+
+div#HomeGalleryDetailsContainer{
+	width: 386px;
+	margin: 0px 0px 9px 19px;
+	padding: 14px 20px 70px 20px;
+}
+div#DetailHeader{ font-weight: bold; text-transform: uppercase; }
+div#DetailCopy{ padding: 10px 0px 10px 0px; }
+div#DetailMoreInfo{  }
+.DetailMoreInfo {}
+a.DetailMoreInfo:link {color: #C5A88D; text-decoration: none;} 
+a.DetailMoreInfo:visited {color: #C5A88D; text-decoration: none;}  
+a.DetailMoreInfo:hover {color: #FFFFFF; text-decoration: none;} 
+a.DetailMoreInfo:active {color: #C5A88D; text-decoration: none;}
+
+
+#HomeColumn2{ 
+	padding: 20px 20px 0px 20px;
+	float: left;
+	width: 470px;
+	color: #C5A88D;
+	font: normal  12px/20px Arial, Helvetica, sans-serif;
+	background: url(../images/home/Page-Divider.jpg) no-repeat;
+	background-position: left 1px; 
+}
+
+.HomePageRule{ 	width: 470px; height: 1px; background: url(../images/home/Twitter-Horizontal-Rule.png) no-repeat; }
+* html .HomePageRule{ 	width: 470px; height: 1px; background: url(../images/home/Twitter-Horizontal-Rule.jpg) no-repeat; }
+
+#TwitterFeedHeader{  font-weight: bold; text-transform: uppercase; padding: 0px 0px 10px 0px;  }
+#TwitterFeedContainer{ width: 440px; padding: 10px 20px 6px 10px; }
+#TwitterFeedContainer p{ font-size: 11px; line-height: 16px; color: #C5A88D; padding: 0px 0px 10px 0px; }
+#TwitterFeedContainer img{ float: left; display: inline; margin: 2px 4px 0px 0px; }
+#TwitterFeedViewAllNews{ padding: 10px 0px 0px 0px; }
+
+
+/*************************************
+	Media Interface Styles
+*************************************/
+div#MediaContainer{ display: none; }
+
+/* Top Header and Flash */
+#FlashVideo {width:980px; height:456px; margin:0 auto; display:none; position:absolute; z-index:0;}
+#nonverblaster {width:980px; height:405px;  position:relative; top:51px; z-index:0;}
+#image{ height:100%; width:100%; position:absolute; z-index:-100; top:0px; left:0;}
+
+div#GalleryFull{ display: none; }
+
+p{padding: 0px 0px 10px 0px; color: #000000; font: normal 12px/20px Arial, Helvetica, sans-serif;}
+p a:link {color: #000000; text-decoration: none;} 
+p a:visited {color: #000000; text-decoration: none;}  
+p a:hover {color: #000000; text-decoration: none;} 
+p a:active {color: #000000; text-decoration: none;}
+
+h1{color:#3E2813; font: bold 20px/180% Arial, Helvetica, sans-serif; text-transform: uppercase;}
+
+ul, li{
+	list-style-type: none;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 14px;
+	padding: 0 0 10px 0;
+}
+
+.btnReserveTable{color: #000000; font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif; text-decoration: none; text-transform: uppercase; border: #000000 1px solid; padding: 1px 4px 2px 4px; text-decoration: none;}
+a.btnReserveTable:link{color: #000000 !important; text-decoration: none !important;}
+a.btnReserveTable:hover{color: #000000 !important; text-decoration: none;}
+a.btnReserveTable:visited{color: #000000 !important; text-decoration: none;}
+a.btnReserveTable:active{color: #000000 !important; text-decoration: none;}
+
+/* =asterisk copy */
+
+.asterisk{font-family: Verdana, Arial, Helvetica, sans-serif; font-size:9px; line-height: 12px;}
+
+div#PageContainer{ width: 980px; margin: 0 auto; }
+
+div#PageContent{ width: 980px; background: url(../images/layout/MainBackground.jpg) no-repeat;  background-position: center -528px; }
+
+/*************************************
+	Column 1 Styles
+*************************************/
+div#Column1{ display: none; }
+
+
+
+/*************************************
+	Column 2 Styles
+*************************************/
+div#Column2{ width: 778px; float: left; background: url(../images/layout/Content-Inside-Background.jpg) no-repeat; background-position: center 1px; padding: 0px 0px 0px 2px; }
+div#Column2NoGallery{ width: 778px; float: left; background: url(../images/layout/Content-Inside-Background-No-Gallery.jpg) no-repeat; background-position: center 1px; padding: 0px 0px 0px 2px; }
+
+/* =Bread Crumb Styles*/
+div#BreadCrumbs{ display: none; }
+div#BreadCrumbsNoGallery{ display: none; }
+
+
+/* =hub Styles */
+div#HubContent{ width: 716px; float: left; padding: 20px 17px 0px 0px }
+
+div#HubContent a:link {color: #000000; text-decoration: none;} 
+div#HubContent a:visited {color: #000000; text-decoration: none;}  
+div#HubContent a:hover {color: #000000; text-decoration: none;} 
+div#HubContent a:active {color: #000000; text-decoration: none;}
+
+.HubList{width: 716px; padding: 0px 0px 10px 0px;}
+.HubListImg{float: left; margin: 0px 6px 10px 0px;}
+.HubList p{padding-left: 166px;}
+
+/* =Full Page Width Styles without header */
+div#FullContent{ width: 713px; float: left; padding: 0px 20px 0px 0px }
+
+div#FullContent ul li{
+	list-style-type: none;
+	background-position: left 5px;
+	background-repeat: no-repeat;
+	background-image: url(../images/shared/bullet.gif);
+	color: #000000;
+	font: normal 12px/14px Arial, Helvetica, sans-serif;
+	margin: 0px 20px 0px 20px;
+	padding: 0 0 10px 10px;
+}
+
+div#FullContent ul a:link {color: #000000; text-decoration: none;} 
+div#FullContent ul a:visited {color: #000000; text-decoration: none;}  
+div#FullContent ul a:hover {color: #000000; text-decoration: none;} 
+div#FullContent ul a:active {color: #000000; text-decoration: none;}
+
+/* =Full Page Width Styles with header */
+div#FullContent2{ width: 713px; float: left; padding: 20px 20px 0px 0px }
+div#FullContent2 a:link { text-decoration: none;} 
+div#FullContent2 a:visited { text-decoration: none;}  
+div#FullContent2 a:hover { text-decoration: none;} 
+div#FullContent2 a:active { text-decoration: none;}
+
+div#FullContent2 ul li{
+	list-style-type: none;
+	background-position: left 5px;
+	background-repeat: no-repeat;
+	background-image: url(../images/shared/bullet.gif);
+	color: #000000;
+	font: normal 12px/14px Arial, Helvetica, sans-serif;
+	margin: 0px 20px 0px 20px;
+	padding: 0 0 10px 10px;
+}
+
+div#FullContent2 ul a:link {color: #000000; text-decoration: none;} 
+div#FullContent2 ul a:visited {color: #000000; text-decoration: none;}  
+div#FullContent2 ul a:hover {color: #000000; text-decoration: none;} 
+div#FullContent2 ul a:active {color: #000000; text-decoration: none;}
+
+.featureimg{
+	float: left;
+	margin-right: 8px;
+}
+
+.RestaurantLogo{
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 0px;
+}
+
+/************************************
+	Product Pod Styles
+************************************/
+.HubPod1{float: left; margin: 10px 20px 0px 0px; width: 222px;}
+.HubPod2{float: left; margin: 10px 20px 0px 0px; width: 222px;}
+.HubPod3{float: left; margin: 10px 0px 0px 0px; width: 222px;}
+.ProductPodRule{margin-left: 0px; height: 1px; width: 222px; background-color: #000000;}
+.ProductPodHeader{width: 222px; margin: 4px 0px 2px 0px; padding: 1px 0px 1px 0px;
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-transform: uppercase;
+}
+.ProductPodHeaderLink{}
+a.ProductPodHeaderLink:link {color: #000000; text-decoration: none;} 
+a.ProductPodHeaderLink:visited {color: #000000; text-decoration: none;}  
+a.ProductPodHeaderLink:hover {color: #000000; text-decoration: none;} 
+a.ProductPodHeaderLink:active {color: #000000; text-decoration: none;}
+
+.ProductPodPhoto{margin-left: 0px; width: 222px;}
+.ProductPodDescription{margin-left: 0px; margin-top: 4px; width: 222px; color: #3E2813; font-family: Arial, Helvetica, sans-serif; font-size: 10px; line-height: 14px;}
+
+.ProductPodDescriptionLi{
+	list-style-type: none;
+	background-position: left 5px;
+	background-repeat: no-repeat;
+	background-image: url(../images/shared/bullet.gif);
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 10px; line-height: 14px;
+	margin: 0px 0px 0px 4px;
+	padding: 0px 0px 0px 8px;
+}
+
+.ProductPodMore{
+	width: 222px;
+	text-align: right;
+	padding-top: 6px;
+	padding-bottom: 10px;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+}
+.ProductPodMoreLink {}
+a.ProductPodMoreLink:link {color: #000000; text-decoration: none;} 
+a.ProductPodMoreLink:visited {color: #000000; text-decoration: none;}  
+a.ProductPodMoreLink:hover {color: #000000; text-decoration: none;} 
+a.ProductPodMoreLink:active {color: #000000; text-decoration: none;}
+
+/************************************
+	Photo Pod Styles
+************************************/
+.PhotoPod1{float: left; margin: 10px 20px 0px 0px; width: 160px;}
+.PhotoPod2{float: left; margin: 10px 0px 0px 0px; width: 160px;}
+
+.PhotoPodPhoto{margin-left: 0px; width: 160px;}
+.PhotoPodDescription{margin-left: 0px; margin-top: 4px; width: 160px; color: #3E2813; font-family: Arial, Helvetica, sans-serif; font-size: 10px; line-height: 14px;}
+
+
+/* =Content Styles */
+div#ContentContainer{ float: left; width: 748px; background-color: #E7D8AD; }
+div#Content{ width: 731px; background-color: #E7D8AD; background: no-repeat; padding: 0px 0px 0px 17px; }
+div#Content2{ width: 731px; background-color: #E7D8AD; background: no-repeat; padding: 0px 0px 0px 17px; background-position: left -30px; }
+
+div#LeftContent{ width: 460px; float: left; padding: 0px 17px 0px 0px; text-decoration: none; }
+div#LeftContent a{color: #000000; text-decoration: none;}
+div#LeftContent a:hover{color: #000000; text-decoration: none;}
+div#LeftContent a:visited{color: #000000; text-decoration: none;}
+div#LeftContent a:active{color: #000000; text-decoration: none;}
+
+div#LeftContent ul li{
+	list-style-type: none;
+	background-position: left 5px;
+	background-repeat: no-repeat;
+	background-image: url(../images/shared/bullet.gif);
+	color: #000000;
+	font: normal 12px/14px Arial, Helvetica, sans-serif;
+	margin: 0px 20px 0px 20px;
+	padding: 0 0 10px 10px;
+}
+
+div#LeftContent2{ width: 460px; float: left; padding: 20px 17px 0px 0px; text-decoration: none; }
+div#LeftContent2 a{color: #000000; text-decoration: none;}
+div#LeftContent2 a:hover{color: #000000; text-decoration: none;}
+div#LeftContent2 a:visited{color: #000000; text-decoration: none;}
+div#LeftContent2 a:active{color: #000000; text-decoration: none;}
+
+div#LeftContent2 ul li{
+	list-style-type: none;
+	background-position: left 5px;
+	background-repeat: no-repeat;
+	background-image: url(../images/shared/bullet.gif);
+	color: #000000;
+	font: normal 12px/14px Arial, Helvetica, sans-serif;
+	margin: 0px 20px 0px 20px;
+	padding: 0 0 10px 10px;
+}
+
+div#ContentToggle{ float: left; width: 460px; float: left; color: #000000; font: bold 10px/12px Arial, Helvetica, sans-serif; text-transform: uppercase; padding: 17px 0px 0px 0px; }
+div#ContentToggle img{ margin: 16px 0px 0px 0px; }
+/*div#ContentToggle a{color: #000000; text-decoration: none;}
+div#ContentToggle a:hover{color: #000000; text-decoration: none;}*/
+
+/* =Right Details */
+div#RightContent{ width: 254px; min-height: 520px; float: right; background: url(../images/shared/details/Detail-Room-Reservation-Background.jpg) top left no-repeat; }
+div#RightContent2{ width: 254px; min-height: 520px; float: right; background: url(../images/shared/details/Detail-Blank-Background.jpg) top left no-repeat; }
+div#RightContent3{ width: 254px; float: right; }
+
+#ReservationGUIContainer{ padding: 52px 16px 0px 15px; }
+
+#ReservationGUIContainer ul{
+	list-style-type: none;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 14px;
+	padding: 0px 0px 10px 0px;
+}
+#ReservationGUIContainer li{
+	list-style-type: none;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 14px;
+	padding: 0px 0px 0px 0px;
+}
+
+#ReservationGUI{ width: 223px; padding: 0px 0px 0px 0px;}
+
+div#RightDetailsContent{ width: 223px; padding: 0px 16px 0px 15px; }
+
+div#RightDetailsContent ul{
+	list-style-type: none;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 14px;
+	padding: 0px 0px 0px 0px;
+}
+div#RightDetailsContent ul a{color: #000000; text-decoration: none;}
+div#RightDetailsContent ul a:hover{color: #000000; text-decoration: none;}
+div#RightDetailsContent ul a:visited{color: #000000; text-decoration: none;}
+div#RightDetailsContent ul a:active{color: #000000; text-decoration: none;}
+
+div#RightDetailsContent li{
+	list-style-type: none;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 14px;
+	padding: 0px 0px 10px 0px;
+}
+
+div#RightDetailsContent2{ width: 223px; padding: 23px 16px 0px 15px; }
+
+div#RightDetailsContent2 ul{
+	list-style-type: none;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 14px;
+	padding: 0px 0px 0px 0px;
+}
+div#RightDetailsContent2 ul a{color: #000000; text-decoration: none;}
+div#RightDetailsContent2 ul a:hover{color: #000000; text-decoration: none;}
+div#RightDetailsContent2 ul a:visited{color: #000000; text-decoration: none;}
+div#RightDetailsContent2 ul a:active{color: #000000; text-decoration: none;}
+
+div#RightDetailsContent2 li{
+	list-style-type: none;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 14px;
+	padding: 0px 0px 10px 0px;
+}
+
+/************************************
+	Brochure Pod Styles
+************************************/
+.BrochurePod1{float: left; margin: 10px 19px 0px 0px; width: 124px;}
+.BrochurePodHeader{width: 116px; margin: 2px 0px 0px 0px; padding: 1px 0px 1px 0px;
+	font: bold 10px Arial, Helvetica, sans-serif;
+	color: #3E2813;
+	text-transform: uppercase;
+}
+.BrochurePodHeaderLink{}
+a.BrochurePodHeaderLink:link {color: #3E2813; text-decoration: none;} 
+a.BrochurePodHeaderLink:visited {color: #3E2813; text-decoration: none;}  
+a.BrochurePodHeaderLink:hover {color: #3E2813; text-decoration: none;} 
+a.BrochurePodHeaderLink:active {color: #3E2813; text-decoration: none;}
+
+.BrochurePodPhoto{margin-left: 0px; width: 124px;}
+.BrochurePodDescription{margin-left: 0px; margin-top: 0px; width: 124px; color: #3E2813; font-family: Arial, Helvetica, sans-serif; font-size: 10px; line-height: 14px;}
+
+.BrochurePodDescriptionLi{
+	list-style-type: none;
+	background-position: left 5px;
+	background-repeat: no-repeat;
+	background-image: url(../images/shared/bullet.gif);
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 10px; line-height: 14px;
+	margin: 0px 0px 0px 4px;
+	padding: 0px 0px 0px 8px;
+}
+
+.BrochurePodMore{
+	width: 124px;
+	text-align: right;
+	padding-top: 6px;
+	padding-bottom: 10px;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+}
+.BrochurePodMoreLink {}
+a.BrochurePodMoreLink:link {color: #000000; text-decoration: none;} 
+a.BrochurePodMoreLink:visited {color: #000000; text-decoration: none;}  
+a.BrochurePodMoreLink:hover {color: #000000; text-decoration: none;} 
+a.BrochurePodMoreLink:active {color: #000000; text-decoration: none;}
+
+/************************************
+	Wedding In-Page Pod Styles
+************************************/
+.WeddingPod{float:left; width: 320px; margin: 0px 0px 10px 0px;}
+.WeddingPodPhoto{float:left; width: 116px;}
+.WeddingPodPhoto img{margin: 6px 0px 10px 0px;}
+.WeddingPodText {float:left; width: 204px;}
+.WeddingPodText ul li{
+	line-height: 18px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 10px;
+}
+
+/******************************************
+	Meetings Capacity Charts Styles
+******************************************/
+.CapacityTable{width: 713px; background-color: #904B3C; border: #904B3C 0px solid; margin-top: 10px; padding: 0px;}
+.CapacityHeader{background-color: #904B3C; font-size: 10px; font-family: Arial, Helvetica, sans-serif; color: #EDE3C3; padding: 3px; vertical-align: top;}
+.CapacityHeader2{ color:#000000; font-size: 11px; font-weight:bold; font-family: Arial, Helvetica, sans-serif; padding: 3px; margin-bottom:0px; padding-bottom:0px;}
+.AltVenues ul { margin-bottom:0px; padding-bottom:0px; }
+.AltVenues ul li{
+	list-style-type: none;
+	background-position: left 5px;
+	background-repeat: no-repeat;
+	background-image: url(../images/shared/bullet.gif);
+	color: #000000;
+	font-size: 10px;
+	margin: 0px 0px 0px 0px;
+	padding: 0 0 10px 10px;
+}
+.CapacityHighlighted{background-color: #D7C8A1; font-size: 10px; font-family: Arial, Helvetica, sans-serif; color: #000000; padding: 3px;}
+.Capacity{background-color: #EDE3C3; font-size: 10px; font-family: Arial, Helvetica, sans-serif; color: #000000; padding: 3px;}
+.Capacity2{ font-size: 10px; font-family: Arial, Helvetica, sans-serif; color: #000000; padding: 3px;}
+.CapacityDownload{font-size: 10px;}
+
+
+
+/******************************************
+	Spa Salon Charts Styles
+******************************************/
+.SpaSalonTable{width: 460px; margin-top: 12px; padding: 0px;}
+.SpaSalonHighlighted{background-color: #D7C8A1; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #000000; padding: 3px;}
+.SpaSalon{font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #000000; padding: 3px;}
+
+.DocumentDownload{font-size: 10px; padding-left: 8px;}
+
+
+/**************************************************************
+	Footer Specific Styles
+***************************************************************/
+div#FooterContainer{ clear: both; width: 100%; background: url(../images/footer/Footer-Background.jpg) no-repeat; background-position: center 10px; }
+div#Footer{ display: none; }
+div#PrintFooter{clear: both; font: normal 10px/16px Arial, Helvetica, sans-serif; color: #000000; text-align: center; clear: both; padding: 18px 0px 0px 0px; }
+/**********************************************************
+	Toggles
+**********************************************************/
+
+/* H2 as separate header */
+.H2Separate {padding: 0px 20px 10px 0px; color: #000000; font: bold 12px/20px Arial, Helvetica, sans-serif;}
+
+/* H2 as inline header */
+.H2Inline {padding: 0px 20px 0px 0px; color: #000000; font: bold 12px/20px Arial, Helvetica, sans-serif;}
+.packagessmall{font-size: 10px; line-height: 12px;}
+
+.ToggleH2 {
+	padding: 0px 0px 0px 0px; color: #000000; font: normal 12px/16px Arial, Helvetica, sans-serif;
+	/*display: block;*/
+	cursor: pointer;
+	/*padding-left: 14px;*/
+	padding-right: 14px;
+	display: inline;
+	background-image: url(../images/shared/btnToggleUp.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+
+.ToggleGameFinder {
+	padding: 0px 0px 0px 0px; color: #000000; font: normal 12px/16px Arial, Helvetica, sans-serif;
+	/*display: block;*/
+	cursor: pointer;
+	/*padding-left: 14px;*/
+	padding-right: 14px;
+	float: left;
+	display: inline;
+	background-image: url(../images/shared/btnToggleUp.gif);
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+
+.ToggleContainer{margin-top: 10px;}
+.ToggleContainer a{color: #000000; text-decoration: none;}
+.ToggleContainer a:hover{color: #000000; text-decoration: none;}
+.ToggleContainer a:visited{color: #000000; text-decoration: none;}
+
+.ToggleContainer p{margin-top: 0px;}
+.ToggleContent{display: none;}
+
+.ToggleH2b {
+	padding: 0px 0px 0px 0px; color: #000000; font: normal 12px/16px Arial, Helvetica, sans-serif;
+	/*display: block;*/
+	cursor: pointer;
+	/*padding-left: 10px;*/
+	padding-right: 10px;
+	display: inline;
+	background-image: url(../images/shared/btnToggleUp.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+
+/**********************************************************
+	Tournament Lists 
+**********************************************************/
+.results{ color:#000000; font: 11px Arial, Helvetica, sans-serif; padding-left: 8px; height: 24px; border-bottom: #000000 1px solid;}
+.resultsCopy{padding-left: 8px;}
+.resultsCopyInset{padding-left: 30px; }
+.gameFinder{ color:#000000; font: 11px Arial, Helvetica, sans-serif; padding-left: 8px; height: 20px; border-style: none; border: none;}
+
+
+/**********************************************************
+	Toggles2
+**********************************************************/
+
+.Toggle2H3 {
+	padding: 0px 0px 0px 0px; margin: 0px 0px 10px 0px; color: #000000; font: normal 10px/18px Arial, Helvetica, sans-serif;
+	/*display: block;*/
+	cursor: pointer;
+	/*padding-left: 14px;*/
+	padding-left: 14px;
+	display: inline;
+	background-image: url(../images/shared/btnToggleUp.gif);
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+
+.Toggle2Container{margin-top: 0px; margin-left: 20px;}
+.Toggle2Container p{margin-top: 2px;}
+.Toggle2Content{display: none;}
+
+/**********************************************************
+	Tournament Lists 
+**********************************************************/
+.results2Head{color:#000000; font: 11px Arial, Helvetica, sans-serif; padding-left: 8px; height: 24px;}
+.results2{color:#000000; font: 11px Arial, Helvetica, sans-serif; padding-left: 8px; height: 18px; border-top: #000000 1px solid;}
+.results2Copy{padding-left: 8px;}
+.results2CopyInset{padding-left: 30px; }
+
+/**********************************************************
+	Structure Lists 
+**********************************************************/
+.structureTable{margin: 4px 0px 6px 0px;}
+.structure{ color:#000000; font: 10px Arial, Helvetica, sans-serif; padding-left: 8px; height: 14px; border-top: #000000 1px dotted; text-align: center;}
+.structureHead{ color:#000000; font: 10px Arial, Helvetica, sans-serif; padding-left: 8px; height: 14px; text-align: center;}
+.structureCopy{padding-left: 8px;}
+.structureCopyInset{padding-left: 30px;}
+
+
+/**********************************************************
+	Div Rules
+**********************************************************/
+.rule{border-bottom: #000000 1px solid; clear: both;}
+.ruledotted{border-bottom: #000000 1px dotted; margin-bottom: 6px;}
+.ruleleft{border-bottom: #000000 1px solid; clear: both; margin: 0px 20px 0px 0px;}
+.ruleawards{border-bottom: #000000 1px solid; clear: both; margin: 10px 0px 10px 0px;}
+
+
+/**********************************************************
+	Page Toggles 
+**********************************************************/
+/* Include id's for all your layers here, with commas between. */
+#Page1, #Page2, #Page3, #Page4, #Page5, #Page6, #Page7, #Page8, #Page9, #Page10,
+#Page11, #Page12, #Page13, #Page14, #Page15, #Page16, #Page17, #Page18, #Page19 {/*display:none;*/}
+
+/* for link style change */	
+a:link.on, a:visited.on {color: #000000; text-decoration:none;}
+a:link.off, a:visited.off {color: #000000; text-decoration:none;}
+a:link.done, a:visited.done {color: #000000; text-decoration:none;}
+a.on:hover, a.off:hover, a.done:hover {text-decoration:none;}
+
+/************************************
+	Host Pod Styles
+************************************/
+.HostPod1{float: left; margin: 10px 8px 0px 0px; width: 165px;}
+.HostPodPhoto{margin-left: 0px; width: 165px;}
+.HostPodDescription{ margin-left: 0px; margin-top: 4px; width: 165px; color: #3E2813; font-family: Arial, Helvetica, sans-serif; font-size: 10px; line-height: 14px;}
+a.HostPodDescription:link {color: #000000; text-decoration: none;} 
+a.HostPodDescription:visited {color: #000000; text-decoration: none;}  
+a.HostPodDescription:hover {color: #000000; text-decoration: none;} 
+a.HostPodDescription:active {color: #000000; text-decoration: none;}
+
+/**************************************************************
+	Form Specific Styles
+***************************************************************/
+
+form { margin: 0; display: inline; }
+
+.FormText{
+	color: #000000; 
+	font: normal 12px/14px Arial, Helvetica, sans-serif;
+	margin: 0 0 0px 0; 
+	padding: 7px 8px 6px 0px;
+	text-align: right;	
+}
+
+input.TextField {
+	color:#000000;
+	width: 220px; 
+	height: 15px; 
+	border: #000000 1px solid; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;  
+	margin: 0 0 0 0; 
+	padding: 0px 0px 0px 2px;
+	vertical-align: top;
+}
+
+select.FormDrop {
+	color:#000000;
+	width: auto;  
+	border: #000000 1px solid; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;  
+	margin: 0 0 0 0; 
+	padding: 0px 0px 0px 2px;
+}
+
+textarea.Comments{
+	color:#000000;
+	border: #000000 1px solid;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+ 
+	margin: 0 0 0 0; 
+	padding: 0px 0px 0px 2px;
+	vertical-align: top;
+}
+
+.FormAsterisk{
+	color:#000000;
+}
+
+.RequestKitButton{
+	margin: 10px 0 0 0;
+}
+
+/**************************************************************
+	Site Map Specific Styles
+***************************************************************/
+div#SiteMapContainer{ width: 716px; float: left; padding: 20px 17px 0px 0px }
+
+.SiteMap{float:left; width: 152px; padding: 0px 0px 0px 0px; margin: 10px 20px 0px 0px; text-decoration: none; }
+.SiteMap li{ margin: 0px 0px 0px 6px; padding: 0px 0px 0px 0px;}
+.SiteMap li a{color: #000000; text-decoration: none;}
+.SiteMap li a:hover{color: #000000; text-decoration: none;}
+.SiteMap li a:visited{color: #000000; text-decoration: none;}
+
+.SiteMapHeader{padding: 4px 0px 4px 0px; font: bold 12px/20px Arial, Helvetica, sans-serif; text-decoration: none;}
+.SiteMapHeader a:link {color: #000000; text-decoration: none;}   
+.SiteMapHeader a:hover {color: #000000; text-decoration: none;}
+.SiteMapHeader a:active {color: #000000; text-decoration: none;}   
+.SiteMapHeader a:visited {color: #000000; text-decoration: none;}
+
+.SiteMapSubHeader{font-size: 11px; font-weight: bold; padding: 0px 0px 6px 0px; text-decoration: none;}
+.SiteMapSubHeader a:link {color: #000000; text-decoration: none;}   
+.SiteMapSubHeader a:hover {color: #000000; text-decoration: none;}
+.SiteMapSubHeader a:active {color: #000000; text-decoration: none;}   
+.SiteMapSubHeader a:visited {color: #000000; text-decoration: none;}
+
+.SiteMapLink{ }
+.SiteMapLink a:link {color: #000000; text-decoration: none;}   
+.SiteMapLink a:hover {color: #000000; text-decoration: none;}
+.SiteMapLink a:active {color: #000000; text-decoration: none;}   
+.SiteMapLink a:visited {color: #000000; text-decoration: none;}
+
+/**************************************************************
+	Print Specific Styles
+***************************************************************/
+.ScreenLogo{ float: left; width: 70px; }
+.ScreenLogo img{ margin: 10px 0px 0px 0px; }
+.PrintLogo{ display: none;}
+#PrintHeader{ text-align: center; clear: both; padding: 0px 0px 0px 0px; }
+#PrintHeader img{ margin: 0px 0px 20px 0px; }
+
+.MichelinAward{ float: left; margin: 27px 0px 0px 0px; }
+
+div#SpacerDiv{ display; none; }
+
+div#printpage{ display: none; }
+
+
+h1{ color:#000000; font: Normal 20px/180% Arial, Helvetica, sans-serif; text-transform: none;}
+
+
+
+.ScreenLogo{ display: none;}
+.PrintLogo{ margin: 10px 0px 10px 0px;}
+
+/**************************************************************
+	Email Specific Styles
+***************************************************************/
+
+.EmailInput {color:#000000; width: 100px; border: #000000 1px solid; background-color: #EDE2C3; font-size: 10px; vertical-align: middle; padding: 0px 0px 0px 2px;}
+
+/*********************************************************
+	Slide Login Styles
+*********************************************************/
+#loginDropContainer { display: none;}

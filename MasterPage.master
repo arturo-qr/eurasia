@@ -1,0 +1,508 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head runat="server">
+		<link rel="shortcut icon" href="http://globalentertainmentandmedia.com/Untitled-1.gif" />
+		<meta name="description" content="Global is ultimate experience. Make your investment reservations at the home of the famous dancing fountains, award-winning casino, fine art gallery, magnificent pools, and luxury shopping opportunities.">
+		<!-- JS -->
+		<script type="text/javascript" src="js/commoncode.js"></script>
+		<script type="text/javascript" src="js/jquery-1.js"></script>
+		<script type="text/javascript" src="js/jquery_004.js"></script>
+		<script type="text/javascript" src="js/jquery-ui-calendar.js"></script>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery_003.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("a[rel^='lightbox']").prettyPhoto();
+			});
+		</script>
+		<!-- TEST DELETE IF NECESARY-->
+		<script type="text/javascript" src="tinybox.js"></script>
+		<script type="text/javascript">
+			function openJS(){alert('loaded')}
+			function closeJS(){alert('closed')}
+		</script>
+
+		
+		
+		
+		<script type="text/javascript" src="js/base.js"></script>
+		<script type="text/javascript" src="js/jquery_002.js"></script>
+		<script type="text/javascript" src="js/swfobject.js"></script>
+		<script type="text/javascript" src="js/nonverblaster.js"></script>
+		<script type="text/javascript" src="js/imgHighlight.js"></script>
+		<!-- Sliding effect -->
+		<script src="js/login-slide.js" type="text/javascript"></script>
+		<script src="js/jquery-common.js" type="text/javascript"></script>
+
+		<script type="text/javascript">
+			jQuery(document).ready(function() {
+				// Show Flash on first page load
+				jQuery('#FlashVideo').show();
+				// HomeGalleryDetailsContainer - Details 1-4
+				jQuery(".detail").click(function() {
+					jQuery('#Detail').fadeIn('slow');
+					jQuery('#Detail2').hide();
+					jQuery('#Detail3').hide();
+					jQuery('#Detail4').hide();
+				});
+				jQuery(".detail2").click(function() {
+					jQuery('#Detail').hide();
+					jQuery('#Detail2').fadeIn('slow');
+					jQuery('#Detail3').hide();
+					jQuery('#Detail4').hide();
+				});
+				jQuery(".detail3").click(function() {
+					jQuery('#Detail').hide();
+					jQuery('#Detail2').hide();
+					jQuery('#Detail3').fadeIn('slow');
+					jQuery('#Detail4').hide();
+				});
+				jQuery(".detail4").click(function() {
+					jQuery('#Detail').hide();
+					jQuery('#Detail2').hide();
+					jQuery('#Detail3').hide();
+					jQuery('#Detail4').fadeIn('slow');
+				});
+
+				jQuery(".nav").click(function() {
+				jQuery('#Detail').hide();
+				  
+					jQuery('#Detail2').hide();
+					jQuery('#Detail3').hide();
+					jQuery('#Detail4').hide();
+				});
+
+			});
+		</script>
+		<script src="AC_RunActiveContent.js" language="javascript"></script>
+		<!-- CSS -->
+		<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
+		<link href="stylestinypop.css" rel="stylesheet" type="text/css" media="screen">
+		<link href="css/nav-book-gui.css" rel="stylesheet" type="text/css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/flexpaper.css" />
+
+
+		<asp:ContentPlaceHolder id="head" runat="server">
+		</asp:ContentPlaceHolder>
+	</head>
+<body id="Home">
+	<script type="text/javascript">
+		function CheckLogon() {
+			var un = document.getElementById('ctl00_txtusername');
+			if (un.value == '') {
+				this.divError.style.display = 'block';
+				this.divMessage.style.display = 'None';
+				return false;
+			}
+			else {
+				var ckrembme = document.getElementById('ctl00_chkrememberme');
+				if (ckrembme.checked) {
+					setCookie("BellagioRemMe", un.value, 365);
+				}
+				setCookie("BellagioUserName", un.value, 1);
+				window.location = "https://www.Global.net/login.aspx";
+			}
+		}
+	</script>
+
+	<!-- button image swap -->
+	<script type="text/javascript">
+		/*To put ON state on the selected tab when the tab or the subtabs are active*/
+		function painttab(tab){
+			switch(tab){
+				//Tab 1 EURASIA OVERVIEW AND PHILOSOPHY
+				case 1: $("a.btn-euover").css("background-image","url('images4/on/1.png')"); break;
+				//Tab 2 ISSUES AND OPPORTUNITIES
+				case 2: $("a.btn-isop").css("background-image","url('images4/on/2.png')"); break;
+				//Tab 3 EURASIA BETTER IDEAS
+				case 3: $("a.btn-euideas").css("background-image","url('images4/on/3.png')"); break;
+				//Tab 4 THE PEOPLE AND RESOURCES
+				case 4: $("a.btn-people").css("background-image","url('images4/on/4.png')"); break;
+				//Tab 5 IMAGINE EURASIA
+				case 5: $("a.btn-imagine").css("background-image","url('images4/on/5.png')"); break;
+				//Tab 6 MARKETING STRATEGIES
+				case 6: $("a.btn-marketing").css("background-image","url('images4/on/6.png')"); break;
+				//Tab 7 TV/MOVIE STUDIOS AND LIVE ENTERTAINMENT
+				case 7: $("a.btn-livent").css("background-image","url('images4/on/7.png')"); break;
+				//Tab 8 EURASIA DEVELOPMENT & RESOURCES
+				case 8: $("a.btn-develop").css("background-image","url('images4/on/8.png')"); break;
+				//Tab 9 EURASIA AMUSEMENT CENTERS
+				case 9: $("a.btn-amuse").css("background-image","url('images4/on/9.png')"); break;
+			}
+		}
+		/*To put OFF state on the selected tab when the tab or the subtabs are active*/
+		function unpainttab(tab){
+			switch(tab){
+				//Tab 1 EURASIA OVERVIEW AND PHILOSOPHY
+				case 1: $("a.btn-euover").css("background-image","url('images4/off/1.png')"); break;
+				//Tab 2 ISSUES AND OPPORTUNITIES
+				case 2: $("a.btn-isop").css("background-image","url('images4/off/2.png')"); break;
+				//Tab 3 EURASIA BETTER IDEAS
+				case 3: $("a.btn-euideas").css("background-image","url('images4/off/3.png')"); break;
+				//Tab 4 THE PEOPLE AND RESOURCES
+				case 4: $("a.btn-people").css("background-image","url('images4/off/4.png')"); break;
+				//Tab 5 IMAGINE EURASIA
+				case 5: $("a.btn-imagine").css("background-image","url('images4/off/5.png')"); break;
+				//Tab 6 MARKETING STRATEGIES
+				case 6: $("a.btn-marketing").css("background-image","url('images4/off/6.png')"); break;
+				//Tab 7 TV/MOVIE STUDIOS AND LIVE ENTERTAINMENT
+				case 7: $("a.btn-livent").css("background-image","url('images4/off/7.png')"); break;
+				//Tab 8 EURASIA DEVELOPMENT & RESOURCES
+				case 8: $("a.btn-develop").css("background-image","url('images4/off/8.png')"); break;
+				//Tab 9 EURASIA AMUSEMENT CENTERS
+				case 9: $("a.btn-amuse").css("background-image","url('images4/off/9.png')"); break;
+			}
+		}
+	</script>
+
+	<script type="text/javascript">
+		function getXMLTagName(a_doc, a_attribute) {
+			var sep = '</' + a_attribute + '>';
+			var arraytags = a_doc.toString().split('</' + a_attribute + '>');
+			arraytags.length = arraytags.length - 1;
+			for (var i = 0; i < arraytags.length; i++) {
+				arraytags[i] = arraytags[i] + sep;
+				//alert(arraytags[i]);
+			}
+			return arraytags;
+		}
+
+		function getXMLFirstNode(a_doc, a_attribute) {
+			return getXMLNodeValue(a_doc, a_attribute);
+		}
+		function getXMLNodeValue2(a_node, a_attribute,a_attribute2) {
+			var theXML = a_node.toString();
+			var aStr = a_attribute.toString();
+			var aStr2 = a_attribute2.toString();
+			var sStart = '<' + aStr + '>';
+			var sEnd = '</' + aStr2 + '>';
+			var index1 = -1;
+			var index2 = 0;
+			index1 = theXML.indexOf(sStart);
+			index2 = theXML.indexOf(sEnd, index1);
+			if (index1 != -1 && index2 > index1) {
+				output = theXML.substring(index1 + sStart.length, index2);
+				return output; //OUTPUT IT PROPERLY.
+			}
+			else {
+				return undefined;
+			}
+		}
+		function isValid(a_obj) {
+			return (a_obj != undefined && a_obj != null);
+		}
+		function getXMLNodeValue(a_node, a_attribute) {
+			var theXML = a_node.toString();
+			var aStr = a_attribute.toString();
+			var sStart = '<' + aStr + '>';
+			var sEnd = '</' + aStr + '>';
+			var index1 = -1;
+			var index2 = 0;
+			index1 = theXML.indexOf(sStart);
+			index2 = theXML.indexOf(sEnd);
+			if (index1 != -1 && index2 > index1) {
+				output = theXML.substring(index1 + sStart.length, index2);
+				return output; //OUTPUT IT PROPERLY.
+			}
+			else {
+				return undefined;
+			}
+		}
+		var f_curFinishFunction = function(response) {
+			jQuery('#flashvideo').fadeIn('slow');
+			var Details22 = document.getElementById('HomeColumn2');
+			Details22.innerHTML = "<div id=\"HomeGallery\"><div id=\"HomeGalleryNavigation\"></div><div id=\"Detail\">        <div id=\"DetailHeader\"> </div>        <div id=\"DetailCopy\"></div></div>    <!-- Item 2 -->        <div id=\"Detail2\">        <div id=\"DetailHeader\"></div>        <div id=\"DetailCopy\"></div>        <div id=\"DetailMoreInfo\"></div>    </div>    <!-- Item 3 -->    <div id=\"Detail3\">        <div id=\"DetailHeader\"></div>        <div id=\"DetailCopy\">        </div>        <div id=\"DetailMoreInfo class=\"DetailMoreInfo\"></div>  </div>    <!-- Item 4 -->    <div id=\"Detail4\"><br /><br />        <div id=\"DetailHeader\"></div>        <div id=\"DetailCopy\"></div>        <div id=\"DetailMoreInfo\"></div>    </div>    <!-- /ItemEnd -->  </div><div id=\"HomeColumn22\"></div>";
+			document.title = getXMLNodeValue(response, ('title'));
+			var Details1 = document.getElementById('DetailCopy');
+			Details1.innerHTML = getXMLNodeValue2(response, ('div id="DetailCopy"'), ('div'));
+			var Details2 = document.getElementById('HomeColumn22');
+			Details2.innerHTML += getXMLNodeValue2(response, ('div id="HomeColumn2"'), ('div'));
+			//DetailHeader
+			var Details3 = document.getElementById('DetailHeader');
+			Details3.innerHTML = getXMLNodeValue2(response, ('div id="DetailHeader"'), ('div'));
+			var Details4 = document.getElementById('HomeGalleryNavigation');
+			var HomeNavs = getXMLNodeValue2(response, ('div id="HomeGalleryNavigation"'), ('div'));
+			if (isValid(HomeNavs)) {
+				Details4.innerHTML = getXMLNodeValue2(response, ('div id="HomeGalleryNavigation"'), ('div'));
+			}
+			else {
+				Details4.innerHTML = '';
+			}
+			var HomeColumn1 = getXMLNodeValue2(response, ('div id="HomeColumn1"'), ('div'));
+			if (isValid(HomeColumn1)) {
+				HomeColumn1.innerHTML = getXMLNodeValue2(response, ('div id="HomeColumn1"'), ('div'));
+			}
+			else {
+				HomeColumn1.innerHTML = '';
+			}
+			jQuery('#Detail').fadeIn('slow');
+			jQuery('#Detail2').hide();
+			jQuery('#Detail3').hide();
+			jQuery('#Detail4').hide();
+		}
+		var f_curFinishFunction2 = function(response) {
+			jQuery('#flashvideo').fadeIn('slow');
+			var Details22 = document.getElementById('HomeColumn2');
+			Details22.innerHTML = getXMLNodeValue2(response, ('div id="HomeColumn2"'), ('div><!-- /Twitter Feed --')); //"<div id=\"HomeGallery\"><div id=\"HomeGalleryNavigation\"></div><div id=\"Detail\">        <div id=\"DetailHeader\"> </div>        <div id=\"DetailCopy\"></div></div>    <!-- Item 2 -->        <div id=\"Detail2\">        <div id=\"DetailHeader\"></div>        <div id=\"DetailCopy\"></div>        <div id=\"DetailMoreInfo\"></div>    </div>    <!-- Item 3 -->    <div id=\"Detail3\">        <div id=\"DetailHeader\"></div>        <div id=\"DetailCopy\">        </div>        <div id=\"DetailMoreInfo class=\"DetailMoreInfo\"></div>  </div>    <!-- Item 4 -->    <div id=\"Detail4\"><br /><br />        <div id=\"DetailHeader\"></div>        <div id=\"DetailCopy\"></div>        <div id=\"DetailMoreInfo\"></div>    </div>    <!-- /ItemEnd -->  </div><div id=\"HomeColumn22\"></div>";
+			document.title = getXMLNodeValue(response, ('title'));
+	}
+		
+	function getNewPage(page_url) {
+		if(page_url.toString().indexOf("Default.aspx") != -1){
+			ajax(page_url, '', f_curFinishFunction2);
+		}
+		else{
+			ajax(page_url, '', f_curFinishFunction);
+		}
+	}
+	</script>
+
+<div id="HeaderContainer">
+	<div id="HeaderContent">
+		<div id="Branding">
+			<a href="#" onclick=getNewPage('Default.aspx');>
+				<img src="images4/eurasia_linklogo.png" alt="Global Entertainment & Media Ltd." border="0" height="29" width="248">
+			</a>
+		</div>
+		<!-- Logged in Navigation Items -->
+		<!-- Language Links -->
+		<div id="LanguageLinks">
+			<div>
+				<a href="#" class="LanguageSubNavigation">
+					<img src="images/us.png" border="0">&nbsp;&nbsp;English
+				</a>
+				<a href="#" class="LanguageSubNavigation">
+					<img src="images/mx.png" border="0">&nbsp;&nbsp;Español
+				</a>	
+			</div>
+		</div>
+
+		
+		
+		<!-- Navigation Items -->
+		<div id="HeaderNavigation">
+			<!-- Tabs Panel -->
+			<ul id="nav">
+				<li onmouseover=painttab(1); onmouseout=unpainttab(1);><a href="#" onclick="return false;" class="btn-euover">EURASIA OVERVIEW AND PHILOSOPHY</a>
+					<!--First Tab-->
+					<ul onmouseover=painttab(1); onmouseout=unpainttab(1);>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('default.aspx'); ">Tab1 subpage</a></li>
+					</ul> 
+				</li>  
+				<!-- Second Tab -->
+				<li onmouseover=painttab(2); onmouseout=unpainttab(2);><a href="#" onclick="return false;" class="btn-isop">ISSUES AND OPPORTUNITIES</a> 
+					<ul onmouseover=painttab(2); onmouseout=unpainttab(2);> 
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('default.aspx');>Tab2 subpage</a></li>
+					</ul>
+				</li>
+				<!-- Third Tab -->
+				<li onmouseover=painttab(3); onmouseout=unpainttab(3);><a href="#" onclick="return false;" class="btn-euideas">EURASIA BETTER IDEAS</a>
+					<ul onmouseover=painttab(3); onmouseout=unpainttab(3);>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('default.aspx');>Tab3 subpage</a></li> 
+					</ul> 
+				</li>
+				<!-- Fourth Tab -->
+				<li onmouseover=painttab(4); onmouseout=unpainttab(4);><a href="#" class="btn-people">THE PEOPLE AND RESOURCES</a> 
+					<ul onmouseover=painttab(4); onmouseout=unpainttab(4);>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('default.aspx');>Tab4 subpage</a></li> 						
+					</ul>
+				</li>
+				<!-- Fifth tab-->
+				<li onmouseover=painttab(5); onmouseout=unpainttab(5);><a href="#" class="btn-imagine">IMAGINE EURASIA</a>
+					<ul onmouseover=painttab(5); onmouseout=unpainttab(5);>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('default.aspx');>Tab5 subpage</a></li> 						   
+					</ul>
+				</li>
+				<!-- Sixth tab-->
+				<li onmouseover=painttab(6); onmouseout=unpainttab(6);><a href="#" class="btn-marketing">MARKETING STRATEGIES</a>
+					<ul onmouseover=painttab(6); onmouseout=unpainttab(6);>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('default.aspx');>Tab6 subpage</a></li> 						   
+					</ul>
+				</li>
+				<!-- Seventh tab-->
+				<li onmouseover=painttab(7); onmouseout=unpainttab(7);><a href="#" class="btn-livent">TV/MOVIE STUDIOS AND LIVE ENTERTAINMENT</a>
+					<ul onmouseover=painttab(7); onmouseout=unpainttab(7);>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('default.aspx');>Tab7 subpage</a></li> 						   
+					</ul>
+				</li>
+				<!-- Eighth tab-->
+				<li onmouseover=painttab(8); onmouseout=unpainttab(8);><a href="#" class="btn-develop">EURASIA DEVELOPMENT & RESOURCES</a>
+					<ul onmouseover=painttab(8); onmouseout=unpainttab(8);>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('default.aspx');>Tab8 subpage</a></li> 						   
+					</ul>
+				</li>
+				<!-- 9th tab-->
+				<li onmouseover=painttab(9); onmouseout=unpainttab(9);><a href="#" class="btn-amuse">EURASIA AMUSEMENT CENTERS</a>
+					<ul onmouseover=painttab(9); onmouseout=unpainttab(9);>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('default.aspx');>Tab9 subpage</a></li> 						   
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<!-- /HeaderNavigation -->
+	</div>
+</div>
+
+<script type="text/javascript" src="www.tvimama.net/jwplayer/jwplayer.js"></script> 
+
+<!--include virtual="/include/main-navigation-ie6.ascx" -->
+<div id="newpagecontent"></div>
+<div id="flashvideoholder2"></div>
+	<form id="form1" runat="server">
+		<div>
+			<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+			</asp:ContentPlaceHolder>
+		</div>
+    </form>
+    <style type="text/css">
+		#CorporateContainer {
+			background-color: #190D08 ;
+			bottom: 0px;
+			margin: 0px ;
+			left: 0px ;
+			position: absolute;
+			width: 150px ;
+		}
+		#CorporateInner {
+			background-color: #190D08 ;
+			line-height: 16px;
+			text-align: left;
+			border-bottom-width: 0px ;
+			padding: 6px 0px 6px 10px ;
+			display: none ;
+		}
+		#LanguageContainer {
+			background-color: #190D08 ;
+			bottom:0px;
+			margin: 0px ;
+			left: 0px ;
+			position: absolute;
+			width: 150px ;
+		}
+		 
+		#LanguageInner {
+			background-color: #190D08 ; 
+			line-height: 16px;
+			text-align: left;
+			border-bottom-width: 0px ;
+			padding: 6px 0px 6px 10px ;
+			display: none ;
+		}
+		.style1{
+			font-size: 12pt;
+			font-weight: bold;
+			color: #FFCC00;
+		}
+	</style>
+	<!-- Corporate Script -->
+	<script type="text/javascript">
+		// When the DOM is ready, initialize the scripts.
+		jQuery(function($) {
+			// Get a reference to the container.
+			var CorporateInner = $("#CorporateInner");
+			// Bind the link to toggle the slide.
+			$("#CorporateButton").click(
+				function(event) {
+					// Prevent the default event.
+					event.preventDefault();
+					// Toggle the slide based on its current
+					// visibility.
+					if (CorporateInner.is(":visible")) {
+						// Hide - slide up.
+						CorporateInner.slideUp(500);
+					} else {
+						// Show - slide down.
+						CorporateInner.slideDown(500);
+					}
+				}
+			);
+		});
+	</script>
+	<!-- Language Script -->
+	<script type="text/javascript">
+		// When the DOM is ready, initialize the scripts.
+		jQuery(function($) {
+			// Get a reference to the container.
+			var LanguageInner = $("#LanguageInner");
+			// Bind the link to toggle the slide.
+			$("#LanguageButton").click(
+				function(event) {
+					// Prevent the default event.
+					event.preventDefault();
+					// Toggle the slide based on its current
+					// visibility.
+					if (LanguageInner.is(":visible")) {
+						// Hide - slide up.
+						LanguageInner.slideUp(500);
+					} else {
+						// Show - slide down.
+						LanguageInner.slideDown(500);
+					}
+				}
+			);
+		});
+	</script>
+
+<div id="FooterContainer">
+	<div id="Footer">
+		<div id="FooterTools">
+        	<ul>
+				<li><a href="http://www.globalentertainmentandmedia.com/News.aspx" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('pressroom','','images/footer/press-room-on.gif',1)"><img src="images/footer/press-room-off.gif" alt="Press Room" name="pressroom" id="pressroom" border="0" height="15" width="87"></a></li>
+				<li><a href="http://tvimama.net/Global_and_Aces_of_Acts.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sitemap','','images/footer/Site-Map-on.gif',0)"><img src="images/footer/Site-Map-off.gif" alt="Site Map" name="sitemap" id="sitemap" border="0" height="15" width="69"></a></li>
+				<li><a href="http://www.tvimama.net/Download_Information_for_Content_Providers.html" target="_blank" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('downloadbrochures','','images/footer/Download-Brochures-on.gif',0)"><img src="images/footer/Download-Brochures-off.gif" alt="Download Brochures" name="downloadbrochures" id="downloadbrochures" border="0" height="60" width="750"></a></li>
+        	</ul>
+		</div>
+
+		<!-- Property Links -->
+		<div id="PropertyLinks">
+			<div style="width: 150px; height:24px; position:relative;">
+				<div id="CorporateContainer">
+					<div id="CorporateInner">
+						<a href="http://www.acesofacts.com/" target="_blank">Aces of Acts</a><br>
+						<a href="http://www.circuscircus.com/" target="_blank">Circus Circus</a><br>
+						<a href="http://www.alternatv.com.mx/index.php?art_id=173&categ=183" target="_blank">AlternaTV</a><br>
+						<a href="http://www.globalentertainmentandmedia.com/" target="_blank">Global</a><br>
+			
+					</div>
+					<div id="CorporateButton">
+						<img src="images/footer/btn-corporate-links-off.jpg" alt="Corporate Links" name="corporatebtn" id="corporatebtn" class="img-swap" border="0" height="24" width="150">
+					</div>		
+				</div>
+			</div>
+		</div>
+
+		<div id="FooterTools2">
+			<div id="FooterSocial"><img src="images/Follow-Us.gif" alt="Follow Us:" height="16" width="55">
+				<a href="http://twitter.com/GlobalLtd" target="_blank" onmouseover="MM_swapImage('twitter','','images/footer/btn-Twitter-on.jpg',1)" onmouseout="MM_swapImgRestore()">
+					<img src="images/footer/btn-Twitter-off.jpg" alt="Twitter" name="twitter" id="twitter" border="0" height="16" width="17">
+				</a>
+				<a href="http://www.facebook.com/pages/Global-Entertainment-Media-LTD/140161319418555?sk=info" target="_blank" onmouseover="MM_swapImage('facebook','','images/footer/btn-Facebook-on.jpg',1)" onmouseout="MM_swapImgRestore()">
+					<img src="images/footer/btn-Facebook-off.jpg" alt="Facebook" name="facebook" id="facebook" border="0" height="16" width="17">
+				</a>
+				<a href="http://www.youtube.com/Globalltd" target="_blank" onmouseover="MM_swapImage('youtube','','images/footer/btn-YouTube-on.jpg',1)" onmouseout="MM_swapImgRestore()">
+					<img src="images/footer/btn-YouTube-off.jpg" alt="YouTube" name="youtube" id="youtube" border="0" height="16" width="17">
+				</a>
+			</div>
+		</div>
+
+		<div id="FooterCopyright"><br><br> <br>941 Orange Ave. Suite 444. Coronado, CA 92118 * Tel: +1 888-710-1007 * Fax: +1 619-330-0629 * eMail: Info@GlobalEntertainmentAndMedia.com <br> <br> Copyright © 
+			<script type="text/javascript">
+				var d = new Date();
+				var yr = d.getFullYear(); 
+				document.write("" + yr + "");
+			</script> 
+			<a href="http://www.globalentertainmentandmedia.com/" target="_blank" onmouseout="return SetStatusbar('');" onmouseover="return SetStatusbar('Global Entertainment & Media, Ltd. All rights reserved.');">Global Entertainment & Media, Ltd.</a> 
+			All rights reserved.&nbsp;•&nbsp;
+			<a href="#" onmouseout="return SetStatusbar('');" onmouseover="return SetStatusbar('');">PRIVACY POLICY</a>&nbsp;•&nbsp;
+			<a href="#" onmouseout="return SetStatusbar('');" onmouseover="return SetStatusbar('');">TERMS OF USE</a>&nbsp;•&nbsp;
+			<a href="#" target="_blank" onmouseout="return SetStatusbar('');" onmouseover="return SetStatusbar('');">BECOME AN AFFILIATE</a>
+			</br>
+		</div>
+	</div>
+</div>
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all ui-helper-hidden-accessible"></div>
+</body>
+</html>
