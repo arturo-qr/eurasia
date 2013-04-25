@@ -47,7 +47,7 @@
 					<param name="wmode" value="transparent" />
 					<param name="scale" value="showall" />
 					<param name="allowFullScreen" value="true" />
-					<param name="flashvars" value="autoplay=true&amp;v=39.flv|4.flv|1.flv|7.flv|6.flv|5.flv|8.flv&amp;img=Untitled-6.png&amp;repeat=true&amp;btnIcon=#6CFF00&amp;playIcon=#6CFF00&amp;controlsBgAlpha=0.5" />
+					<param name="flashvars" value="autoplay=true&amp;v=media/prueba.flv&amp;img=Untitled-6.png&amp;repeat=true&amp;btnIcon=#6CFF00&amp;playIcon=#6CFF00&amp;controlsBgAlpha=0.5" />
 					<param name="menu" value="true" />
 					<param name="devicefont" value="false" />
 					<param name="salign" value="" />
@@ -59,7 +59,7 @@
 						<param name="play" value="true" />
 						<param name="loop" value="true" />
 						<param name="allowFullScreen" value="true" />
-						<param name="flashvars" value="autoplay=true&amp;v=d../tvimama.net/videofiles/intro1.flv|4.flv|1.flv|7.flv|6.flv|5.flv|8.flv&amp;img=Untitled-6.png&amp;repeat=true&amp;btnIcon=#6CFF00&amp;playIcon=#6CFF00&amp;controlsBgAlpha=0.5" />
+						<param name="flashvars" value="autoplay=true&amp;v=media/prueba.flv&amp;img=Untitled-6.png&amp;repeat=true&amp;btnIcon=#6CFF00&amp;playIcon=#6CFF00&amp;controlsBgAlpha=0.5" />
 						<param name="wmode" value="transparent" />
 						<param name="scale" value="showall" />
 						<param name="menu" value="true" />

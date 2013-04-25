@@ -7,17 +7,20 @@
 		<link rel="shortcut icon" href="http://globalentertainmentandmedia.com/Untitled-1.gif" />
 		<meta name="description" content="Global is ultimate experience. Make your investment reservations at the home of the famous dancing fountains, award-winning casino, fine art gallery, magnificent pools, and luxury shopping opportunities.">
 		<!-- JS -->
-		<script type="text/javascript" src="js/commoncode.js"></script>
+		<!-- JS <script type="text/javascript" src="js/commoncode.js"></script>-->
 		<script type="text/javascript" src="js/jquery-1.js"></script>
-		<script type="text/javascript" src="js/jquery_004.js"></script>
-		<script type="text/javascript" src="js/jquery-ui-calendar.js"></script>
+		<!-- JS --><script type="text/javascript" src="js/jquery_004.js"></script> 
+
+		<!-- JS <script type="text/javascript" src="js/jquery-ui-calendar.js"></script>
+		-->
 		<script type="text/javascript" src="js/jquery.js"></script>
-		<script type="text/javascript" src="js/jquery_003.js"></script>
-		<script type="text/javascript">
+		<!-- JS <script type="text/javascript" src="js/jquery_003.js"></script>-->
+		<!--<script type="text/javascript">
 			$(document).ready(function(){
 				$("a[rel^='lightbox']").prettyPhoto();
 			});
 		</script>
+		-->
 		<!-- TEST DELETE IF NECESARY-->
 		<script type="text/javascript" src="tinybox.js"></script>
 		<script type="text/javascript">
@@ -345,8 +348,8 @@
 		<!-- /HeaderNavigation -->
 	</div>
 </div>
+<!-- 
 
-<script type="text/javascript" src="www.tvimama.net/jwplayer/jwplayer.js"></script> 
 
 <!--include virtual="/include/main-navigation-ie6.ascx" -->
 <div id="newpagecontent"></div>
