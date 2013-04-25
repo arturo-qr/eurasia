@@ -13,7 +13,7 @@
 <tr>
 <td class="label"><label for="lastname">Last Name:</label></td>
 <td><div class="field_container"><input type="text" class="inputtext" id="lastname" name="lastname" /></div></td></tr>
-<tr><td class="label"><label for="reg_email__">Your Email please:</label></td>
+<tr><td class="label"><label for="reg_email__">Your Email:</label></td>
 <td><div class="field_container"><input type="text" class="inputtext" id="reg_email__" name="reg_email__" /></div></td>
 </tr>
 <tr><td class="label"><label for="reg_email__">Your Message:</label></td>
