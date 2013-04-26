@@ -296,13 +296,13 @@
 <!--include virtual="/include/main-navigation-ie6.ascx" -->
 <div id="newpagecontent"></div>
 <div id="flashvideoholder2"></div>
-	<form id="form1" runat="server">
-		<div>
-			<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-			</asp:ContentPlaceHolder>
-		</div>
-    </form>
-    <style type="text/css">
+<form id="form1" runat="server">
+	<div>
+		<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+		</asp:ContentPlaceHolder>
+	</div>
+</form>
+<style type="text/css">
 		#CorporateContainer {
 			background-color: #190D08 ;
 			bottom: 0px;
