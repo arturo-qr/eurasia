@@ -27,59 +27,17 @@
 			function openJS(){alert('loaded')}
 			function closeJS(){alert('closed')}
 		</script>
-
-		
-		
-		
+	<!-- 
 		<script type="text/javascript" src="js/base.js"></script>
 		<script type="text/javascript" src="js/jquery_002.js"></script>
 		<script type="text/javascript" src="js/swfobject.js"></script>
 		<script type="text/javascript" src="js/nonverblaster.js"></script>
 		<script type="text/javascript" src="js/imgHighlight.js"></script>
-		<!-- Sliding effect -->
+		Sliding effect
 		<script src="js/login-slide.js" type="text/javascript"></script>
 		<script src="js/jquery-common.js" type="text/javascript"></script>
+		 -->
 
-		<script type="text/javascript">
-			jQuery(document).ready(function() {
-				// Show Flash on first page load
-				jQuery('#FlashVideo').show();
-				// HomeGalleryDetailsContainer - Details 1-4
-				jQuery(".detail").click(function() {
-					jQuery('#Detail').fadeIn('slow');
-					jQuery('#Detail2').hide();
-					jQuery('#Detail3').hide();
-					jQuery('#Detail4').hide();
-				});
-				jQuery(".detail2").click(function() {
-					jQuery('#Detail').hide();
-					jQuery('#Detail2').fadeIn('slow');
-					jQuery('#Detail3').hide();
-					jQuery('#Detail4').hide();
-				});
-				jQuery(".detail3").click(function() {
-					jQuery('#Detail').hide();
-					jQuery('#Detail2').hide();
-					jQuery('#Detail3').fadeIn('slow');
-					jQuery('#Detail4').hide();
-				});
-				jQuery(".detail4").click(function() {
-					jQuery('#Detail').hide();
-					jQuery('#Detail2').hide();
-					jQuery('#Detail3').hide();
-					jQuery('#Detail4').fadeIn('slow');
-				});
-
-				jQuery(".nav").click(function() {
-				jQuery('#Detail').hide();
-				  
-					jQuery('#Detail2').hide();
-					jQuery('#Detail3').hide();
-					jQuery('#Detail4').hide();
-				});
-
-			});
-		</script>
 		<script src="AC_RunActiveContent.js" language="javascript"></script>
 		<!-- CSS -->
 		<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
@@ -92,24 +50,7 @@
 		</asp:ContentPlaceHolder>
 	</head>
 <body id="Home">
-	<script type="text/javascript">
-		function CheckLogon() {
-			var un = document.getElementById('ctl00_txtusername');
-			if (un.value == '') {
-				this.divError.style.display = 'block';
-				this.divMessage.style.display = 'None';
-				return false;
-			}
-			else {
-				var ckrembme = document.getElementById('ctl00_chkrememberme');
-				if (ckrembme.checked) {
-					setCookie("BellagioRemMe", un.value, 365);
-				}
-				setCookie("BellagioUserName", un.value, 1);
-				window.location = "https://www.Global.net/login.aspx";
-			}
-		}
-	</script>
+
 
 	<!-- button image swap -->
 	<script type="text/javascript">
