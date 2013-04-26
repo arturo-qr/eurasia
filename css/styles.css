@@ -91,7 +91,7 @@ div#flashvideo2holder
  z-index:0;
 
 
-width: 440px; margin: 0 auto; height: 300px;
+width: 440px; margin: 0 auto; height: 350px;
     
 }
 
@@ -99,11 +99,12 @@ div#flashvideo2{
 	z-index:0;
 	position:fixed;
     top:139px;
+
 }
 
 div#flashvideoholder2
 {
-width:440px; height:265px; margin:0 auto;  z-index:0; display:none;
+width:450px; height:350px; margin:0 auto;  z-index:0; display:none;
     
 }
 
