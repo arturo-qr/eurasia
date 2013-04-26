@@ -12,6 +12,7 @@
 		<!-- JS --><script type="text/javascript" src="js/jquery_004.js"></script> 
 
 		<!-- JS <script type="text/javascript" src="js/jquery-ui-calendar.js"></script>
+				
 		-->
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<!-- JS <script type="text/javascript" src="js/jquery_003.js"></script>-->
@@ -27,8 +28,9 @@
 			function openJS(){alert('loaded')}
 			function closeJS(){alert('closed')}
 		</script>
-	<!--  BORRAR ESTOS JS NADA MAS ESTAN HACIENDO BULTO!
+	<!-- BORRAR ESTOS JS NADA MAS ESTAN HACIENDO BULTO!-->
 		<script type="text/javascript" src="js/base.js"></script>
+	<!-- 	
 		<script type="text/javascript" src="js/jquery_002.js"></script>
 		<script type="text/javascript" src="js/swfobject.js"></script>
 		<script type="text/javascript" src="js/nonverblaster.js"></script>
@@ -157,7 +159,7 @@
 			}
 		}
 		var f_curFinishFunction = function(response) {
-			jQuery('#flashvideo').fadeIn('slow');
+			//jQuery('#flashvideo').fadeIn('slow');
 			var Details22 = document.getElementById('HomeColumn2');
 			Details22.innerHTML = "<div id=\"HomeGallery\"><div id=\"HomeGalleryNavigation\"></div><div id=\"Detail\">        <div id=\"DetailHeader\"> </div>        <div id=\"DetailCopy\"></div></div>    <!-- Item 2 -->        <div id=\"Detail2\">        <div id=\"DetailHeader\"></div>        <div id=\"DetailCopy\"></div>        <div id=\"DetailMoreInfo\"></div>    </div>    <!-- Item 3 -->    <div id=\"Detail3\">        <div id=\"DetailHeader\"></div>        <div id=\"DetailCopy\">        </div>        <div id=\"DetailMoreInfo class=\"DetailMoreInfo\"></div>  </div>    <!-- Item 4 -->    <div id=\"Detail4\"><br /><br />        <div id=\"DetailHeader\"></div>        <div id=\"DetailCopy\"></div>        <div id=\"DetailMoreInfo\"></div>    </div>    <!-- /ItemEnd -->  </div><div id=\"HomeColumn22\"></div>";
 			document.title = getXMLNodeValue(response, ('title'));
@@ -183,28 +185,38 @@
 			else {
 				HomeColumn1.innerHTML = '';
 			}
-			jQuery('#Detail').fadeIn('slow');
+			
+			//jQuery('#Detail').fadeIn('slow');
 			jQuery('#Detail2').hide();
 			jQuery('#Detail3').hide();
 			jQuery('#Detail4').hide();
 		}
 		var f_curFinishFunction2 = function(response) {
-			jQuery('#flashvideo').fadeIn('slow');
+			//jQuery('#flashvideo').fadeIn('slow');
+			
 			var Details22 = document.getElementById('HomeColumn2');
+
 			Details22.innerHTML = getXMLNodeValue2(response, ('div id="HomeColumn2"'), ('div><!-- /Twitter Feed --')); //"<div id=\"HomeGallery\"><div id=\"HomeGalleryNavigation\"></div><div id=\"Detail\">        <div id=\"DetailHeader\"> </div>        <div id=\"DetailCopy\"></div></div>    <!-- Item 2 -->        <div id=\"Detail2\">        <div id=\"DetailHeader\"></div>        <div id=\"DetailCopy\"></div>        <div id=\"DetailMoreInfo\"></div>    </div>    <!-- Item 3 -->    <div id=\"Detail3\">        <div id=\"DetailHeader\"></div>        <div id=\"DetailCopy\">        </div>        <div id=\"DetailMoreInfo class=\"DetailMoreInfo\"></div>  </div>    <!-- Item 4 -->    <div id=\"Detail4\"><br /><br />        <div id=\"DetailHeader\"></div>        <div id=\"DetailCopy\"></div>        <div id=\"DetailMoreInfo\"></div>    </div>    <!-- /ItemEnd -->  </div><div id=\"HomeColumn22\"></div>";
+			
 			document.title = getXMLNodeValue(response, ('title'));
+			
+
 		}
 		
 	function getNewPage(page_url) {
 		if(page_url.toString().indexOf("Default.aspx") != -1){
+			jQuery('#HomeColumn2').hide();
 			ajax(page_url, '', f_curFinishFunction2);
+			jQuery('#HomeColumn2').fadeIn('slow');
 		}
 		else{
+
+			jQuery('#HomeColumn2').hide();
 			ajax(page_url, '', f_curFinishFunction);
+			jQuery('#HomeColumn2').fadeIn('slow');
 		}
 	}
 	</script>
-
 <div id="HeaderContainer">
 	<div id="HeaderContent">
 		<div id="Branding">
@@ -234,13 +246,20 @@
 				<li onmouseover=painttab(1); onmouseout=unpainttab(1);><a href="#" onclick="return false;" class="btn-euover">EURASIA OVERVIEW AND PHILOSOPHY</a>
 					<!--First Tab-->
 					<ul onmouseover=painttab(1); onmouseout=unpainttab(1);>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('default.aspx'); ">Tab1 subpage</a></li>
+
 					</ul> 
 				</li>  
 				<!-- Second Tab -->
 				<li onmouseover=painttab(2); onmouseout=unpainttab(2);><a href="#" onclick="return false;" class="btn-isop">ISSUES AND OPPORTUNITIES</a> 
 					<ul onmouseover=painttab(2); onmouseout=unpainttab(2);> 
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('default.aspx');>Tab2 subpage</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/tab1/sub1.aspx');>Being a Casino is No Longer Enough</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('default.aspx');>Long-Term Slowdown</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('default.aspx');>Population Growth Demmand</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('default.aspx');>McCarran International</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('default.aspx');>Las Vegas is No longer First Choice</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('default.aspx');>A Lack of Luxury</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('default.aspx');>Better Bottomies Through Happier</a></li>
+
 					</ul>
 				</li>
 				<!-- Third Tab -->
