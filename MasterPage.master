@@ -238,7 +238,7 @@
 				<li onmouseover=painttab(2); onmouseout=unpainttab(2);><a href="#" onclick="return false;" class="btn-isop">ISSUES AND OPPORTUNITIES</a> 
 					<ul onmouseover=painttab(2); onmouseout=unpainttab(2);> 
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/tab1/sub1.aspx');>Being a Casino is No Longer Enough</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('default.aspx');>Long-Term Slowdown</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/tab1/sub2.aspx');>Long-Term Slowdown</a></li>
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('default.aspx');>Population Growth Demmand</a></li>
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('default.aspx');>McCarran International</a></li>
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('default.aspx');>Las Vegas is No longer First Choice</a></li>
