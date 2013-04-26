@@ -160,24 +160,16 @@
 		}
 		var f_curFinishFunction = function(response) {
 			//jQuery('#flashvideo').fadeIn('slow');
-			var Details22 = document.getElementById('HomeColumn2');
-			Details22.innerHTML = "<div id=\"HomeGallery\"><div id=\"HomeGalleryNavigation\"></div><div id=\"Detail\">        <div id=\"DetailHeader\"> </div>        <div id=\"DetailCopy\"></div></div>    <!-- Item 2 -->        <div id=\"Detail2\">        <div id=\"DetailHeader\"></div>        <div id=\"DetailCopy\"></div>        <div id=\"DetailMoreInfo\"></div>    </div>    <!-- Item 3 -->    <div id=\"Detail3\">        <div id=\"DetailHeader\"></div>        <div id=\"DetailCopy\">        </div>        <div id=\"DetailMoreInfo class=\"DetailMoreInfo\"></div>  </div>    <!-- Item 4 -->    <div id=\"Detail4\"><br /><br />        <div id=\"DetailHeader\"></div>        <div id=\"DetailCopy\"></div>        <div id=\"DetailMoreInfo\"></div>    </div>    <!-- /ItemEnd -->  </div><div id=\"HomeColumn22\"></div>";
+			var Details22 = document.getElementById('HomeGallery');
+			Details22.innerHTML = "<div id=\"Detail\">        <div id=\"DetailHeader\"> </div>        <div id=\"DetailCopy\"></div></div>    <!-- Item 2 -->       <div id=\"Detail2\">        <div id=\"DetailHeader\"></div>        <div id=\"DetailCopy\"></div>        <div id=\"DetailMoreInfo\"></div>    </div>    <!-- Item 3 -->    <div id=\"Detail3\">        <div id=\"DetailHeader\"></div>        <div id=\"DetailCopy\">        </div>        <div id=\"DetailMoreInfo class=\"DetailMoreInfo\"></div>  </div>    <!-- Item 4 -->    <div id=\"Detail4\"><br /><br />        <div id=\"DetailHeader\"></div>        <div id=\"DetailCopy\"></div>        <div id=\"DetailMoreInfo\"></div>    </div>    <!-- /ItemEnd --> ";
 			document.title = getXMLNodeValue(response, ('title'));
 			var Details1 = document.getElementById('DetailCopy');
 			Details1.innerHTML = getXMLNodeValue2(response, ('div id="DetailCopy"'), ('div'));
 			var Details2 = document.getElementById('HomeColumn22');
-			Details2.innerHTML += getXMLNodeValue2(response, ('div id="HomeColumn2"'), ('div'));
+			Details2.innerHTML += getXMLNodeValue2(response, ('div id="HomeGallery"'), ('div'));
 			//DetailHeader
 			var Details3 = document.getElementById('DetailHeader');
 			Details3.innerHTML = getXMLNodeValue2(response, ('div id="DetailHeader"'), ('div'));
-			var Details4 = document.getElementById('HomeGalleryNavigation');
-			var HomeNavs = getXMLNodeValue2(response, ('div id="HomeGalleryNavigation"'), ('div'));
-			if (isValid(HomeNavs)) {
-				Details4.innerHTML = getXMLNodeValue2(response, ('div id="HomeGalleryNavigation"'), ('div'));
-			}
-			else {
-				Details4.innerHTML = '';
-			}
 			var HomeColumn1 = getXMLNodeValue2(response, ('div id="HomeColumn1"'), ('div'));
 			if (isValid(HomeColumn1)) {
 				HomeColumn1.innerHTML = getXMLNodeValue2(response, ('div id="HomeColumn1"'), ('div'));
@@ -189,31 +181,24 @@
 			//jQuery('#Detail').fadeIn('slow');
 			jQuery('#Detail2').hide();
 			jQuery('#Detail3').hide();
-			jQuery('#Detail4').hide();
 		}
 		var f_curFinishFunction2 = function(response) {
 			//jQuery('#flashvideo').fadeIn('slow');
-			
-			var Details22 = document.getElementById('HomeColumn2');
-
-			Details22.innerHTML = getXMLNodeValue2(response, ('div id="HomeColumn2"'), ('div><!-- /Twitter Feed --')); //"<div id=\"HomeGallery\"><div id=\"HomeGalleryNavigation\"></div><div id=\"Detail\">        <div id=\"DetailHeader\"> </div>        <div id=\"DetailCopy\"></div></div>    <!-- Item 2 -->        <div id=\"Detail2\">        <div id=\"DetailHeader\"></div>        <div id=\"DetailCopy\"></div>        <div id=\"DetailMoreInfo\"></div>    </div>    <!-- Item 3 -->    <div id=\"Detail3\">        <div id=\"DetailHeader\"></div>        <div id=\"DetailCopy\">        </div>        <div id=\"DetailMoreInfo class=\"DetailMoreInfo\"></div>  </div>    <!-- Item 4 -->    <div id=\"Detail4\"><br /><br />        <div id=\"DetailHeader\"></div>        <div id=\"DetailCopy\"></div>        <div id=\"DetailMoreInfo\"></div>    </div>    <!-- /ItemEnd -->  </div><div id=\"HomeColumn22\"></div>";
-			
+			var Details22 = document.getElementById('HomeGallery');
+			Details22.innerHTML = getXMLNodeValue2(response, ('div id="HomeGallery"'), ('div><!-- /Twitter Feed --'));     		
 			document.title = getXMLNodeValue(response, ('title'));
-			
-
 		}
 		
 	function getNewPage(page_url) {
 		if(page_url.toString().indexOf("Default.aspx") != -1){
-			jQuery('#HomeColumn2').hide();
+			jQuery('#HomeGallery').hide();
 			ajax(page_url, '', f_curFinishFunction2);
-			jQuery('#HomeColumn2').fadeIn('slow');
+			jQuery('#HomeGallery').fadeIn('slow');
 		}
 		else{
-
-			jQuery('#HomeColumn2').hide();
+			jQuery('#HomeGallery').hide();
 			ajax(page_url, '', f_curFinishFunction);
-			jQuery('#HomeColumn2').fadeIn('slow');
+			jQuery('#HomeGallery').fadeIn('slow');
 		}
 	}
 	</script>

@@ -84,11 +84,11 @@
 				<!-- Home Right Column Begins -->
 		</div>
 		<div id="HomeColumn2">
-			<div id="HomeGallery">
-				<div id="HomeGalleryNavigation"> 
+			<div id="HomeGalleryNavigation"> 
 					<center></center> 
 					<br /><br />
-				</div>
+			</div>
+			<div id="HomeGallery">
 				<div id="Detail">
 					<div id="DetailHeader"></div>
 					<div id="DetailCopy">
