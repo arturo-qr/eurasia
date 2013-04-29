@@ -231,18 +231,18 @@
 				<li onmouseover=painttab(1); onmouseout=unpainttab(1);><a href="#" onclick="return false;" class="btn-euover">EURASIA OVERVIEW AND PHILOSOPHY</a>
 					<!--First Tab-->
 					<ul onmouseover=painttab(1); onmouseout=unpainttab(1);>
-
+						
 					</ul> 
 				</li>  
 				<!-- Second Tab -->
 				<li onmouseover=painttab(2); onmouseout=unpainttab(2);><a href="#" onclick="return false;" class="btn-isop">ISSUES AND OPPORTUNITIES</a> 
 					<ul onmouseover=painttab(2); onmouseout=unpainttab(2);> 
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/tab1/sub1.aspx');>Being a Casino is No Longer Enough</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/tab1/sub2.aspx');>Long-Term Slowdown</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('default.aspx');>Population Growth Demmand</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('default.aspx');>McCarran International</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('default.aspx');>Las Vegas is No longer First Choice</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('default.aspx');>A Lack of Luxury</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/2-opportunities/being-a-casino-is-no-longer-enough.aspx');>Being a Casino is No Longer Enough</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/2-opportunities/long-term-slowdown.aspx');>Long-Term Slowdown</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/2-opportunities/population-growth-demand.aspx');>Population Growth Demand</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/2-opportunities/mccarran-international.aspx');>McCarran International Out of Capacity</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/2-opportunities/las-vegas-is-no-longer-the-first-choice.aspx');>Las Vegas is No longer The First Choice</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/2-opportunities/a-lack-of-luxury.aspx');>A Lack of Luxury</a></li>
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('default.aspx');>Better Bottomies Through Happier</a></li>
 
 					</ul>
