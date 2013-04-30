@@ -18,7 +18,6 @@
 					<div id="Detail">
 						<div id="DetailHeader"></div>
 						<div id="DetailCopy">
-							<br /><br />
 							<span class="style1">
 								Population Growth Demand Exceeding Infrastructure Supply
 							</span>

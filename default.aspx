@@ -2,32 +2,6 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <title>Global Entertainment & Media, Ltd. </title>
-    <style type="text/css">
-        .style1{
-            text-decoration: underline;
-        }
-        .style3{
-            text-decoration: underline;
-            color: #00FFFF;
-        }
-        .style4{ 
-			font-size: x-large;
-			font-style: italic;
-        } 
-        a.newsdiv{
-            color: #FFCC00;
-        }
-        .newsdiv{
-            position:fixed;
-            font-size: 18px;
-            color: #FFCC00;
-            b2ackground-color:Black;
-            font-weight:bold;
-            height:150px;
-            width:350px;  
-        }
-         
-    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 <BR/><BR/>
@@ -92,7 +66,6 @@
 				<div id="Detail">
 					<div id="DetailHeader"></div>
 					<div id="DetailCopy">
-						<br /><br />
 						<span class="style1">
 							Introduction - EURASIA
 						</span>

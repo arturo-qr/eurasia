@@ -120,6 +120,75 @@ width:450px; height:350px; margin:0 auto;  z-index:0; display:none;
 	font-size:medium;
 }
 
+#CorporateContainer {
+	background-color: #190D08 ;
+	bottom: 0px;
+	margin: 0px ;
+	left: 0px ;
+	position: absolute;
+	width: 150px ;
+}
+#CorporateInner {
+	background-color: #190D08 ;
+	line-height: 16px;
+	text-align: left;
+	border-bottom-width: 0px ;
+	padding: 6px 0px 6px 10px ;
+	display: none ;
+}
+#LanguageContainer {
+	background-color: #190D08 ;
+	bottom:0px;
+	margin: 0px ;
+	left: 0px ;
+	position: absolute;
+	width: 150px ;
+}
+ 
+#LanguageInner {
+	background-color: #190D08 ; 
+	line-height: 16px;
+	text-align: left;
+	border-bottom-width: 0px ;
+	padding: 6px 0px 6px 10px ;
+	display: none ;
+}
+
+span.style1{
+	font-size: 12pt;
+	font-weight: bold;
+	color: #FFCC00;
+	text-decoration: underline;
+}
+span.style2{
+	font-size: 11pt;
+	font-weight: bold;
+	color: #FFCC00;
+}
+span.style3{
+    font-size: 11pt;
+	font-style: italic;
+	font-weight: bold;
+	color: #FFCC00;
+}
+span.style4{ 
+	font-size: x-large;
+	font-style: italic;
+} 
+a.newsdiv{
+    color: #FFCC00;
+}
+
+
+.newsdiv{
+    position:fixed;
+    font-size: 18px;
+    color: #FFCC00;
+    b2ackground-color:Black;
+    font-weight:bold;
+    height:150px;
+    width:350px;  
+}
 #TwitterFeedHeader{  font-weight: bold; text-transform: uppercase; padding: 0px 0px 10px 0px;  }
 #TwitterFeedContainer{ width: 440px; padding: 10px 20px 6px 10px; }
 #TwitterFeedContainer p{ font-size: 11px; line-height: 16px; color: #C5A88D; padding: 0px 0px 10px 0px; }
@@ -179,6 +248,14 @@ ul, li{
 	padding: 0 0 10px 0;
 }
 
+
+ul.eurasia-list li{
+	list-style-type: circle;
+	font-size: 12pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin-left:3em;
+}
 .btnReserveTable{color: #E7D9AD; background-color: #904C39; font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif; text-decoration: none; text-transform: uppercase; border: #3E2813 1px solid; padding: 1px 4px 2px 4px; text-decoration: none;}
 a.btnReserveTable:link{color: #E7D9AD !important; text-decoration: none !important;}
 a.btnReserveTable:hover{color: #E7D9AD !important; text-decoration: none; background-color: #753F2F;}

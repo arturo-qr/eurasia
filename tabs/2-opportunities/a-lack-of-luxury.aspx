@@ -1,4 +1,4 @@
-<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="las_vegas_is_no_longer_the_first_choice.aspx.cs" Inherits="las_vegas_is_no_longer_the_first_choice" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="eurasia_malls.aspx.cs" Inherits="eurasia_malls" %>
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
@@ -18,7 +18,6 @@
 					<div id="Detail">s
 						<div id="DetailHeader"></div>
 						<div id="DetailCopy">
-							<br /><br />
 							<span class="style1">
 								A Lack of Luxury International Resorts.
 							</span>

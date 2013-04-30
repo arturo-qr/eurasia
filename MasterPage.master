@@ -243,18 +243,18 @@
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/2-opportunities/mccarran-international.aspx');>McCarran International Out of Capacity</a></li>
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/2-opportunities/las-vegas-is-no-longer-the-first-choice.aspx');>Las Vegas is No longer The First Choice</a></li>
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/2-opportunities/a-lack-of-luxury.aspx');>A Lack of Luxury</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('default.aspx');>Better Bottomies Through Happier</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/2-opportunities/better-bottomlines.aspx');>Better Bottomies Through Happier</a></li>
 
 					</ul>
 				</li>
 				<!-- Third Tab -->
 				<li onmouseover=painttab(3); onmouseout=unpainttab(3);><a href="#" onclick="return false;" class="btn-euideas">EURASIA BETTER IDEAS</a>
 					<ul onmouseover=painttab(3); onmouseout=unpainttab(3);>
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('default.aspx');>Eurasia Malls</a></li> 
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/3-betterideas/eurasia-malls.aspx');>Eurasia Malls</a></li> 
 						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('default.aspx');>Eurasia Worlds</a></li> 
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('default.aspx');>Eurasia Complex and Centers</a></li> 
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('default.aspx');>The Seven Wonders of the Ancient World</a></li> 
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('default.aspx');>The Eurasia Eye</a></li> 
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/3-betterideas/eurasia-complex-centers.aspx');>Eurasia Complex and Centers</a></li> 
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/3-betterideas/seven-wonders.aspx');>The Seven Wonders of the Ancient World</a></li> 
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/3-betterideas/eurasia-eye.aspx');>The Eurasia Eye</a></li> 
 						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('default.aspx');>The Glory of the Earth's Most Valuable Stones</a></li> 
 						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('default.aspx');>The Playing Fields of Eurasia</a></li> 
 						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('default.aspx');>International Pavilions & Competitions</a></li> 
@@ -317,46 +317,6 @@
 		</asp:ContentPlaceHolder>
 	</div>
 </form>
-<style type="text/css">
-		#CorporateContainer {
-			background-color: #190D08 ;
-			bottom: 0px;
-			margin: 0px ;
-			left: 0px ;
-			position: absolute;
-			width: 150px ;
-		}
-		#CorporateInner {
-			background-color: #190D08 ;
-			line-height: 16px;
-			text-align: left;
-			border-bottom-width: 0px ;
-			padding: 6px 0px 6px 10px ;
-			display: none ;
-		}
-		#LanguageContainer {
-			background-color: #190D08 ;
-			bottom:0px;
-			margin: 0px ;
-			left: 0px ;
-			position: absolute;
-			width: 150px ;
-		}
-		 
-		#LanguageInner {
-			background-color: #190D08 ; 
-			line-height: 16px;
-			text-align: left;
-			border-bottom-width: 0px ;
-			padding: 6px 0px 6px 10px ;
-			display: none ;
-		}
-		.style1{
-			font-size: 12pt;
-			font-weight: bold;
-			color: #FFCC00;
-		}
-	</style>
 	<!-- Corporate Script -->
 	<script type="text/javascript">
 		// When the DOM is ready, initialize the scripts.

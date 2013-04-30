@@ -18,7 +18,6 @@
 					<div id="Detail">
 						<div id="DetailHeader"></div>
 						<div id="DetailCopy">
-							<br /><br />
 							<span class="style1">
 								McCarran International is Rapidly Running Out of Capacity
 							</span>

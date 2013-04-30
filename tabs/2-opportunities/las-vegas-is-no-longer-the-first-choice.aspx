@@ -18,7 +18,6 @@
 					<div id="Detail">s
 						<div id="DetailHeader"></div>
 						<div id="DetailCopy">
-							<br /><br />
 							<span class="style1">
 								Las Vegas is No Longer The Gaming Location of Choice for Many of the World's Top Professional Gamblers and High Rolling Tourists.
 							</span>

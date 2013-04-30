@@ -18,7 +18,6 @@
 					<div id="Detail">
 						<div id="DetailHeader"></div>
 						<div id="DetailCopy">
-							<br /><br />
 							<span class="style1">
 								Being a Casino Resort Vacation DestinationHot Spot is No Longer Enough, Shopping, Like Size & Shows, Really Matters
 							</span>

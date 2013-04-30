@@ -18,7 +18,6 @@
 					<div id="Detail">
 						<div id="DetailHeader"></div>
 						<div id="DetailCopy">
-							<br /><br />
 							<span class="style1">
 								Long-Term Slowdown in Acquisition of Unique and Frequently Returning Visitors.
 							</span>
