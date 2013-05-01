@@ -80,7 +80,7 @@ div#HomeGalleryDetailsContainer{
 div#DetailHeader{   color: #FFCC00;
     font-size: 12pt;
     font-weight: bold; }
-div#DetailCopy{ padding: 10px 0px 10px 0px; font-size:medium}
+div#DetailCopy{ padding: 10px 0px 10px 0px; font-size:medium;}
 div#DetailMoreInfo{  }
 .DetailMoreInfo {}
 a.DetailMoreInfo:link {color: #C5A88D; text-decoration: none;} 
@@ -180,7 +180,6 @@ a.newsdiv{
     color: #FFCC00;
 }
 
-
 .newsdiv{
     position:fixed;
     font-size: 18px;
@@ -238,6 +237,7 @@ p a:visited {color: #904C39; text-decoration: none;}
 p a:hover {color: #904C39; text-decoration: underline;} 
 p a:active {color: #904C39; text-decoration: underline;}
 
+
 h1{color:#3E2813; font: bold 20px/180% Arial, Helvetica, sans-serif; text-transform: uppercase;}
 
 ul, li{
@@ -249,14 +249,26 @@ ul, li{
 	padding: 0 0 10px 0;
 }
 
+ul.overview-list li{
+	list-style-type: disc;
+	font-weight: bold;
+	margin-left:3em;
+	font: 12px/15px Arial,Helvetica,sans-serif;
+	font-size:small;
+	padding: 0px 0px 10px 0px;
+	color: #C5A88F;
+}
 
 ul.eurasia-list li{
-	list-style-type: circle;
+	list-style-type: disc;
 	font-size: 12pt;
 	font-weight: bold;
 	color: #FFFFFF;
 	margin-left:3em;
 }
+
+
+
 .btnReserveTable{color: #E7D9AD; background-color: #904C39; font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif; text-decoration: none; text-transform: uppercase; border: #3E2813 1px solid; padding: 1px 4px 2px 4px; text-decoration: none;}
 a.btnReserveTable:link{color: #E7D9AD !important; text-decoration: none !important;}
 a.btnReserveTable:hover{color: #E7D9AD !important; text-decoration: none; background-color: #753F2F;}

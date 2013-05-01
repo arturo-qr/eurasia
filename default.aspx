@@ -65,17 +65,11 @@
 				<div id="Detail">
 					<div id="DetailHeader"></div>
 					<div id="DetailCopy">
-						<span class="style1">
-							Introduction - EURASIA
+						<span class="style1" style="display: block; margin: 0px auto; text-align: center;">
+							EURASIA 
 						</span>
 						<br/><br />
-						On May 17, 2013 at 12 PM in Las Vegas will start the 45 Hour Foundraiser with 15 three hour Cirque Style Production with Sports competition events. 
-						This foundraiser will continue for antoher 80 hours during the ICSC RECon Convention in Las Vegas, where the Global Financial Trust, Ltd., the parent company of EURASIA and NeuroMama.com is an Exhibitor and there to lense the World Largest Shopping Mall in Eurasia Resort and sell advertising on NeuroMama.com Search Engine.
-						<br/><br/>
-						This Fundraising event will take place in 15 cities in 12 countries on 5 continents. This unprecedented fundraising event will mark the launch of this project. This fundraiser will be streamed live on NeuroMama.com and EurasiaLasVegas.com. This event will bring awareness to the light sentences given to drug dealers distributing drugs to children and help needy children. This event will bring awareness to global warming and will start the war against destroyers of our Planet. 
-						This fundraising event will help families of victims of 9/11 terrorist attack on World Trade Center. This Global FUNDRAISING Event is Researched, Designed, Developed and Implemented by NeuroMama.com and EURASIA Hotel Casino Resort in Las Vegas. 
-						<br/><br/>
-						Andre Agassi will be asked to take charge of this fundraising marathon: NeuroMama.com will be issuing various Gift Certificates to donors, depending upon their contribution.
+						
 					</div>
 				</div>
 			</div>

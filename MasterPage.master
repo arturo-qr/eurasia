@@ -231,7 +231,11 @@
 				<li onmouseover=painttab(1); onmouseout=unpainttab(1);><a href="#" onclick="return false;" class="btn-euover">EURASIA OVERVIEW AND PHILOSOPHY</a>
 					<!--First Tab-->
 					<ul onmouseover=painttab(1); onmouseout=unpainttab(1);>
-						
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/1-overview/introduction.aspx');>Eurasia Introduction</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/1-overview/overview.aspx');>Eurasia Overview</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('default.aspx');>Eurasia The Vision</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('default.aspx');>Eurasia Philosophy</a></li>
+						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#"  onclick=getNewPage('tabs/1-overview/reestablishing.aspx');>Reestablishing Las Vegas As The Cross-Trail Of The World</a></li>
 					</ul> 
 				</li>  
 				<!-- Second Tab -->
@@ -243,7 +247,7 @@
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/2-opportunities/mccarran-international.aspx');>McCarran International Out of Capacity</a></li>
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/2-opportunities/las-vegas-is-no-longer-the-first-choice.aspx');>Las Vegas is No longer The First Choice</a></li>
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/2-opportunities/a-lack-of-luxury.aspx');>A Lack of Luxury</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/2-opportunities/better-bottomlines.aspx');>Better Bottomies Through Happier</a></li>
+						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#"  onclick=getNewPage('tabs/2-opportunities/better-bottomlines.aspx');>Better Bottomies Through Happier</a></li>
 
 					</ul>
 				</li>
@@ -259,13 +263,29 @@
 						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/3-betterideas/international-pav-comp.aspx');>International Pavilions & Competitions</a></li> 
 						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/3-betterideas/community-support.aspx');>Community Support & Youth Outreach</a></li> 
 						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/3-betterideas/eurasia-fun-park.aspx');>The Eurasia Fun Park</a></li> 
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/3-betterideas/childrens-foundation.aspx');>The Amnistya Childrens Foundation</a></li> 
+						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#" onclick=getNewPage('tabs/3-betterideas/childrens-foundation.aspx');>The Amnistya Childrens Foundation</a></li> 
 					</ul> 
 				</li>
 				<!-- Fourth Tab -->
 				<li onmouseover=painttab(4); onmouseout=unpainttab(4);><a href="#" class="btn-people">THE PEOPLE AND RESOURCES</a> 
 					<ul onmouseover=painttab(4); onmouseout=unpainttab(4);>
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('default.aspx');>Tab4 subpage</a></li> 						
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/jonathan-loeb.aspx');>JONATHAN Q. LOEB</a></li> 											
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/steven-schwartzbard.aspx');>STEVEN SCHWARTZBARD</a></li> 											
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/igor-jijikine.aspx');>IGOR JIJIKINE</a></li> 											
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/john-ray.aspx');>JOHN RAY</a></li> 											
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/michael-musick.aspx');>MICHAEL E. MUSICK</a></li> 											
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/cc-post.aspx');>C. C. POST</a></li> 											
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/john-sterling.aspx');>JOHN STERLING</a></li> 											
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/sharunya-galickate.aspx');>SHARUNYA GALICKATE</a></li> 											
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/sasha-shapiro.aspx');>SASHA SHAPIRO</a></li> 											
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/federico-e-martinez.aspx');>FEDERICO E. MARTINEZ</a></li> 											
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/federico-martinez-jr.aspx');>FEDERICO MARTINEZ, Jr.</a></li> 											
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/elliot-borin.aspx');>ELLIOT BORIN</a></li> 	
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/jonathan-kruer.aspx');>JONATHAN T. KRUER</a></li> 											
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/donald-davidson.aspx');>DONALD DAVIDSON</a></li> 	
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/4-people/anatoliy-myagkostoupov.aspx');>ANATOLIY MYAGKOSTOUPOV</a></li> 											
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/4-people/vladislav-myagkostoupov.aspx');>VLADISLAV (VLADIK) MYAGKOSTOUPOV</a></li> 
+						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/tilke-wahl.aspx');>HERMANN TILKE AND PETER WAHL</a></li> 																	
 					</ul>
 				</li>
 				<!-- Fifth tab-->
