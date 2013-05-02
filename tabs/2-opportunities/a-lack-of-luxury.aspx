@@ -10,7 +10,7 @@
 	<div id="PageContainer">
 		<div id="HomeColumn2">
 			<div id="HomeGallery">
-				<div id="Detail">s
+				<div id="Detail">
 					<div id="DetailHeader"></div>
 					<div id="DetailCopy">
 						<span class="style1">

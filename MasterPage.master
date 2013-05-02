@@ -309,7 +309,12 @@
 				<!-- Eighth tab-->
 				<li onmouseover=painttab(8); onmouseout=unpainttab(8);><a href="#" class="btn-develop">EURASIA DEVELOPMENT & RESOURCES</a>
 					<ul onmouseover=painttab(8); onmouseout=unpainttab(8);>
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('default.aspx');>Tab8 subpage</a></li> 						   
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/8-development/financing.aspx');>Financing</a></li> 						   
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/8-development/sales-advertising-public-relations.aspx');>Sales, Marketing, Advertising and Public Relations...</a></li> 						   
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/8-development/magnet-attractions.aspx');>Magnets and Attractions...</a></li> 						   
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/8-development/management-operations.aspx');>Management and Operations of EURASIA...</a></li> 						   
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/8-development/global-resources.aspx');>Utilization of Global Resources...</a></li> 						   
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/8-development/requeriments-specifications.aspx');>Eurasia Requirements and Specifications.</a></li> 						   
 					</ul>
 				</li>
 				<!-- 9th tab-->
