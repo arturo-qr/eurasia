@@ -19,8 +19,15 @@
 						<br/><br />
 						According to the Clark County Department of Aviation, the addition of Terminal Three last year gives McCarran a "sustainable" capacity of 53.6 million passengers annually.
 						<br/><br />
+						<ul class="gallery">
+							<li><img src="images2/p1_chapter_4_1.jpg" alt="YESTERDAY" width="250px"></li>
+						</ul>
 						"When will we need a new airport?" the Department asks in its Vision 2020 Master Plan. "When McCarran reaches its sustainable capacity of 53.6 million passengers", the Department of Aviation says in answer to its own question.
 						<br/><br />
+						<ul class="gallery2">
+							<li><img src="images2/p1_chapter_4_2.jpg" alt="TODAY" width="250px"></li>
+						</ul>
+
 						That's sure a lot of people, isn't it? Nothing to worry about now, right?
 						<br/><br />
 						Wrong. Right now, at this moment, McCarran is annually serving more than 40 million passengers. Even without the large percentage of the 60 million new Eurasia-driven visitors who will arrive by air, McCarran will almost certainly reach and exceed its sustainable capacity within five to eight years. With Eurasia operational it will happen even sooner.
@@ -28,6 +35,9 @@
 						To solve this problem, to forestall this fast approaching bottleneck to increased prosperity for all of Southern Nevada, our parent company, Global Financial Trust, proposes to work with the Clark County Board of Aviation, to finance and build a new $9 billion Las Vegas Dream Airport on 3,000 acres of Bureau of Land Management property near our development.
 						<br/><br />
 						As projected, the new airport would consist of a commercial terminal designed for eventual expansion to match McCarron's current capacity, a royalty and billionaire-class executive terminal and air freight facilities.
+						<ul class="gallery1">
+							<li><img src="images2/p1_chapter_4_3.jpg" alt="Tomorrow" width="470px"></li>
+						</ul>
 					</div>
 				</div>
 			</div>

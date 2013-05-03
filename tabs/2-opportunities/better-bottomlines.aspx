@@ -23,6 +23,9 @@
 						<br/><br />
 						Enjoying live entertainment can even, according to many medical researchers, temporarily relieve pain by triggering the brain to release endorphins.
 						<br/><br />
+						<ul class="gallery">
+							<li><img src="images2/p1_chapter_7.jpg" alt="Better Bottomlines" width="270px"></li>
+						</ul>
 						Even better and, perhaps, more surprising, a recent research report published by the prestigious Mayo Clinic says that live entertainment of the sort that will envelope you from the stresses, strains and disappointments of daily life.
 						<br/><br />
 						According to the Mayo Clinic study, enjoyable live entertainment can improve your immune system by triggering chemical changes that cause the body to release neuropeptides that can counteract stress and improve the organism's ability to fight more serious illnesses over a sustained period of time.
