@@ -4,6 +4,48 @@
     <title>Eurasia </title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<!-- TESTING PDFVIEWER-->
+	<script type="text/javascript"> 
+		var assetsFolder = '../assets';
+		var mobileFolder = 'viewer/mobile';
+		var SEOFolder = 'viewer/assets/basic-html';
+		var filesFolderName	 = 'viewer/flash';
+		var projectGUID = '369edd6af0fac435fbe98811bbdb7e15';
+		var documentBackColor = 'BBC2C7';
+		function outputStatus(e) {
+			if(!e.success){ 	
+				if(document.getElementById("flash-notification")) {
+					document.getElementById("flash-notification").style.display = 'none';
+				}
+				var browser = navigator.userAgent.toLowerCase();
+				var UA = browser.match(/(opera|ie|firefox|chrome|version)[\s\/:]([\w\d\.]+)?.*?(safari|version[\s\/:]([\w\d\.]+)|$)/) || [null, 'unknown', 0];
+				browserName = (UA[1] == 'version') ? UA[3] : UA[1];
+				if ((browserName == 'ie') && (document.all && !document.getElementsByClassName)){
+					window.location.replace("./viewer/assets/basic-html/page1.html");
+				}else{
+					window.location.replace("./viewer/assets/basic-html/index.html#noFlash&img=viewer/assets/flash/pages/page0001_s.jpg&spread=viewer/assets/flash/pages/page0001_s.jpg");
+				}
+			};
+		};
+</script>
+    <script type="text/javascript" src="viewer/flash/swfobject.js"> </script>
+    <script type="text/javascript" src="viewer/flash/swfaddress.js"> </script>
+    <script type="text/javascript" src="viewer/flash/fbscript-orig.js"> </script>
+    <script type="text/javascript" src="viewer/flash/checkflash.js"> </script>
+	<script type="text/javascript">
+          new CheckFlash({
+          onShow: function () {
+          document.getElementById('content').style.top =
+          this.box.clientHeight + (parseInt(this.box.style.marginTop) || 0) + (parseInt(this.box.style.marginBottom) || 0) + (parseInt(this.box.style.borderTopWidth) || 0) + (parseInt(this.box.style.borderBottomWidth) || 0) + "px";
+          },
+          onClose: function() {
+          this.box.style.display = "none";
+          document.getElementById('content').style.top = "0px";
+          }
+          });
+    </script>
+	
+<!--End of block of pdftesting-->
 <BR/><BR/>
 <BR/><BR/>
 <BR/><BR/>
@@ -49,7 +91,8 @@
 					<div id="">
 						<br />
 						<div class="newsdiv"><h2 style="text-decoration: underline">Global in the News</h2><br />
-						<li onclick="TINY.box.show({url:'pdfviewer.html',animate:true,opacity:60})">Ajax, Advanced Functions</li>
+						
+						<li onclick="TINY.box.show({url:'viewerpdf.html',width:980,height:980})">PDF VERSION</li>
 						</div>
 					</div>
 				</div><!-- Home Left Column Ends -->
