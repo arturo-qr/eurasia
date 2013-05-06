@@ -210,7 +210,7 @@
 			</a>
 		</div>
 		<!-- Logged in Navigation Items -->
-		<!-- Language Links -->
+		<!-- Language Links 
 		<div id="LanguageLinks">
 			<div>
 				<a href="#" class="LanguageSubNavigation">
@@ -221,7 +221,7 @@
 				</a>	
 			</div>
 		</div>
-
+		-->
 		
 		
 		<!-- Navigation Items -->
@@ -309,7 +309,9 @@
 				<!-- Seventh tab-->
 				<li onmouseover=painttab(7); onmouseout=unpainttab(7);><a href="#" class="btn-livent">TV/MOVIE STUDIOS AND LIVE ENTERTAINMENT</a>
 					<ul onmouseover=painttab(7); onmouseout=unpainttab(7);>
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('default.aspx');>Tab7 subpage</a></li> 						   
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/7-entertainment/aces-of-acts.aspx');>Live Entertainment by Wholly owned Aces of Acts</a></li>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/7-entertainment/weekly-live-tv-shows.aspx');>Production of weekly live TV Shows</a></li>
+						<li style="padding-top: 8px; padding-bottom: 5px"><a href="#" onclick=getNewPage('tabs/7-entertainment/fantazmus-tv-production.aspx');>"FANTAZMUS" TV and Motion Picture</a></li>   
 					</ul>
 				</li>
 				<!-- Eighth tab-->
@@ -409,7 +411,7 @@
         	<ul>
 				<li><a href="http://www.globalentertainmentandmedia.com/News.aspx" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('pressroom','','images/footer/press-room-on.gif',1)"><img src="images/footer/press-room-off.gif" alt="Press Room" name="pressroom" id="pressroom" border="0" height="15" width="87"></a></li>
 				<li><a href="http://tvimama.net/Global_and_Aces_of_Acts.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sitemap','','images/footer/Site-Map-on.gif',0)"><img src="images/footer/Site-Map-off.gif" alt="Site Map" name="sitemap" id="sitemap" border="0" height="15" width="69"></a></li>
-				<li><a href="http://www.tvimama.net/Download_Information_for_Content_Providers.html" target="_blank" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('downloadbrochures','','images/footer/Download-Brochures-on.gif',0)"><img src="images/footer/Download-Brochures-off.gif" alt="Download Brochures" name="downloadbrochures" id="downloadbrochures" border="0" height="60" width="750"></a></li>
+				
         	</ul>
 		</div>
 

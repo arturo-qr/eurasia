@@ -57,8 +57,10 @@
 					<!-- Item 1 -->	
 					<div id="">
 						<br />
-						<div class="newsdiv"><h2 style="text-decoration: underline">Global in the News</h2><br />
-						<li onclick="TINY.box.show({iframe:'testing.html',width:980,height:980})">PDF VERSION</li>
+						<div class="newsdiv"><h2 style="text-decoration: underline">EURASIA in the News</h2><br />
+						<!-- 
+							<li onclick="TINY.box.show({iframe:'testing.html',width:980,height:980})">PDF VERSION</li>
+						-->
 						</div>
 					</div>
 				</div><!-- Home Left Column Ends -->

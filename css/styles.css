@@ -864,7 +864,7 @@ div#FooterTest{  }
 #FooterCopyright a:hover{ text-decoration: none; color: #FFFFFF; }
 
 #PropertyLinks{ font: normal 9px/12px Arial, Helvetica, sans-serif; color: #C5A88D; text-transform: uppercase; padding: 10px 0px 0px 245px; margin: 0px 20px 0px 0px; float: left; }
-#PropertyLinks a{ text-decoration: none; color: #000000; }
+#PropertyLinks a{ text-decoration: none; color: #C5A88D; }
 #PropertyLinks a:hover{ text-decoration: none; color: #FFFFFF; }
 
 #LanguageLinks{ font: normal 9px/12px Arial, Helvetica, sans-serif; color: #C5A88D; text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; float: left; position:relative; top:10px; left:19%;}
