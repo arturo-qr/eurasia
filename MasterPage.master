@@ -268,7 +268,6 @@
 				<li onmouseover=painttab(4); onmouseout=unpainttab(4);><a href="#" class="btn-people">THE PEOPLE AND RESOURCES</a> 
 					<ul onmouseover=painttab(4); onmouseout=unpainttab(4);>
 						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/jonathan-loeb.aspx');>JONATHAN Q. LOEB</a></li> 											
-						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/steven-schwartzbard.aspx');>STEVEN SCHWARTZBARD</a></li> 											
 						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/igor-jijikine.aspx');>IGOR JIJIKINE</a></li> 											
 						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/john-ray.aspx');>JOHN RAY</a></li> 											
 						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/michael-musick.aspx');>MICHAEL E. MUSICK</a></li> 											
@@ -281,6 +280,7 @@
 						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/elliot-borin.aspx');>ELLIOT BORIN</a></li> 	
 						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/jonathan-kruer.aspx');>JONATHAN T. KRUER</a></li> 											
 						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/donald-davidson.aspx');>DONALD DAVIDSON</a></li> 	
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/steven-schwartzbard.aspx');>STEVEN SCHWARTZBARD</a></li> 											
 						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/4-people/anatoliy-myagkostoupov.aspx');>ANATOLIY MYAGKOSTOUPOV</a></li> 											
 						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/4-people/vladislav-myagkostoupov.aspx');>VLADISLAV (VLADIK) MYAGKOSTOUPOV</a></li> 
 						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/tilke-wahl.aspx');>HERMANN TILKE AND PETER WAHL</a></li> 																	
