@@ -27,6 +27,9 @@
 						<br/><br />
 						Other people magnets integrated into the shopping malls will be themed museums with ancient Egyptian and other artifacts loaned to Alexandra by top-rank government museums and galleries from around the world, numerous state of the arttheaters featuring everything from world premiers of the latest mosttechnologically advanced giant screen 3D fully immersive features to performances of the history’s mostrevered symphonies,ballets and operas by top touring companies.
 						<br/><br />
+						<ul class="gallery1">
+							<li><img src="images2/being_a_casino.jpg" alt="They'll all be there, the Retail Royality, because only the Eurasia Malls will offer shop and kiosk spaces as foward styled as the products in them" width="420px"></li>
+						</ul>
 						The <strong>Alexandra Mall</strong> and the <strong>Las Vegas Dream Mall</strong> will also feature continuous live entertainment of far greater scope than has ever before been presented in any retail shopping complex. From the danger and speed of chariot racing to the beauty and grace of the newestOlympic sport, rhythmic gymnastics, Eurasia’s malls will have something for everyone. Especially, globe and nation-hopping shoppers interested in the best, most exclusive, products from the top designers and manufacturers. 
 						<br/><br />
 						The trendiest fashions from top Paris, Turin and NewYork designers, a truly formidable array of diamonds and other precious gems – raw stones direct from the mines of African and priceless antiquities in timeless mounts from empires long gone, shoes straight off the pages of Vogue, Elle and the other trend setting magazines, private-label hand-rolled cigars unavailable anywhere else in America,watches thatreveal the wearer’s substantial networth as well as the time, and every major upscale department and specialty store in the world.

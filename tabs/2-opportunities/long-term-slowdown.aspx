@@ -25,6 +25,10 @@
 							<br/><br />
 							The Eurasia Project, with its multifaceted initiatives to make Las Vegas a vacation, commercial and convention destination for elite jetset shoppers, sports fans of all types, movie, TV and recording stars and their fans and support staff, entertainment and attraction-loving middle-class tourists, and, of course, international-class big time professional gamblers and regional recreational players will bring, when fully realized, 60 million … 60 million additional visitors to Las Vegas every year …. 60 million … year, after year, after year.
 							<br/><br />
+							<ul class="gallery">
+								<li><img src="images2/p1_chapter_2.jpg" alt="Rising with the EURASIA Tide" width="320px">
+								</li>
+							</ul>
 							Even more important than the increase in bulk number of visitors, however, is the effect the Eurasia development will have on visitor vacationing and spending behavior. Instead of the two-to-three day average Las Vegas stay currently the norm, Eurasia’s giant theme parks, championship golf courses, 15 million square feet of elite shops, department stores and boutiques and its 100-plus nations-of-the-world pavilions and attractions will result in the average stay expanding to four to five nights.
 							<br/><br />
 							Based solely on Las Vegas’ current annual guest count of 40 million, visitor days spent in Las Vegas will expand from roughly 100 million to approximately 180 million, an increase of 80 percent in time and money spent in Las Vegas. Double those numbers by adding in the tens of thousands of new annual visitors drawn to Las Vegas by Eurasia and you begin to see how the Eurasia Project will lead the entire Las Vegas hospitality industry – old-line established casinos, resorts and shopping complexes as well as brand new ones – to record levels of hotel occupancy, casino play, retail sales, food and beverage revenue and overall income and profit.

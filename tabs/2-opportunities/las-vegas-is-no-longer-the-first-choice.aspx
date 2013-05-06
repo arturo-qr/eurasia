@@ -27,6 +27,18 @@
 						<br/><br />	
 						Its losing those players who can afford to hop in their G6 and gamble anywhere to places like Macau, which enjoyed a 20 percent increase in real dollar gaming revenue (to 3.5 billion USD) in December.
 						<br/><br />	
+						<ul class="view view-first">
+							<li>
+								<img src="images2/p1_chapter_5.jpg" alt="Las Vegas" width="300"/>
+								<ul class="mask">
+									<li>
+										<h2>The Eurasia development will stop that bleeding...</h2>
+										<p>it will stop it dead in its tracks... it will stop the bleeding and reverse it.</p>
+									</li>
+								</ul> 
+							</li>
+							
+						</ul>
 						The Eurasia development will stop that bleeding... it will stop it dead in its tracks... it will stop the bleeding and reverse it. It will bring the planet's biggest players back to Las Vegas as fast as their Gulfstreams, A318 Elite's and Citation's can carry them.
 						<br/><br />	
 						Why?

@@ -295,7 +295,11 @@
 				<!-- Sixth tab-->
 				<li onmouseover=painttab(6); onmouseout=unpainttab(6);><a href="#" class="btn-marketing">MARKETING STRATEGIES</a>
 					<ul onmouseover=painttab(6); onmouseout=unpainttab(6);>
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('default.aspx');>Tab6 subpage</a></li> 						   
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/6-marketing/marketing-strategy-planet-x.aspx');>Joint Marketing Strategy with PLANET X TV</a></li>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/6-marketing/marketing-strategy-neuromama-and-eurasia.aspx');>Joint Marketing Strategy of Eurasia & NeuroMama.com</a></li>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/6-marketing/marketing-strategy-entertainment-assets.aspx');>EURASIA's Marketing Strategy with Entertainment Assets</a></li>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/6-marketing/marketing-strategy-for-launch-of-eurasia.aspx');>Marketing Strategy for the launch of EURASIA</a></li> 						   
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/6-marketing/marketing-strategy-lauch-of-eurasia-casino-golf.aspx');>The Launch of "EURASIA" CASINO GOLF</a></li> 						   
 					</ul>
 				</li>
 				<!-- Seventh tab-->
