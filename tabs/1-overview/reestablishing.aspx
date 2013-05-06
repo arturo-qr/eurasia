@@ -38,7 +38,7 @@
 						<br/><br />
 						To put it another way, we search out high-growth business opportunities other developers may have missed and reanimate those parts of the enterprise that have quit working altogether or are performing at less than optimal levels.
 						<br/><br />
-						Sadly, there are number of critical areas in which, to steal a cliché from the Japanese, Las Vegas, Inc., is performing far from optimally. Key areas in its economy where it has, in fact, slipped badly, a slippage which began, in many cases, years before the 2008 financial meltdown.
+						Sadly, there are number of critical areas in which, to steal a clich&eacute; from the Japanese, Las Vegas, Inc., is performing far from optimally. Key areas in its economy where it has, in fact, slipped badly, a slippage which began, in many cases, years before the 2008 financial meltdown.
 						<br/><br />
 						In this web site you'll find some of the issues facing Las Vegas as it heads farther into the 21st Century world of global resort competition and a never-ending explosion of non-traditional entertainment options. And you'll see our projected solutions for these issues.
 						<br/><br />
