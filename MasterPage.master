@@ -233,8 +233,7 @@
 					<ul onmouseover=painttab(1); onmouseout=unpainttab(1);>
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/1-overview/introduction.aspx');>Eurasia Introduction</a></li>
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/1-overview/overview.aspx');>Eurasia Overview</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('default.aspx');>Eurasia The Vision</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('default.aspx');>Eurasia Philosophy</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/1-overview/philosophy.aspx');>Eurasia Philosophy</a></li>
 						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#"  onclick=getNewPage('tabs/1-overview/reestablishing.aspx');>Reestablishing Las Vegas As The Cross-Trail Of The World</a></li>
 					</ul> 
 				</li>  
@@ -326,6 +325,7 @@
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/9-amusement/eurasia-world-inventions.aspx');>Discovery & Inventions World</a></li>
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/9-amusement/eurasia-world-elegance.aspx');>The World of Fashion, Beauty & Elegance</a></li>
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/9-amusement/eurasia-world-golf.aspx');>The Golf World</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/9-amusement/eurasia-world-yacht-jet.aspx');>The Private Jet and Yacht World</a></li>
 						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#"  onclick=getNewPage('tabs/9-amusement/eurasia-world-extreme.aspx');>Planet X TV Extreme Sports World</a></li>						   
 					</ul>
 				</li>
