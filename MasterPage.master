@@ -289,7 +289,10 @@
 				<!-- Fifth tab-->
 				<li onmouseover=painttab(5); onmouseout=unpainttab(5);><a href="#" class="btn-imagine">IMAGINE EURASIA</a>
 					<ul onmouseover=painttab(5); onmouseout=unpainttab(5);>
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('default.aspx');>Tab5 subpage</a></li> 						   
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/5-imagine/formula-1-race.aspx');>Formula 1 Race in Las Vegas</a></li>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/5-imagine/of-a-sea-world-and-caesarsforum.aspx');>A combination of a Sea World and CaesarsForum Shops</a></li>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/5-imagine/eurasia-casino-hotel-resort.aspx');>EURASIA HOTEL CASINO RESORT's BENEFITS TO LAS VEGAS</a></li> 						   
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/5-imagine/eurasia-the-vision.aspx');>EURASIA THE VISION</a></li> 						   
 					</ul>
 				</li>
 				<!-- Sixth tab-->
