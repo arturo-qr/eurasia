@@ -292,7 +292,8 @@
 						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/5-imagine/formula-1-race.aspx');>Formula 1 Race in Las Vegas</a></li>
 						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/5-imagine/of-a-sea-world-and-caesarsforum.aspx');>A combination of a Sea World and CaesarsForum Shops</a></li>
 						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/5-imagine/eurasia-casino-hotel-resort.aspx');>EURASIA HOTEL CASINO RESORT's BENEFITS TO LAS VEGAS</a></li> 						   
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/5-imagine/eurasia-the-vision.aspx');>EURASIA THE VISION</a></li> 						   
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/5-imagine/eurasia-the-vision.aspx');>EURASIA THE VISION</a></li>
+						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#" onclick=getNewPage('tabs/5-imagine/secret-weapon-of-many-casinos.aspx');>secret weapon of many casino owners and architectural firms working</a></li>  						   
 					</ul>
 				</li>
 				<!-- Sixth tab-->
@@ -302,7 +303,7 @@
 						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/6-marketing/marketing-strategy-neuromama-and-eurasia.aspx');>Joint Marketing Strategy of Eurasia & NeuroMama.com</a></li>
 						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/6-marketing/marketing-strategy-entertainment-assets.aspx');>EURASIA's Marketing Strategy with Entertainment Assets</a></li>
 						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/6-marketing/marketing-strategy-for-launch-of-eurasia.aspx');>Marketing Strategy for the launch of EURASIA</a></li> 						   
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/6-marketing/marketing-strategy-lauch-of-eurasia-casino-golf.aspx');>The Launch of "EURASIA" CASINO GOLF</a></li> 						   
+						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#" onclick=getNewPage('tabs/6-marketing/marketing-strategy-lauch-of-eurasia-casino-golf.aspx');>The Launch of "EURASIA" CASINO GOLF</a></li> 						   
 					</ul>
 				</li>
 				<!-- Seventh tab-->
