@@ -28,8 +28,9 @@
 			function openJS(){alert('loaded')}
 			function closeJS(){alert('closed')}
 		</script>
-	<!-- BORRAR ESTOS JS NADA MAS ESTAN HACIENDO BULTO!-->
+	
 		<script type="text/javascript" src="js/base.js"></script>
+		<!-- BORRAR ESTOS JS NADA MAS ESTAN HACIENDO BULTO!-->
 	<!-- 	
 		<script type="text/javascript" src="js/jquery_002.js"></script>
 		<script type="text/javascript" src="js/swfobject.js"></script>
@@ -318,7 +319,8 @@
 					<ul onmouseover=painttab(7); onmouseout=unpainttab(7);>
 						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/7-entertainment/aces-of-acts.aspx');>Live Entertainment by Wholly owned Aces of Acts</a></li>
 						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/7-entertainment/weekly-live-tv-shows.aspx');>Production of weekly live TV Shows</a></li>
-						<li style="padding-top: 8px; padding-bottom: 5px"><a href="#" onclick=getNewPage('tabs/7-entertainment/fantazmus-tv-production.aspx');>"FANTAZMUS" TV and Motion Picture</a></li>   
+						<li style="padding-top: 8px"><a href="#" onclick=getNewPage('tabs/7-entertainment/fantazmus-tv-production.aspx');>"FANTAZMUS" TV and Motion Picture</a></li>
+						<li style="padding-top: 8px; padding-bottom: 6px"><a href="#" onclick=getNewPage('Default.aspx');>Gallery</a></li>     
 					</ul>
 				</li>
 				<!-- Eighth tab-->
