@@ -21,7 +21,7 @@
 		<!-- Home Left Column Begins -->
 		<div id="HomeColumn1">
 			<div id="flashvideo2">
-				<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="450" height="350" >
+				<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="450" height="300" >
 					<param name="movie" value="videoplayer.swf" />
 					<param name="quality" value="best" />
 					<param name="bgcolor" value="#000000" />
@@ -30,19 +30,19 @@
 					<param name="wmode" value="transparent" />
 					<param name="scale" value="tofit" />
 					<param name="allowFullScreen" value="true" />
-					<param name="flashvars" value="autoplay=true&amp;v=media/fPXTV_DOSIS_DIARIA_test.mp4&amp;img=Untitled-6.png&amp;repeat=true&amp;btnIcon=#6CFF00&amp;playIcon=#6CFF00&amp;controlsBgAlpha=0" />
+					<param name="flashvars" value="autoplay=true&amp;v=media/EURASIA_Pictures.flv&amp;img=Untitled-6.png&amp;repeat=true&amp;btnIcon=#6CFF00&amp;playIcon=#6CFF00&amp;controlsBgAlpha=0" />
 					<param name="menu" value="true" />
 					<param name="devicefont" value="false" />
 					<param name="salign" value="" />
 					<param name="allowScriptAccess" value="always" />
-					<object type="application/x-shockwave-flash" data="videoplayer.swf" width="450" height="350">
+					<object type="application/x-shockwave-flash" data="videoplayer.swf" width="450" height="300">
 						<param name="movie" value="videoplayer.swf" />
 						<param name="quality" value="best" />
 						<param name="bgcolor" value="#000000" />
 						<param name="play" value="true" />
 						<param name="loop" value="true" />
 						<param name="allowFullScreen" value="true" />
-						<param name="flashvars" value="autoplay=true&amp;v=media/PXTVf_DOSIS_DIARIA_test.mp4&amp;img=Untitled-6.png&amp;repeat=true&amp;btnIcon=#6CFF00&amp;playIcon=#6CFF00&amp;controlsBgAlpha=0" />
+						<param name="flashvars" value="autoplay=true&amp;v=media/EURASIA_Pictures.flv&amp;img=Untitled-6.png&amp;repeat=true&amp;btnIcon=#6CFF00&amp;playIcon=#6CFF00&amp;controlsBgAlpha=0" />
 						<param name="wmode" value="transparent" />
 						<param name="scale" value="tofit" />
 						<param name="menu" value="true" />
