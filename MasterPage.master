@@ -4,52 +4,26 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head runat="server">
-		<link rel="shortcut icon" href="http://globalentertainmentandmedia.com/Untitled-1.gif" />
+		<link rel="shortcut icon" href="images/eurasia_icon.png">
 		<meta name="description" content="EURASIA is ultimate experience. Make your investment reservations at the home of the famous dancing fountains, award-winning casino, fine art gallery, magnificent pools, and luxury shopping opportunities.">
 		<!-- JS -->
 		<!-- JS --><script type="text/javascript" src="js/commoncode.js"></script>
 		<script type="text/javascript" src="js/jquery-1.js"></script>
 		<!-- JS --><script type="text/javascript" src="js/jquery_004.js"></script> 
 
-		<!-- JS <script type="text/javascript" src="js/jquery-ui-calendar.js"></script>
-				
-		-->
 		<script type="text/javascript" src="js/jquery.js"></script>
-		<!-- JS <script type="text/javascript" src="js/jquery_003.js"></script>-->
-		<!--<script type="text/javascript">
-			$(document).ready(function(){
-				$("a[rel^='lightbox']").prettyPhoto();
-			});
-		</script>
-		-->
-		<!-- TEST DELETE IF NECESARY-->
-		<script type="text/javascript" src="tinybox.js"></script>
-		<script type="text/javascript">
-			function openJS(){alert('loaded')}
-			function closeJS(){alert('closed')}
-		</script>
-	<!-- BORRAR ESTOS JS NADA MAS ESTAN HACIENDO BULTO!-->
+
 		<script type="text/javascript" src="js/base.js"></script>
-	<!-- 	
-		<script type="text/javascript" src="js/jquery_002.js"></script>
-		<script type="text/javascript" src="js/swfobject.js"></script>
-		<script type="text/javascript" src="js/nonverblaster.js"></script>
-		<script type="text/javascript" src="js/imgHighlight.js"></script>
-		Sliding effect
-		<script src="js/login-slide.js" type="text/javascript"></script>
-		<script src="js/jquery-common.js" type="text/javascript"></script>
-		  -->
 
 		<script src="AC_RunActiveContent.js" language="javascript"></script>
 		<!-- CSS -->
 		<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
-		<link href="stylestinypop.css" rel="stylesheet" type="text/css" media="screen">
 		<link href="css/nav-book-gui.css" rel="stylesheet" type="text/css" media="screen">
 		<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
-    <!--  ESTE ES PARA PDFVIEWER-->
-    <!-- <link rel="stylesheet" type="text/css" href="css/flexpaper.css" /> -->
-
-
+ <!-- TESTING PDFVIEWER-->
+	<link rel="stylesheet" href="style.css" />
+	<script type="text/javascript" src="tinybox.js"></script>
+<!--End of block of pdftesting-->
 		<asp:ContentPlaceHolder id="head" runat="server">
 		</asp:ContentPlaceHolder>
 	</head>
@@ -211,10 +185,8 @@
 					<img src="images2/logo.png" alt="Global Entertainment & Media Ltd." border="0" height="29" width="140">
 				</div>
 				</a>
-					<span style="position: relative; left: 25px; font-family: 'Didact Gothic', sans-serif; font-size: 18px; color: #ffffff">LIVE ENTERTAINMENT HOTEL CASINO MEGA RESORT IN LAS VEGAS</span>
-				
+				<span style="position: relative; left: 25px; font-family: 'Didact Gothic', sans-serif; font-size: 18px; color: #ffffff">LIVE ENTERTAINMENT HOTEL CASINO MEGA RESORT IN LAS VEGAS</span>
 			</div>
-			
 		</div>
 		<!-- Logged in Navigation Items -->
 		<!-- Language Links 
@@ -348,7 +320,7 @@
 				</li>
 			</ul>
 		</div>
-		<div id="SubHeader"><span style="font-family: 'Didact Gothic',sans-serif; font-size: 13px; color: #ffffff">Live Entertainment relives pain and lowers blood pressure... It's good for your healt - <strong style="font-size: 16px; color: #C5A88D">Anatoliy Myagkostupov</strong></span></div>
+		<div id="SubHeader"><span style="font-family: 'Didact Gothic',sans-serif; font-size: 13px; color: #ffffff">Live Entertainment relives pain and lowers blood pressure... It's good for your health - <strong style="font-size: 16px; color: #C5A88D">Anatoliy Myagkostupov</strong></span></div>
 		<!-- /HeaderNavigation -->
 	</div>
 </div>

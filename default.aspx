@@ -4,15 +4,7 @@
     <title>Eurasia </title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-<!-- TESTING PDFVIEWER-->
-	 <script type="text/javascript" src="r/jq.js"></script>
-    <script type="text/javascript" src="r/jt.js"></script>
-    <script type="text/javascript" src="r/jm.js"></script>
-    <script type="text/javascript" src="r/ji.js"></script>
-    <script type="text/javascript" src="r/touch.js"></script>
-    <script type="text/javascript" src="r/jf.js"></script>
-	
-<!--End of block of pdftesting-->
+
 <BR/><BR/>
 <BR/><BR/>
 <BR/><BR/>
@@ -53,17 +45,13 @@
 				</object>
 			</div>
 			<div id="flashvideo2holder"></div>	
-				<div id="HomeGalleryDetailsContainer">
-					<!-- Item 1 -->	
-					<div id="">
-						<br />
-						<div class="newsdiv"><h2 style="text-decoration: underline">EURASIA in the News</h2><br />
-						<!-- 
-							<li onclick="TINY.box.show({iframe:'testing.html',width:980,height:980})">PDF VERSION</li>
-						-->
-						</div>
-					</div>
-				</div><!-- Home Left Column Ends -->
+			<div id="HomeGalleryDetailsContainer">
+				<!-- Item 1 -->	
+				<div class="newsdiv">
+					<a class="eurasiapdf" href="#" onclick="TINY.box.show({maskid:'bluemask',url:'viewerpdf.html',width:1028,height:450})"><img  src="images2/eurasiapdf.png" height="100%" width="80%"/></a>
+					<!--a class="eurasiapdf" href="viewerpdf.html" target="_blank"><img  src="images2/eurasiapdf.png" height="100%" width="80%"/></a-->
+				</div>
+			</div><!-- Home Left Column Ends -->
 
 				<!-- Home Right Column Begins -->
 		</div>
