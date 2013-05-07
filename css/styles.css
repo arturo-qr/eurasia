@@ -40,8 +40,8 @@ div#HeaderContainer {
 }
 
 div#HeaderContent{ width: 1050px; margin: 0 auto; height: 190px; background: url(../images4/Header-Background.png) top center no-repeat; }
-div#Branding{width: 400px; height: 29px; top:3px;float: left; position: relative; left:8%;}
-div#SubHeader{float: right; margin: 10px 0px 0px 0px; width: 1017px;left:8%; position: relative;}
+div#Branding{width: 800px; height: 29px; top:3px;float: left; }
+div#SubHeader{padding-left: 100px; float: left; margin-top:10px; height: 20px;}
 /* div#HeaderNavigation{ margin: 31px 0px 0px 20px; width:740px; float: left; } */
 /* div#HeaderNavigation - See nav-book-gui.css */
 /*div{
