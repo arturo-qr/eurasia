@@ -45,6 +45,7 @@
 		<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
 		<link href="stylestinypop.css" rel="stylesheet" type="text/css" media="screen">
 		<link href="css/nav-book-gui.css" rel="stylesheet" type="text/css" media="screen">
+		<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
     <!--  ESTE ES PARA PDFVIEWER-->
     <!-- <link rel="stylesheet" type="text/css" href="css/flexpaper.css" /> -->
 
@@ -205,9 +206,14 @@
 <div id="HeaderContainer">
 	<div id="HeaderContent">
 		<div id="Branding">
-			<a href="#" onclick=getNewPage('Default.aspx');>
-				<img src="images4/eurasia_linklogo.png" alt="Global Entertainment & Media Ltd." border="0" height="29" width="248">
-			</a>
+			<div style="float: right; width: 248px; height: 29px;">
+				<a href="#" onclick=getNewPage('Default.aspx');>
+					<span style="font-family: 'Didact Gothic', sans-serif; font-size: x-small; color: #ffffff">LIVE ENTERTAINMENT HOTEL CASINO MEGA RESORT IN LAS VEGAS</span>
+				</a>
+			</div>
+			<div>
+				<img src="images2/logo.jpg" alt="Global Entertainment & Media Ltd." border="0" height="29" width="148">
+			</div>
 		</div>
 		<!-- Logged in Navigation Items -->
 		<!-- Language Links 
@@ -341,6 +347,7 @@
 				</li>
 			</ul>
 		</div>
+		<div id="SubHeader"><span style="font-family: 'Didact Gothic', sans-serif; color: #ffffff">Live Entertainment relives pain and lowers blood pressure... It's good for your healt - <strong>Anatoliy Myagkostupov</strong></span></div>
 		<!-- /HeaderNavigation -->
 	</div>
 </div>
