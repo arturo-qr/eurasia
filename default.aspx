@@ -48,7 +48,7 @@
 			<div id="HomeGalleryDetailsContainer">
 				<!-- Item 1 -->	
 				<div class="newsdiv">
-					<a class="eurasiapdf" href="#" onclick="TINY.box.show({url:'viewerpdf.html',width:1028,height:450})"><img  src="images2/eurasiapdf.png" height="100%" width="80%"/></a>
+					<a class="eurasiapdf" href="#" onclick="TINY.box.show({url:'viewerpdf.html',width:1028,height:450})"><img  style="border:0px"src="images2/eurasiapdf.png" height="100%" width="80%"/></a>
 					<!--a class="eurasiapdf" href="viewerpdf.html" target="_blank"><img  src="images2/eurasiapdf.png" height="100%" width="80%"/></a-->
 				</div>
 			</div><!-- Home Left Column Ends -->
@@ -68,23 +68,23 @@
 							EURASIA 
 						</span>
 						<br/><br />
-						On May 17, 2013 at 12 PM in Las Vegas will start the 45 Hour Fundraiser with 15 three hour Cirque Style Production with sports competition events. This fundraiser will continue for another 80 hours during the ICSC RECon Convention in Las Vegas, where the Global Financial Trust, Ltd., the parent company of EURASIA and NeuroMama.com is an Exhibitor and there to lease the World Largest Shopping Mall in EURASIA Resort and sell advertising on NeuroMama.com Search Engine.
+						On May 17, 2013 at 12 PM in Las Vegas will start the 45 Hour Fundraiser with 15 three hour Cirque Style Production with sports competition events. This fundraiser will continue for another 80 hours during the ICSC RECon Convention in Las Vegas, where the Global Financial Trust, Ltd., the parent company of EURASIA and N e u r o m a m a .com is an Exhibitor and there to lease the World Largest Shopping Mall in EURASIA Resort and sell advertising on N e u r o m a m a .com Search Engine.
 						<br/><br />
-						This Fundraising event will take place in 15 cities in 12 countries on 5 continents. This unprecedented fundraising event will mark the launch of this project. This fundraiser will be streamed live on NeuroMama.com and EurasiaLasVegas.com. This event will bring awareness to the light sentences given to drug dealers distributing drugs to children and help needy children. This event will bring awareness to global warming and will start the war against destroyers of our Planet. This fundraising event will help families of victims of 9/11 terrorist attack on World Trade Center. This Global FUNDRAISING Event is Researched, Designed, Developed and Implemented by NeuroMama.com and EURASIA Hotel Casino Resort in Las Vegas. 
+						This Fundraising event will take place in 15 cities in 12 countries on 5 continents. This unprecedented fundraising event will mark the launch of this project. This fundraiser will be streamed live on N e u r o m a m a .com and EurasiaLasVegas.com. This event will bring awareness to the light sentences given to drug dealers distributing drugs to children and help needy children. This event will bring awareness to global warming and will start the war against destroyers of our Planet. This fundraising event will help families of victims of 9/11 terrorist attack on World Trade Center. This Global FUNDRAISING Event is Researched, Designed, Developed and Implemented by N e u r o m a m a .com and EURASIA Hotel Casino Resort in Las Vegas. 
 						<br/><br />
-						Andre Agassi will be asked to take charge of thisfundraising marathon: NeuroMama.com will be issuing various Gift Certificates to donors, depending upon their contribution.
+						Andre Agassi will be asked to take charge of thisfundraising marathon: N e u r o m a m a .com will be issuing various Gift Certificates to donors, depending upon their contribution.
 						<br/><br />
 						<ul class="overview-list">
 							<li>March 10, 2013 PR campaign for the Fundraiser around the world will start.</li>
-							<li>On March 10, 2013 NeuroMama.com will go live as Beta-Test Version.</li>
-							<li>May 15, 2013 NeuroMama.com and EURASIA common stock is going to start trading on one of the US Stock Exchanges.</li>
-							<li>May 15th Launch of English, Spanish and Russian Languages of NeuroMama.com Search Engine with (FSR) Frequent Searcher Reward and E-Mail Service.</li>
-							<li>May 19 ICSC - Real Estate Convention in Las Vegas to Lease EURASIA Shopping Mall and sign advertising agreements with NeuroMama.com.</li>
-							<li>Gorilla Marketing Strategy - World Wide 45 hour EURASIA and NeuroMama.com Campaign in 15 cities and 12 countries with Live Streaming of Cirque Style Productions, Local Politicians, Businessman and Rhythmic Gymnasts to raise $1 billion dollars for needy children and to fund the war against Legal system which is not protecting the youth from drug dealers, and environment from destroyers.</li>
-							<li>Viral Marketing with short funny videos about people receiving rewards for using NeuroMama.com Search Engine.</li>
-							<li>NeuroMama.comand EURASIA will be LAUNCHED with 20 hours of monthly TV commercials on TV, Cable and Satellite Networks throughout Latin America in JOINT MARKETING STRATEGY WITH PLANET X This Partnership will provide numerous advertising and other branded content opportunities on other TV Channels viewed by hundreds millions people on TV, Cable and Satellite Networks in Latin America.</li>
-							<li>Product Placements with Branded Content of NeuroMama.com and EURASIA's on <strong><u>PLANET X TV</strong></u>, MTV, CNN, FOX and many other TV, Cable and Satellite Networks, which are promoting PLANET X in Latin America.</li>
-							<li>FSR - Frequent Searcher Rewards for NeuroMama.com users which includes:</li>
+							<li>On March 10, 2013 N e u r o m a m a .com will go live as Beta-Test Version.</li>
+							<li>May 15, 2013 N e u r o m a m a .com and EURASIA common stock is going to start trading on one of the US Stock Exchanges.</li>
+							<li>May 15th Launch of English, Spanish and Russian Languages of N e u r o m a m a .com Search Engine with (FSR) Frequent Searcher Reward and E-Mail Service.</li>
+							<li>May 19 ICSC - Real Estate Convention in Las Vegas to Lease EURASIA Shopping Mall and sign advertising agreements with N e u r o m a m a .com.</li>
+							<li>Gorilla Marketing Strategy - World Wide 45 hour EURASIA and N e u r o m a m a .com Campaign in 15 cities and 12 countries with Live Streaming of Cirque Style Productions, Local Politicians, Businessman and Rhythmic Gymnasts to raise $1 billion dollars for needy children and to fund the war against Legal system which is not protecting the youth from drug dealers, and environment from destroyers.</li>
+							<li>Viral Marketing with short funny videos about people receiving rewards for using N e u r o m a m a .com Search Engine.</li>
+							<li>N e u r o m a m a .comand EURASIA will be LAUNCHED with 20 hours of monthly TV commercials on TV, Cable and Satellite Networks throughout Latin America in JOINT MARKETING STRATEGY WITH PLANET X This Partnership will provide numerous advertising and other branded content opportunities on other TV Channels viewed by hundreds millions people on TV, Cable and Satellite Networks in Latin America.</li>
+							<li>Product Placements with Branded Content of N e u r o m a m a .com and EURASIA's on <strong><u>PLANET X TV</strong></u>, MTV, CNN, FOX and many other TV, Cable and Satellite Networks, which are promoting PLANET X in Latin America.</li>
+							<li>FSR - Frequent Searcher Rewards for N e u r o m a m a .com users which includes:</li>
 							<ul class="overview-list-deep">
 								<li>Gift Certificates for $300 to $400I-PAD type tablets, TV's, Phones, Computers, Printers, and other in demand products.</li>
 								<li>Variety of 3 to 14 days free stays in any of the EURASIA's Hotel Casinos, such as rooms, sweets, 1 to 4 bedrooms condos, and 2 to 10 bedrooms Renaissance Villas.</li>

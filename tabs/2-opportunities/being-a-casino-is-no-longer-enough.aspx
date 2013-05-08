@@ -38,7 +38,7 @@
 						<br/><br />
 						They’ll be here because of the millions of dollars of media exposure they’ll get from news of Alexandra and Las Vegas Dream events and shows and the even more millions of dollars in free advertising theywill get from onscreen appearances in the background of numerous TV shows and features produced onsite at Eurasia’s Fantazmus Studios.
 						<br/><br />
-						They’ll be here because of the billions of Internet end user impressions they’ll receive through their strategic relationship with our search-engine subsidiary, NeuroMama.com,the world’s only neural-technology powered search engine and the only search engine with a true end user loyalty program.
+						They’ll be here because of the billions of Internet end user impressions they’ll receive through their strategic relationship with our search-engine subsidiary, N e u r o m a m a .com,the world’s only neural-technology powered search engine and the only search engine with a true end user loyalty program.
 						<br/><br />
 						They’ll be here because our mall space will be designed, developed, leased and managed by a syndicate of some of the mostrespected and trusted firms in the commercial real estate industry, companies like Simon PropertyGroup and Prudential.
 						<br/><br />
