@@ -22,7 +22,7 @@
 					<param name="wmode" value="transparent" />
 					<param name="scale" value="tofit" />
 					<param name="allowFullScreen" value="true" />
-					<param name="flashvars" value="autoplay=true&amp;v=media/EURASIA_Pictures.flv&amp;img=Untitled-6.png&amp;repeat=true&amp;btnIcon=#6CFF00&amp;playIcon=#6CFF00&amp;controlsBgAlpha=0" />
+					<param name="flashvars" value="autoplay=true&amp;v=media/EURASIA_Pictures.flv|media/Action_Sports_Mall_Mexico_City.flv&amp;img=Untitled-6.png&amp;repeat=true&amp;btnIcon=#6CFF00&amp;playIcon=#6CFF00&amp;controlsBgAlpha=0.7" />
 					<param name="menu" value="true" />
 					<param name="devicefont" value="false" />
 					<param name="salign" value="" />
@@ -34,7 +34,7 @@
 						<param name="play" value="true" />
 						<param name="loop" value="true" />
 						<param name="allowFullScreen" value="true" />
-						<param name="flashvars" value="autoplay=true&amp;v=media/EURASIA_Pictures.flv&amp;img=Untitled-6.png&amp;repeat=true&amp;btnIcon=#6CFF00&amp;playIcon=#6CFF00&amp;controlsBgAlpha=0" />
+						<param name="flashvars" value="autoplay=true&amp;v=media/EURASIA_Pictures.flv|media/Action_Sports_Mall_Mexico_City.flv&amp;img=Untitled-6.png&amp;repeat=true&amp;btnIcon=#6CFF00&amp;playIcon=#6CFF00&amp;controlsBgAlpha=0.7" />
 						<param name="wmode" value="transparent" />
 						<param name="scale" value="tofit" />
 						<param name="menu" value="true" />
