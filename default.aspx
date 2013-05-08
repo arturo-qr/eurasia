@@ -48,7 +48,7 @@
 			<div id="HomeGalleryDetailsContainer">
 				<!-- Item 1 -->	
 				<div class="newsdiv">
-					<a class="eurasiapdf" href="#" onclick="TINY.box.show({maskid:'bluemask',url:'viewerpdf.html',width:1028,height:450})"><img  src="images2/eurasiapdf.png" height="100%" width="80%"/></a>
+					<a class="eurasiapdf" href="#" onclick="TINY.box.show({url:'viewerpdf.html',width:1028,height:450})"><img  src="images2/eurasiapdf.png" height="100%" width="80%"/></a>
 					<!--a class="eurasiapdf" href="viewerpdf.html" target="_blank"><img  src="images2/eurasiapdf.png" height="100%" width="80%"/></a-->
 				</div>
 			</div><!-- Home Left Column Ends -->
