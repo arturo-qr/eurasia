@@ -11,16 +11,27 @@
 		<!-- JS --><script type="text/javascript" src="js/jquery_004.js"></script> 
 
 		<script type="text/javascript" src="js/jquery.js"></script>
+<<<<<<< HEAD
+		<!-- JS <script type="text/javascript" src="js/jquery_003.js"></script>-->
+		<!--<script type="text/javascript">
+			$(document).ready(function(){
+				$("a[rel^='lightbox']").prettyPhoto();
+			});
+		</script>
+		-->
+		<!-- TEST DELETE IF NECESARY
+=======
 
 		<script type="text/javascript" src="js/base.js"></script>
 
 		<!-- TEST DELETE IF NECESARY-->
+>>>>>>> baf75bae8b5ad308dfb31131112ceb48ec42bdab
 		<script type="text/javascript" src="tinybox.js"></script>
 		<script type="text/javascript">
 			function openJS(){alert('loaded')}
 			function closeJS(){alert('closed')}
 		</script>
-	
+	-->
 		<script type="text/javascript" src="js/base.js"></script>
 		<!-- BORRAR ESTOS JS NADA MAS ESTAN HACIENDO BULTO!-->
 
@@ -145,23 +156,13 @@
 		var f_curFinishFunction = function(response) {
 			//jQuery('#flashvideo').fadeIn('slow');
 			var Details22 = document.getElementById('HomeGallery');
-			Details22.innerHTML = "<div id=\"Detail\">        <div id=\"DetailHeader\"> </div>        <div id=\"DetailCopy\"></div></div>    <!-- Item 2 -->       <div id=\"Detail2\">        <div id=\"DetailHeader\"></div>        <div id=\"DetailCopy\"></div>        <div id=\"DetailMoreInfo\"></div>    </div>    <!-- Item 3 -->    <div id=\"Detail3\">        <div id=\"DetailHeader\"></div>        <div id=\"DetailCopy\">        </div>        <div id=\"DetailMoreInfo class=\"DetailMoreInfo\"></div>  </div>    <!-- Item 4 -->    <div id=\"Detail4\"><br /><br />        <div id=\"DetailHeader\"></div>        <div id=\"DetailCopy\"></div>        <div id=\"DetailMoreInfo\"></div>    </div>    <!-- /ItemEnd --> ";
+			Details22.innerHTML = "<div id=\"Detail\">        <div id=\"DetailHeader\"> </div>        <div id=\"DetailCopy\"></div></div>    ";
 			document.title = getXMLNodeValue(response, ('title'));
 			var Details1 = document.getElementById('DetailCopy');
 			Details1.innerHTML = getXMLNodeValue2(response, ('div id="DetailCopy"'), ('div'));
-			var Details2 = document.getElementById('HomeColumn22');
-			Details2.innerHTML += getXMLNodeValue2(response, ('div id="HomeGallery"'), ('div'));
 			//DetailHeader
 			var Details3 = document.getElementById('DetailHeader');
 			Details3.innerHTML = getXMLNodeValue2(response, ('div id="DetailHeader"'), ('div'));
-			var HomeColumn1 = getXMLNodeValue2(response, ('div id="HomeColumn1"'), ('div'));
-			if (isValid(HomeColumn1)) {
-				HomeColumn1.innerHTML = getXMLNodeValue2(response, ('div id="HomeColumn1"'), ('div'));
-			}
-			else {
-				HomeColumn1.innerHTML = '';
-			}
-			
 			//jQuery('#Detail').fadeIn('slow');
 			jQuery('#Detail2').hide();
 			jQuery('#Detail3').hide();
