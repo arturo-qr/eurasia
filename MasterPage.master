@@ -6,7 +6,6 @@
 	<head runat="server">
 		<link rel="shortcut icon" href="images/eurasia_icon.png">
 		<meta name="description" content="EURASIA is ultimate experience. Make your investment reservations at the home of the famous dancing fountains, award-winning casino, fine art gallery, magnificent pools, and luxury shopping opportunities.">
-		<!-- JS -->
 		<!-- JS --><script type="text/javascript" src="js/commoncode.js"></script>
 		<script type="text/javascript" src="js/jquery-1.js"></script>
 		<!-- JS --><script type="text/javascript" src="js/jquery_004.js"></script> 
@@ -15,15 +14,25 @@
 
 		<script type="text/javascript" src="js/base.js"></script>
 
+		<!-- TEST DELETE IF NECESARY-->
+		<script type="text/javascript" src="tinybox.js"></script>
+		<script type="text/javascript">
+			function openJS(){alert('loaded')}
+			function closeJS(){alert('closed')}
+		</script>
+	
+		<script type="text/javascript" src="js/base.js"></script>
+		<!-- BORRAR ESTOS JS NADA MAS ESTAN HACIENDO BULTO!-->
+
 		<script src="AC_RunActiveContent.js" language="javascript"></script>
 		<!-- CSS -->
 		<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
 		<link href="css/nav-book-gui.css" rel="stylesheet" type="text/css" media="screen">
 		<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
- <!-- TESTING PDFVIEWER-->
-	<link rel="stylesheet" href="style.css" />
-	<script type="text/javascript" src="tinybox.js"></script>
-<!--End of block of pdftesting-->
+		<!-- TESTING PDFVIEWER-->
+		<link rel="stylesheet" href="style.css" />
+		<script type="text/javascript" src="tinybox.js"></script>
+		<!--End of block of pdftesting-->
 		<asp:ContentPlaceHolder id="head" runat="server">
 		</asp:ContentPlaceHolder>
 	</head>
@@ -213,6 +222,7 @@
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/1-overview/introduction.aspx');>Eurasia Introduction</a></li>
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/1-overview/overview.aspx');>Eurasia Overview</a></li>
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/1-overview/philosophy.aspx');>Eurasia Philosophy</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/1-overview/mission.aspx');>Eurasia Mission</a></li>
 						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#"  onclick=getNewPage('tabs/1-overview/reestablishing.aspx');>Reestablishing Las Vegas As The Cross-Trail Of The World</a></li>
 					</ul> 
 				</li>  
@@ -290,7 +300,8 @@
 					<ul onmouseover=painttab(7); onmouseout=unpainttab(7);>
 						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/7-entertainment/aces-of-acts.aspx');>Live Entertainment by Wholly owned Aces of Acts</a></li>
 						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/7-entertainment/weekly-live-tv-shows.aspx');>Production of weekly live TV Shows</a></li>
-						<li style="padding-top: 8px; padding-bottom: 5px"><a href="#" onclick=getNewPage('tabs/7-entertainment/fantazmus-tv-production.aspx');>"FANTAZMUS" TV and Motion Picture</a></li>   
+						<li style="padding-top: 8px"><a href="#" onclick=getNewPage('tabs/7-entertainment/fantazmus-tv-production.aspx');>"FANTAZMUS" TV and Motion Picture</a></li>
+						<li style="padding-top: 8px; padding-bottom: 6px"><a href="#" onclick=getNewPage('Default.aspx');>Gallery</a></li>     
 					</ul>
 				</li>
 				<!-- Eighth tab-->
