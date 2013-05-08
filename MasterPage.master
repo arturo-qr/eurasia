@@ -151,7 +151,7 @@
 		var f_curFinishFunction2 = function(response) {
 			//jQuery('#flashvideo').fadeIn('slow');
 			var Details22 = document.getElementById('HomeGallery');
-			Details22.innerHTML = getXMLNodeValue2(response, ('div id="HomeGallery"'), ('div><!-- /Twitter Feed --'));     		
+			Details22.innerHTML = getXMLNodeValue2(response, ('div id="HomeGallery"'), ('div>'));     		
 			document.title = getXMLNodeValue(response, ('title'));
 		}
 		
@@ -282,7 +282,9 @@
 					<ul onmouseover=painttab(7); onmouseout=unpainttab(7);>
 						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/7-entertainment/aces-of-acts.aspx');>Live Entertainment by Wholly owned Aces of Acts</a></li>
 						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/7-entertainment/weekly-live-tv-shows.aspx');>Production of weekly live TV Shows</a></li>
-						<li style="padding-top: 8px; padding-bottom: 6px"><a href="#" onclick=getNewPage('tabs/7-entertainment/fantazmus-tv-production.aspx');>"FANTAZMUS" TV and Motion Picture</a></li>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/7-entertainment/fantazmus-tv-production.aspx');>"FANTAZMUS" TV and Motion Picture</a></li>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/7-entertainment/fantazmus-circus.aspx');>"FANTAZMUS" Circus</a></li>
+						<li style="padding-top: 8px; padding-bottom: 6px"><a href="#" onclick=getNewPage('tabs/7-entertainment/production-film.aspx');>The Production of soap Opera and features films</a></li>
 						<!--<li style="padding-top: 8px; padding-bottom: 6px"><a href="#" onclick=getNewPage('Default.aspx');>Gallery</a></li>  -->   
 					</ul>
 				</li>
@@ -317,10 +319,7 @@
 		<!-- /HeaderNavigation -->
 	</div>
 </div>
-<!-- 
-
-
-<!--include virtual="/include/main-navigation-ie6.ascx" -->
+<!-- include virtual="/include/main-navigation-ie6.ascx" -->
 <div id="newpagecontent"></div>
 <div id="flashvideoholder2"></div>
 <form id="form1" runat="server">
