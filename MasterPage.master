@@ -4,7 +4,6 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head runat="server">
-		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<link rel="shortcut icon" href="images/favicon.ico">
 		<meta name="description" content="EURASIA is ultimate experience. Make your investment reservations at the home of the famous dancing fountains, award-winning casino, fine art gallery, magnificent pools, and luxury shopping opportunities."/>
 		<!-- JS --><script type="text/javascript" src="js/commoncode.js"></script>
@@ -25,6 +24,7 @@
 		<link rel="stylesheet" href="style.css" />
 		<script type="text/javascript" src="tinybox.js"></script>
 		<!--End of block of pdftesting-->
+		<title>Eurasia</title>
 		<asp:ContentPlaceHolder id="head" runat="server">
 		</asp:ContentPlaceHolder>
 	</head>
@@ -33,6 +33,7 @@
 
 	<!-- button image swap -->
 	<script type="text/javascript">
+		
 		/*To put ON state on the selected tab when the tab or the subtabs are active*/
 		function painttab(tab){
 			switch(tab){
@@ -136,6 +137,7 @@
 		}
 		var f_curFinishFunction = function(response) {
 			//jQuery('#flashvideo').fadeIn('slow');
+			jQuery('#HomeGallery').hide();
 			var Details22 = document.getElementById('HomeGallery');
 			Details22.innerHTML = "<div id=\"Detail\">        <div id=\"DetailHeader\"> </div>        <div id=\"DetailCopy\"></div></div>    ";
 			document.title = getXMLNodeValue(response, ('title'));
@@ -144,27 +146,29 @@
 			//DetailHeader
 			var Details3 = document.getElementById('DetailHeader');
 			Details3.innerHTML = getXMLNodeValue2(response, ('div id="DetailHeader"'), ('div'));
-			//jQuery('#Detail').fadeIn('slow');
-			jQuery('#Detail2').hide();
+			jQuery('#HomeGallery').fadeIn('slow');
+			jQuery('#Detail1').hide();
 			jQuery('#Detail3').hide();
 		}
 		var f_curFinishFunction2 = function(response) {
 			//jQuery('#flashvideo').fadeIn('slow');
+			jQuery('#HomeGallery').hide();
 			var Details22 = document.getElementById('HomeGallery');
 			Details22.innerHTML = getXMLNodeValue2(response, ('div id="DetailCopy"'), ('div'));     		
 			document.title = getXMLNodeValue(response, ('title'));
+			jQuery('#HomeGallery').fadeIn('slow');
 		}
 		
 	function getNewPage(page_url) {
 		if(page_url.toString().indexOf("Default.aspx") != -1){
-			jQuery('#HomeGallery').hide();
+			//jQuery('#HomeGallery').hide();
 			ajax(page_url, '', f_curFinishFunction2);
-			jQuery('#HomeGallery').fadeIn('slow');
+			//jQuery('#HomeGallery').fadeIn('slow');
 		}
 		else{
-			jQuery('#HomeGallery').hide();
+			//jQuery('#HomeGallery').hide();
 			ajax(page_url, '', f_curFinishFunction);
-			jQuery('#HomeGallery').fadeIn('slow');
+			//jQuery('#HomeGallery').fadeIn('slow');
 		}
 	}
 	</script>
@@ -284,7 +288,12 @@
 						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/7-entertainment/weekly-live-tv-shows.aspx');>Production of weekly live TV Shows</a></li>
 						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/7-entertainment/fantazmus-tv-production.aspx');>"FANTAZMUS" TV and Motion Picture</a></li>
 						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/7-entertainment/fantazmus-circus.aspx');>"FANTAZMUS" Circus</a></li>
-						<li style="padding-top: 8px; padding-bottom: 6px"><a href="#" onclick=getNewPage('tabs/7-entertainment/production-film.aspx');>The Production of soap Opera and features films</a></li>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/7-entertainment/production-film.aspx');>The Production of soap Opera and features films</a></li>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/7-entertainment/competitions.aspx');>Competitions</a></li>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/7-entertainment/competition-motor-speedway.aspx');>Competition - Motor SpeedWay</a></li>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/7-entertainment/competition-fantazmus-studios.aspx');>Competition - Fantazmus Studios</a></li>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/7-entertainment/competition-coliseum.aspx');>Competition - Coliseum Event Center Contests</a></li>
+						<li style="padding-top: 8px;padding-bottom: 6px"><a href="#" onclick=getNewPage('tabs/7-entertainment/competition-art-theatre.aspx');>Competition - Performing Arts Theatre Competitions</a></li>
 						<!--<li style="padding-top: 8px; padding-bottom: 6px"><a href="#" onclick=getNewPage('Default.aspx');>Gallery</a></li>  -->   
 					</ul>
 				</li>
@@ -419,17 +428,17 @@
 			</div>
 		</div>
 
-		<div id="FooterCopyright"><br><br> <br>941 Orange Ave. Suite 444. Coronado, CA 92118 * Tel: +1 888-710-1007 * Fax: +1 619-330-0629 * eMail: Info@GlobalEntertainmentAndMedia.com <br> <br> Copyright © 
+		<div id="FooterCopyright"><br><br> <br>941 Orange Ave. Suite 444. Coronado, CA 92118 * Tel: +1 888-710-1007 * Fax: +1 619-330-0629 * eMail: Info@GlobalEntertainmentAndMedia.com <br> <br> Copyright &#169; 
 			<script type="text/javascript">
 				var d = new Date();
 				var yr = d.getFullYear(); 
 				document.write("" + yr + "");
 			</script> 
 			<a href="http://www.globalentertainmentandmedia.com/" target="_blank" onmouseout="return SetStatusbar('');" onmouseover="return SetStatusbar('Global Entertainment & Media, Ltd. All rights reserved.');">Global Entertainment & Media, Ltd.</a> 
-			All rights reserved.&nbsp;•&nbsp;
-			<a href="#" onmouseout="return SetStatusbar('');" onmouseover="return SetStatusbar('');">PRIVACY POLICY</a>&nbsp;•&nbsp;
-			<a href="#" onmouseout="return SetStatusbar('');" onmouseover="return SetStatusbar('');">TERMS OF USE</a>&nbsp;•&nbsp;
-			<a href="#" target="_blank" onmouseout="return SetStatusbar('');" onmouseover="return SetStatusbar('');">BECOME AN AFFILIATE</a>
+			All rights reserved.
+			<a href="#" onmouseout="return SetStatusbar('');" onmouseover="return SetStatusbar('');"> PRIVACY POLICY </a>&#8226;
+			<a href="#" onmouseout="return SetStatusbar('');" onmouseover="return SetStatusbar('');"> TERMS OF USE </a>&#8226;
+			<a href="#" target="_blank" onmouseout="return SetStatusbar('');" onmouseover="return SetStatusbar('');"> BECOME AN AFFILIATE </a>
 			</br>
 		</div>
 	</div>
