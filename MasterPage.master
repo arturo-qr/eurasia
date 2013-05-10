@@ -4,12 +4,12 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head runat="server">
-		<link rel="shortcut icon" href="images/eurasia_icon.png">
-		<meta name="description" content="EURASIA is ultimate experience. Make your investment reservations at the home of the famous dancing fountains, award-winning casino, fine art gallery, magnificent pools, and luxury shopping opportunities.">
+		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<meta name="description" content="EURASIA is ultimate experience. Make your investment reservations at the home of the famous dancing fountains, award-winning casino, fine art gallery, magnificent pools, and luxury shopping opportunities."/>
 		<!-- JS --><script type="text/javascript" src="js/commoncode.js"></script>
 		<script type="text/javascript" src="js/jquery-1.js"></script>
 		<!-- JS --><script type="text/javascript" src="js/jquery_004.js"></script> 
-
 		<script type="text/javascript" src="js/jquery.js"></script>
 
 		<!-- TEST DELETE IF NECESARY-->
@@ -151,7 +151,7 @@
 		var f_curFinishFunction2 = function(response) {
 			//jQuery('#flashvideo').fadeIn('slow');
 			var Details22 = document.getElementById('HomeGallery');
-			Details22.innerHTML = getXMLNodeValue2(response, ('div id="HomeGallery"'), ('div>'));     		
+			Details22.innerHTML = getXMLNodeValue2(response, ('div id="DetailCopy"'), ('div'));     		
 			document.title = getXMLNodeValue(response, ('title'));
 		}
 		
