@@ -1,7 +1,6 @@
 ﻿<%@ Page Title="Eurasia Las Vegas" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-    <title>Eurasia</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
@@ -22,7 +21,7 @@
 					<param name="wmode" value="transparent" />
 					<param name="scale" value="tofit" />
 					<param name="allowFullScreen" value="true" />
-					<param name="flashvars" value="autoplay=true&amp;v=media/EURASIA_Pictures.flv|media/Action_Sports_Mall_Mexico_City.flv&amp;img=Untitled-6.png&amp;repeat=true&amp;btnIcon=#6CFF00&amp;playIcon=#6CFF00&amp;controlsBgAlpha=0.7" />
+					<param name="flashvars" value="autoplay=true&amp;v=media/eurasia_video_final.mp4&amp;img=Untitled-6.png&amp;repeat=true&amp;btnIcon=#6CFF00&amp;playIcon=#6CFF00&amp;controlsBgAlpha=0.9&amp;bgGradient1=#000000&amp;bgGradient2=#101010" />
 					<param name="menu" value="true" />
 					<param name="devicefont" value="false" />
 					<param name="salign" value="" />
@@ -34,7 +33,7 @@
 						<param name="play" value="true" />
 						<param name="loop" value="true" />
 						<param name="allowFullScreen" value="true" />
-						<param name="flashvars" value="autoplay=true&amp;v=media/EURASIA_Pictures.flv|media/Action_Sports_Mall_Mexico_City.flv&amp;img=Untitled-6.png&amp;repeat=true&amp;btnIcon=#6CFF00&amp;playIcon=#6CFF00&amp;controlsBgAlpha=0.7" />
+						<param name="flashvars" value="autoplay=true&amp;v=media/eurasia_video_final.mp4&amp;img=Untitled-6.png&amp;repeat=true&amp;btnIcon=#6CFF00&amp;playIcon=#6CFF00&amp;controlsBgAlpha=0.9&amp;bgGradient1=#000000&amp;bgGradient2=#101010" />
 						<param name="wmode" value="transparent" />
 						<param name="scale" value="tofit" />
 						<param name="menu" value="true" />
@@ -68,23 +67,26 @@
 							EURASIA 
 						</span>
 						<br/><br />
-						On May 17, 2013 at 12 PM in Las Vegas will start the 45 Hour Fundraiser with 15 three hour Cirque Style Production with sports competition events. This fundraiser will continue for another 80 hours during the ICSC RECon Convention in Las Vegas, where the Global Financial Trust, Ltd., the parent company of EURASIA and N e u r o m a m a .com is an Exhibitor and there to lease the World Largest Shopping Mall in EURASIA Resort and sell advertising on N e u r o m a m a .com Search Engine.
+						In June 2013 the 144 Hour Live Entertainment Marathon will start. During this 144 hours of Live Entertainment from around the world, many hours of educational and other popular content will be presented. This fundraiser will be broadcasted on NeuroMama.com for 144 hours.
 						<br/><br />
-						This Fundraising event will take place in 15 cities in 12 countries on 5 continents. This unprecedented fundraising event will mark the launch of this project. This fundraiser will be streamed live on N e u r o m a m a .com and EurasiaLasVegas.com. This event will bring awareness to the light sentences given to drug dealers distributing drugs to children and help needy children. This event will bring awareness to global warming and will start the war against destroyers of our Planet. This fundraising event will help families of victims of 9/11 terrorist attack on World Trade Center. This Global FUNDRAISING Event is Researched, Designed, Developed and Implemented by N e u r o m a m a .com and EURASIA Hotel Casino Resort in Las Vegas. 
+						After the initial rollout on NeuroMama, the fundraiser will continue on Amnystia.com.
 						<br/><br />
-						Andre Agassi will be asked to take charge of thisfundraising marathon: N e u r o m a m a .com will be issuing various Gift Certificates to donors, depending upon their contribution.
+						Amnistya.com will operate as an online channel specifically designed for promotion of projects, ideas, causes and anything else that may have interest of large audiences.	
 						<br/><br />
+						However, the most important goal is to support N e u r o M a m a.com charitable and philosophical initiatives.
+						<br/><br />
+						This unprecedented fundraising event will mark the launch of this project. This fundraiser will be streamed live on N e u r o m a m a .com. This event will bring awareness to the light sentences given to drug dealers distributing drugs to children and help needy children. This event will bring awareness to global warming and will start the war against destroyers of our Planet. This Global FUNDRAISING Event is Researched, Designed, Developed and Implemented by N e u r o m a m a .com and EURASIA Hotel Casino Resort in Las Vegas.
+						<br /><br />
 						<ul class="overview-list">
-							<li>March 10, 2013 PR campaign for the Fundraiser around the world will start.</li>
-							<li>On March 10, 2013 N e u r o m a m a .com will go live as Beta-Test Version.</li>
-							<li>May 15, 2013 N e u r o m a m a .com and EURASIA common stock is going to start trading on one of the US Stock Exchanges.</li>
-							<li>May 15th Launch of English, Spanish and Russian Languages of N e u r o m a m a .com Search Engine with (FSR) Frequent Searcher Reward and E-Mail Service.</li>
-							<li>May 19 ICSC - Real Estate Convention in Las Vegas to Lease EURASIA Shopping Mall and sign advertising agreements with N e u r o m a m a .com.</li>
-							<li>Gorilla Marketing Strategy - World Wide 45 hour EURASIA and N e u r o m a m a .com Campaign in 15 cities and 12 countries with Live Streaming of Cirque Style Productions, Local Politicians, Businessman and Rhythmic Gymnasts to raise $1 billion dollars for needy children and to fund the war against Legal system which is not protecting the youth from drug dealers, and environment from destroyers.</li>
+							<li>May 20 ICSC - Real Estate Convention in Las Vegas to Lease EURASIA Shopping Mall and sign advertising agreements with N e u r o m a m a .com.</li>
+							<li>May 22, 2013 PR campaign for the Fundraiser around the world will start.</li>
+							<li>May 22, 2013 N e u r o m a m a .com common stock is going to start trading on one of the US Stock Exchanges.</li>
+							<li>May 22 Launch of English, Spanish and Russian Languages of N e u r o m a m a .com Search Engine with (FSR) Frequent Searcher Reward and E-Mail Service.</li>
 							<li>Viral Marketing with short funny videos about people receiving rewards for using N e u r o m a m a .com Search Engine.</li>
-							<li>N e u r o m a m a .comand EURASIA will be LAUNCHED with 20 hours of monthly TV commercials on TV, Cable and Satellite Networks throughout Latin America in JOINT MARKETING STRATEGY WITH PLANET X This Partnership will provide numerous advertising and other branded content opportunities on other TV Channels viewed by hundreds millions people on TV, Cable and Satellite Networks in Latin America.</li>
-							<li>Product Placements with Branded Content of N e u r o m a m a .com and EURASIA's on <strong><u>PLANET X TV</strong></u>, MTV, CNN, FOX and many other TV, Cable and Satellite Networks, which are promoting PLANET X in Latin America.</li>
+							<li>N e u r o m a m a .com and EURASIA will be LAUNCHED with 20 hours of monthly TV commercials on TV, Cable and Satellite Networks throughout Latin America in JOINT MARKETING STRATEGY WITH PLANET X This Partnership will provide numerous advertising and other branded content opportunities on other TV Channels viewed by hundreds millions people on TV, Cable and Satellite Networks in Latin America.</li>
+							<li>Product Placements with Branded Content of N e u r o m a m a .com and EURASIA's on <strong>PLANET X TV, MTV, CNN, FOX</strong> and many other TV, Cable and Satellite Networks, which are promoting PLANET X in Latin America.</li>
 							<li>FSR - Frequent Searcher Rewards for N e u r o m a m a .com users which includes:</li>
+							<br />
 							<ul class="overview-list-deep">
 								<li>Gift Certificates for $300 to $400I-PAD type tablets, TV's, Phones, Computers, Printers, and other in demand products.</li>
 								<li>Variety of 3 to 14 days free stays in any of the EURASIA's Hotel Casinos, such as rooms, sweets, 1 to 4 bedrooms condos, and 2 to 10 bedrooms Renaissance Villas.</li>
@@ -112,11 +114,11 @@
 			</div>
 			<div class="HomePageRule"></div>
 			<!-- Twitter Feed -->
-			<div id="TwitterFeedContainer"><img src="images/btn-Twitter-on.jpg">
+			<!--div id="TwitterFeedContainer"><img src="images/btn-Twitter-on.jpg">
 				<span id="lblDisplayTweet_LblTweet"> 
 					<p>#FF #GlobalLtd @MarginInvestors @PennyStock @AcesOfACTS </p>
 				</span>
-			</div>
+			</div-->
 			<!-- /Twitter Feed -->	
 			<div class="HomePageRule"><img src="images/spacer_002.gif" height="1" width="470"></div>
 			<!-- Facebook Feed -->

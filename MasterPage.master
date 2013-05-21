@@ -4,13 +4,14 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head runat="server">
-		<link rel="shortcut icon" href="images/favicon.ico">
-		<meta name="description" content="EURASIA is ultimate experience. Make your investment reservations at the home of the famous dancing fountains, award-winning casino, fine art gallery, magnificent pools, and luxury shopping opportunities."/>
+		<link runat="server" rel="shortcut icon" href="~/images/favicon.ico" type="image/x-icon" />
+		<link runat="server" rel="icon" href="~/images/favicon.ico" type="image/ico" />
+		<meta runtat="server" name="description" content="EURASIA is ultimate experience. Make your investment reservations at the home of the famous dancing fountains, award-winning casino, fine art gallery, magnificent pools, and luxury shopping opportunities."/>
 		<!-- JS --><script type="text/javascript" src="js/commoncode.js"></script>
 		<script type="text/javascript" src="js/jquery-1.js"></script>
 		<!-- JS --><script type="text/javascript" src="js/jquery_004.js"></script> 
 		<script type="text/javascript" src="js/jquery.js"></script>
-
+		<title>LBK Construction (Contact Details)</title>
 		<!-- TEST DELETE IF NECESARY-->
 
 		<script type="text/javascript" src="js/base.js"></script>
@@ -24,7 +25,6 @@
 		<link rel="stylesheet" href="style.css" />
 		<script type="text/javascript" src="tinybox.js"></script>
 		<!--End of block of pdftesting-->
-		<title>Eurasia</title>
 		<asp:ContentPlaceHolder id="head" runat="server">
 		</asp:ContentPlaceHolder>
 	</head>
@@ -413,34 +413,36 @@
 
 <div id="FooterContainer">
 	<div id="Footer">
-		<div id="FooterTools">
+		<!--div id="FooterTools">
         	<ul>
 				<li><a href="http://www.globalentertainmentandmedia.com/News.aspx" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('pressroom','','images/footer/press-room-on.gif',1)"><img src="images/footer/press-room-off.gif" alt="Press Room" name="pressroom" id="pressroom" border="0" height="15" width="87"></a></li>
 				<li><a href="http://tvimama.net/Global_and_Aces_of_Acts.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sitemap','','images/footer/Site-Map-on.gif',0)"><img src="images/footer/Site-Map-off.gif" alt="Site Map" name="sitemap" id="sitemap" border="0" height="15" width="69"></a></li>
 				
         	</ul>
-		</div>
-
-		<!-- Property Links -->
-		<div id="PropertyLinks">
-			<div style="width: 150px; height:24px; position:relative;">
-				<div id="CorporateContainer">
-					<div id="CorporateInner">
-						<a href="http://www.acesofacts.com/" target="_blank">Aces of Acts</a><br>
-						<a href="http://www.circuscircus.com/" target="_blank">Circus Circus</a><br>
-						<a href="http://www.alternatv.com.mx/index.php?art_id=173&categ=183" target="_blank">AlternaTV</a><br>
-						<a href="http://www.globalentertainmentandmedia.com/" target="_blank">Global</a><br>
-			
+		</div-->
+		<div id="floatright">
+			<!-- Property Links -->
+			<div id="PropertyLinks" >
+				<div style="width: 150px; height:24px; position:relative;">
+					<div id="CorporateContainer">
+						<div id="CorporateInner">
+							<a href="http://www.acesofacts.com/" target="_blank">Aces of Acts</a><br>
+							<a href="http://www.circuscircus.com/" target="_blank">Circus Circus</a><br>
+							<a href="http://www.alternatv.com.mx/index.php?art_id=173&categ=183" target="_blank">AlternaTV</a><br>
+							<a href="http://www.globalentertainmentandmedia.com/" target="_blank">Global</a><br>
+				
+						</div>
+						<div id="CorporateButton">
+							<img src="images/footer/btn-corporate-links-off.jpg" alt="Corporate Links" name="corporatebtn" id="corporatebtn" class="img-swap" border="0" height="24" width="150">
+						</div>		
 					</div>
 					<div id="CorporateButton">
 						<a href="#">
 							<img src="images/footer/btn-corporate-links-off.jpg" alt="1" name="corporatebtn" id="corporatebtn" class="img-swap" onmouseover="this.src='images/footer/btn-corporate-links-on.jpg'" onmouseout="this.src='images/footer/btn-corporate-links-off.jpg'"border="0" height="24" width="150">
 						</a>
 					</div>		
-				
 				</div>
-			</div>
-			<div style="width: 150px; height:24px; position:relative;">
+				<div style="width: 150px; height:24px; position:relative;">
 				<div id="CorporateContainer">
 					<div id="CorporateInner1">
 						<a href="#" target="_blank">VIDEO 1</a><br>
@@ -455,22 +457,23 @@
 					</div>		
 				</div>
 			</div>
-		</div>
+			</div>
+			
 
-		<div id="FooterTools2">
-			<div id="FooterSocial"><img src="images/Follow-Us.gif" alt="Follow Us:" height="16" width="55">
-				<a href="http://twitter.com/GlobalLtd" target="_blank" onmouseover="MM_swapImage('twitter','','images/footer/btn-Twitter-on.jpg',1)" onmouseout="MM_swapImgRestore()">
-					<img src="images/footer/btn-Twitter-off.jpg" alt="Twitter" name="twitter" id="twitter" border="0" height="16" width="17">
-				</a>
-				<a href="http://www.facebook.com/pages/Global-Entertainment-Media-LTD/140161319418555?sk=info" target="_blank" onmouseover="MM_swapImage('facebook','','images/footer/btn-Facebook-on.jpg',1)" onmouseout="MM_swapImgRestore()">
-					<img src="images/footer/btn-Facebook-off.jpg" alt="Facebook" name="facebook" id="facebook" border="0" height="16" width="17">
-				</a>
-				<a href="http://www.youtube.com/Globalltd" target="_blank" onmouseover="MM_swapImage('youtube','','images/footer/btn-YouTube-on.jpg',1)" onmouseout="MM_swapImgRestore()">
-					<img src="images/footer/btn-YouTube-off.jpg" alt="YouTube" name="youtube" id="youtube" border="0" height="16" width="17">
-				</a>
+			<div id="FooterTools2">
+				<div id="FooterSocial"><img src="images/Follow-Us.gif" alt="Follow Us:" height="16" width="55">
+					<a href="http://twitter.com/GlobalLtd" target="_blank" onmouseover="MM_swapImage('twitter','','images/footer/btn-Twitter-on.jpg',1)" onmouseout="MM_swapImgRestore()">
+						<img src="images/footer/btn-Twitter-off.jpg" alt="Twitter" name="twitter" id="twitter" border="0" height="16" width="17">
+					</a>
+					<a href="http://www.facebook.com/pages/Global-Entertainment-Media-LTD/140161319418555?sk=info" target="_blank" onmouseover="MM_swapImage('facebook','','images/footer/btn-Facebook-on.jpg',1)" onmouseout="MM_swapImgRestore()">
+						<img src="images/footer/btn-Facebook-off.jpg" alt="Facebook" name="facebook" id="facebook" border="0" height="16" width="17">
+					</a>
+					<a href="http://www.youtube.com/Globalltd" target="_blank" onmouseover="MM_swapImage('youtube','','images/footer/btn-YouTube-on.jpg',1)" onmouseout="MM_swapImgRestore()">
+						<img src="images/footer/btn-YouTube-off.jpg" alt="YouTube" name="youtube" id="youtube" border="0" height="16" width="17">
+					</a>
+				</div>
 			</div>
 		</div>
-
 		<div id="FooterCopyright"><br><br> <br>941 Orange Ave. Suite 444. Coronado, CA 92118 * Tel: +1 888-710-1007 * Fax: +1 619-330-0629 * eMail: Info@GlobalEntertainmentAndMedia.com <br> <br> Copyright &#169; 
 			<script type="text/javascript">
 				var d = new Date();
