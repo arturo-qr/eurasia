@@ -433,12 +433,16 @@
 				
 						</div>
 						<div id="CorporateButton">
-							<img src="images/footer/btn-corporate-links-off.jpg" alt="Corporate Links" name="corporatebtn" id="corporatebtn" class="img-swap"onmouseover="this.src='images/footer/btn-corporate-links-on1.jpg'" onmouseout="this.src='images/footer/btn-corporate-links-off.jpg'" border="0" height="24" width="150">
+							<a href="#">
+							<img src="images/footer/btn-corporate-links-off.jpg" alt="Corporate Links" name="corporatebtn" id="corporatebtn" class="img-swap"onmouseover="this.src='images/footer/btn-corporate-links-on1.jpg'" onmouseout="this.src='images/footer/btn-corporate-links-off.jpg'" border="0" height="24" width="150"></a>
 						</div>		
 					</div>	
 				</div>
+				
+			</div>
+			<div id="PropertyLinks1" >
 				<div style="width: 150px; height:24px; position:relative;">
-					<div id="CorporateContainer">
+					<div id="CorporateContainer1">
 						<div id="CorporateInner1">
 							<a href="#" target="_blank">VIDEO 1</a><br>
 							<a href="#" target="_blank">VIDEO 2</a><br>
@@ -453,8 +457,6 @@
 					</div>
 				</div>
 			</div>
-			
-
 			<div id="FooterTools2">
 				<div id="FooterSocial"><img src="images/Follow-Us.gif" alt="Follow Us:" height="16" width="55">
 					<a href="http://twitter.com/GlobalLtd" target="_blank" onmouseover="MM_swapImage('twitter','','images/footer/btn-Twitter-on.jpg',1)" onmouseout="MM_swapImgRestore()">
@@ -469,18 +471,7 @@
 				</div>
 			</div>
 		</div>
-		<div id="FooterCopyright"><br><br> <br>941 Orange Ave. Suite 444. Coronado, CA 92118 * Tel: +1 888-710-1007 * Fax: +1 619-330-0629 * eMail: Info@GlobalEntertainmentAndMedia.com <br> <br> Copyright &#169; 
-			<script type="text/javascript">
-				var d = new Date();
-				var yr = d.getFullYear(); 
-				document.write("" + yr + "");
-			</script> 
-			<a href="http://www.globalentertainmentandmedia.com/" target="_blank" onmouseout="return SetStatusbar('');" onmouseover="return SetStatusbar('Global Entertainment & Media, Ltd. All rights reserved.');">Global Entertainment & Media, Ltd.</a> 
-			All rights reserved.
-			<a href="#" onmouseout="return SetStatusbar('');" onmouseover="return SetStatusbar('');"> PRIVACY POLICY </a>&#8226;
-			<a href="#" onmouseout="return SetStatusbar('');" onmouseover="return SetStatusbar('');"> TERMS OF USE </a>&#8226;
-			<a href="#" target="_blank" onmouseout="return SetStatusbar('');" onmouseover="return SetStatusbar('');"> BECOME AN AFFILIATE </a>
-			</br>
+		<div id="FooterCopyright"><br><br> <br><h2 style="text-align:right; margin-right:180px;">Novosibirsk, 182/1 Krasny Prospekt, 7th floor, 630049, Russia</h2>
 		</div>
 	</div>
 </div>

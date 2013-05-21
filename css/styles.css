@@ -131,6 +131,14 @@ div#flashvideo2{
 	position: absolute;
 	width: 150px ;
 }
+#CorporateContainer1 {
+	background-color: #190D08 ;
+	bottom: 0px;
+	margin: 0px ;
+	left: 0px ;
+	position: absolute;
+	width: 150px ;
+}
 #CorporateInner {
 	background-color: #190D08 ;
 	line-height: 16px;
@@ -854,7 +862,7 @@ div#FooterContainer{ clear: both; width: 100%;}
 div#Footer{ width: 980px; height: 220px; margin: 0 auto; padding-top: 28px;}
 div#FooterTest{  }
 
-div#floatright{position:relative; float:right; margin-right:120px; margin-top:20px;}
+div#floatright{margin-left: 50px; position:relative; float:right; margin-right:50px; margin-top:20px;}
 #FooterTools { font: normal 11px/12px Arial, Helvetica, sans-serif; color: #C5A88D; text-transform: uppercase; text-align: center; }
 
 #FooterTools ul { margin: 0px; padding: 0px; }
@@ -863,7 +871,7 @@ div#floatright{position:relative; float:right; margin-right:120px; margin-top:20
 #FooterTools a:hover{ text-decoration: none; color: #FFFFFF; }
 #FooterTools .no-border { border-right-style: none; }
 
-#FooterTools2{ width: 153px; padding: 12px 0px 0px 0px; float: left; }
+#FooterTools2{ width: 153px; padding: 3px 0px 0px 0px; float: left; }
 /* #FooterCorporateDrop{ float: left; width: 150px; margin: 0px 20px 0px 0px; } */
 /* #FooterLanguageDrop{ float: left; width: 150px; margin: 0px 20px 0px 0px; } */
 #FooterSocial{ float: left;  width: 153px; padding: 0px 0px 0px 0px; }
@@ -874,9 +882,13 @@ div#floatright{position:relative; float:right; margin-right:120px; margin-top:20
 #FooterCopyright a{ text-decoration: none; color: #C5A88D; }
 #FooterCopyright a:hover{ text-decoration: none; color: #FFFFFF; }
 
-#PropertyLinks{ font: normal 9px/12px Arial, Helvetica, sans-serif; color: #C5A88D; text-transform: uppercase; padding: 10px 0px 0px 245px; margin: 0px 20px 0px 0px; float: left; }
+#PropertyLinks{ font: normal 9px/12px Arial, Helvetica, sans-serif; color: #C5A88D; text-transform: uppercase; float: left; }
 #PropertyLinks a{ text-decoration: none; color: #C5A88D; }
 #PropertyLinks a:hover{ text-decoration: none; color: #FFFFFF; }
+
+#PropertyLinks1{ margin-left: 10px; margin-right: 10px; font: normal 9px/12px Arial, Helvetica, sans-serif; color: #C5A88D; text-transform: uppercase; float: left;}
+#PropertyLinks1 a{ text-decoration: none; color: #C5A88D; }
+#PropertyLinks1 a:hover{ text-decoration: none; color: #FFFFFF; }
 
 #LanguageLinks{ font: normal 9px/12px Arial, Helvetica, sans-serif; color: #C5A88D; text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; float: left; position:relative; top:10px; left:19%;}
 #LanguageLinks a{ text-decoration: none; color: #C5A88D; }
