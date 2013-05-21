@@ -427,9 +427,9 @@
 					<div id="CorporateContainer">
 						<div id="CorporateInner">
 							<a href="http://www.acesofacts.com/" target="_blank">Aces of Acts</a><br>
-							<a href="http://www.circuscircus.com/" target="_blank">Circus Circus</a><br>
-							<a href="http://www.alternatv.com.mx/index.php?art_id=173&categ=183" target="_blank">AlternaTV</a><br>
-							<a href="http://www.globalentertainmentandmedia.com/" target="_blank">Global</a><br>
+							<a href="http://www.tvimama.com/" target="_blank">TVIMAMA.COM</a><br>
+							<a href="http://www.tvimama.net" target="_blank">TVIMAMA.NET</a><br>
+							<a href="http://www.eurasialasvegas.com/" target="_blank">EURASIA</a><br>
 				
 						</div>
 						<div id="CorporateButton">
@@ -444,7 +444,7 @@
 				<div style="width: 150px; height:24px; position:relative;">
 					<div id="CorporateContainer1">
 						<div id="CorporateInner1">
-							<a class="eurasiapdf" href="#" onclick="TINY.box.show({url:'media/video1.html',width:720,height:480})">VIDEO 1</a><br>
+							<a href="#" onclick="TINY.box.show({url:'media/video1.html',width:720,height:480})">VIDEO 1</a><br>
 							<a href="#" onclick="TINY.box.show({url:'media/video1.html',width:720,height:480})">VIDEO 2</a><br>
 							<a href="#" onclick="TINY.box.show({url:'media/video1.html',width:720,height:480})">VIDEO 3</a><br>
 							<a href="#" onclick="TINY.box.show({url:'media/video1.html',width:720,height:480})">VIDEO 4</a><br>
