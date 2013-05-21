@@ -843,9 +843,10 @@ div#RightDetailsContent2 li{
 	background: url(../images/footer/Footer-Background.jpg) no-repeat; background-position: center 10px;  
 ***************************************************************/
 div#FooterContainer{ clear: both; width: 100%;}
-div#Footer{ width: 980px; height: 220px; margin: 0 auto; padding-top: 28px; }
+div#Footer{ width: 980px; height: 220px; margin: 0 auto; padding-top: 28px;}
 div#FooterTest{  }
 
+div#floatright{position:relative; float:right; margin-right:120px; margin-top:20px;}
 #FooterTools { font: normal 11px/12px Arial, Helvetica, sans-serif; color: #C5A88D; text-transform: uppercase; text-align: center; }
 
 #FooterTools ul { margin: 0px; padding: 0px; }
