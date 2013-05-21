@@ -361,6 +361,31 @@
 			);
 		});
 	</script>
+	<!-- VIDEO LINKS SCRIP-->
+	<script type="text/javascript">
+		// When the DOM is ready, initialize the scripts.
+		jQuery(function($) {
+			// Get a reference to the container.
+			var CorporateInner = $("#CorporateInner1");
+			// Bind the link to toggle the slide.
+			$("#CorporateButton1").click(
+				function(event) {
+					// Prevent the default event.
+					event.preventDefault();
+					// Toggle the slide based on its current
+					// visibility.
+					if (CorporateInner.is(":visible")) {
+						// Hide - slide up.
+						CorporateInner.slideUp(500);
+					} else {
+						// Show - slide down.
+						CorporateInner.slideDown(500);
+					}
+				}
+			);
+		});
+	</script>
+
 	<!-- Language Script -->
 	<script type="text/javascript">
 		// When the DOM is ready, initialize the scripts.
@@ -408,7 +433,25 @@
 			
 					</div>
 					<div id="CorporateButton">
-						<img src="images/footer/btn-corporate-links-off.jpg" alt="Corporate Links" name="corporatebtn" id="corporatebtn" class="img-swap" border="0" height="24" width="150">
+						<a href="#">
+							<img src="images/footer/btn-corporate-links-off.jpg" alt="1" name="corporatebtn" id="corporatebtn" class="img-swap" onmouseover="this.src='images/footer/btn-corporate-links-on.jpg'" onmouseout="this.src='images/footer/btn-corporate-links-off.jpg'"border="0" height="24" width="150">
+						</a>
+					</div>		
+				
+				</div>
+			</div>
+			<div style="width: 150px; height:24px; position:relative;">
+				<div id="CorporateContainer">
+					<div id="CorporateInner1">
+						<a href="#" target="_blank">VIDEO 1</a><br>
+						<a href="#" target="_blank">VIDEO 2</a><br>
+						<a href="#" target="_blank">VIDEO 3</a><br>
+						<a href="#" target="_blank">VIDEO 4</a><br>
+					</div>
+					<div id="CorporateButton1">
+						<a href="#">
+							<img src="images/footer/btn-video-links-off.png" alt="1" name="corporatebtn" id="corporatebtn" class="img-swap" onmouseover="this.src='images/footer/btn-video-links-on.png'" onmouseout="this.src='images/footer/btn-video-links-off.png'"border="0" height="24" width="150">
+						</a>
 					</div>		
 				</div>
 			</div>

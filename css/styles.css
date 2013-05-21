@@ -139,6 +139,14 @@ div#flashvideo2{
 	padding: 6px 0px 6px 10px ;
 	display: none ;
 }
+#CorporateInner1 {
+	background-color: #190D08 ;
+	line-height: 16px;
+	text-align: left;
+	border-bottom-width: 0px ;
+	padding: 6px 0px 6px 10px ;
+	display: none ;
+}
 #LanguageContainer {
 	background-color: #190D08 ;
 	bottom:0px;
