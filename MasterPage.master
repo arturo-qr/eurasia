@@ -322,7 +322,7 @@
 					<ul onmouseover=painttab(9); onmouseout=unpainttab(9);>
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('/tabs/9-amusement/eurasia-world-diamond.aspx');>The Diamond World</a></li>
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('/tabs/9-amusement/eurasia-world-formula.aspx');>The Formula One World</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('/tabs/9-amusement/eurasia-world-nascar.aspx');>The Nascar World</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('/tabs/9-amusement/eurasia-world-exotic-car.aspx');>Exotic Car World</a></li>
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('/tabs/9-amusement/eurasia-world-castles.aspx');>The World of Majestic Castles</a></li>
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('/tabs/9-amusement/eurasia-world-inventions.aspx');>Discovery & Inventions World</a></li>
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('/tabs/9-amusement/eurasia-world-elegance.aspx');>The World of Fashion, Beauty & Elegance</a></li>
