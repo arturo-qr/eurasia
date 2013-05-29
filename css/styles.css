@@ -19,7 +19,7 @@ a:hover{font-family:"Trebuchet MS"; font-size:13px; color:#FFFFFF; text-decorati
 html { overflow-y:auto; }
 
 /* =body */
-body{background: #040c2d url(../images/layout/MainBackground.jpg) top center no-repeat;}
+body{background: #040c2d url(/images/layout/MainBackground.jpg) top center no-repeat;}
 
 /*a{color: #994C33; text-decoration: underline;}
 a:hover{color: #994C33; text-decoration: none;}
@@ -39,7 +39,7 @@ div#HeaderContainer {
 	
 }
 
-div#HeaderContent{ width: 1050px; margin: 0 auto; height: 190px; background: url(../images4/Header-Background.png) top center no-repeat; }
+div#HeaderContent{ width: 1050px; margin: 0 auto; height: 190px; background: url(/images4/Header-Background.png) top center no-repeat; }
 div#Branding{width: 800px; height: 29px; top:3px;float: left; }
 div#SubHeader{padding-left: 100px; float: left; margin-top:10px; height: 20px;}
 /* div#HeaderNavigation{ margin: 31px 0px 0px 20px; width:740px; float: left; } */
@@ -67,7 +67,7 @@ div#HomeGallery{ min-width: 426px; }
 div#HomeGalleryNavigation{ 
 	width: 494px;
 	height: 226px;
-	background: url(../images/EURASIA-framed.png) top left no-repeat;
+	background: url(/images/EURASIA-framed.png) top left no-repeat;
 	margin: 0px 0px 0px 19px;
 	padding: 0px 0px 0px 2px;
 }
@@ -242,7 +242,7 @@ div#MediaWindow{  width: 980px; height: 365px; margin: 0 auto; background: top c
 div#GalleryFull{ min-width: 214px; }
 div#GalleryNavigation{ 
 	height: 72px;
-	background: url(../images/media-gallery/Gallery-Nav-Background.jpg) top left no-repeat;
+	background: url(/images/media-gallery/Gallery-Nav-Background.jpg) top left no-repeat;
 	margin: 0px 0px 9px 0px;
 	padding: 0px 0px 0px 2px;
 }
@@ -317,17 +317,17 @@ a.btnReserveTable:active{color: #E7D9AD !important; text-decoration: none; backg
 
 .asterisk{font-family: Verdana, Arial, Helvetica, sans-serif; font-size:9px; line-height: 12px;}
 
-div#PageContainerOuter{ width: 100%; background: url(../images/layout/MainBackground.jpg) center -488px no-repeat; }
+div#PageContainerOuter{ width: 100%; background: url(/images/layout/MainBackground.jpg) center -488px no-repeat; }
 
 div#PageContainer{position:relative; top:15px; width: 1015px; margin: 0 auto;  }
 
-div#PageContent{ width: 1050px; background: url(../images/layout/MainBackground.jpg) no-repeat;  background-position: center -528px; }
+div#PageContent{ width: 1050px; background: url(/images/layout/MainBackground.jpg) no-repeat;  background-position: center -528px; }
 
 /*************************************
 	Column 1 Styles
 *************************************/
 div#Column1{ width: 200px; float: left;
-	background: url(../images/shared/Side-Navigation-Bbackground.jpg) no-repeat; background-position: center 1px;
+	background: url(/images/shared/Side-Navigation-Bbackground.jpg) no-repeat; background-position: center 1px;
  }
 
 /* =left sub-navigation */
@@ -374,14 +374,14 @@ div#Column1{ width: 200px; float: left;
 	width: 163px;
 	height: 19px;
 	color: #D9D1B6;
-	background: url(../images/shared/spacer.gif) left no-repeat;
+	background: url(/images/shared/spacer.gif) left no-repeat;
 	font: normal 10px/20px Verdana, Arial, Helvetica, sans-serif;
 	text-transform: capitalize;
 	padding: 0px 0px 2px 10px;
 	}
 a.ActionItems:link {color: #D9D1B6; text-decoration: none;} 
 a.ActionItems:visited {color: #D9D1B6; text-decoration: none;}  
-a.ActionItems:hover {color: #EDE3C4; text-decoration: none; background-image: url(../images/shared/SubNavigationBckgrnd.jpg);} 
+a.ActionItems:hover {color: #EDE3C4; text-decoration: none; background-image: url(/images/shared/SubNavigationBckgrnd.jpg);} 
 a.ActionItems:active {color: #EDE3C4; text-decoration: none;}
 
 
@@ -389,8 +389,8 @@ a.ActionItems:active {color: #EDE3C4; text-decoration: none;}
 /*************************************
 	Column 2 Styles
 *************************************/
-div#Column2{ width: 778px; float: left; background: url(../images/layout/Content-Inside-Background.jpg) no-repeat; background-position: center 1px; padding: 0px 0px 0px 2px; }
-div#Column2NoGallery{ width: 778px; float: left; background: url(../images/layout/Content-Inside-Background-No-Gallery.jpg) no-repeat; background-position: center 1px; padding: 0px 0px 0px 2px; }
+div#Column2{ width: 778px; float: left; background: url(/images/layout/Content-Inside-Background.jpg) no-repeat; background-position: center 1px; padding: 0px 0px 0px 2px; }
+div#Column2NoGallery{ width: 778px; float: left; background: url(/images/layout/Content-Inside-Background-No-Gallery.jpg) no-repeat; background-position: center 1px; padding: 0px 0px 0px 2px; }
 
 /* =Bread Crumb Styles*/
 div#BreadCrumbs{ clear: both; font: 10px/12px Verdana, Arial, Helvetica, sans-serif; color: #C5A88D; padding: 7px 0px 6px 17px; }
@@ -421,7 +421,7 @@ div#FullContent ul li{
 	list-style-type: none;
 	background-position: left 5px;
 	background-repeat: no-repeat;
-	background-image: url(../images/shared/bullet.gif);
+	background-image: url(/images/shared/bullet.gif);
 	color: #69563E;
 	font: normal 12px/14px Arial, Helvetica, sans-serif;
 	margin: 0px 20px 0px 20px;
@@ -444,7 +444,7 @@ div#FullContent2 ul li{
 	list-style-type: none;
 	background-position: left 5px;
 	background-repeat: no-repeat;
-	background-image: url(../images/shared/bullet.gif);
+	background-image: url(/images/shared/bullet.gif);
 	color: #69563E;
 	font: normal 12px/14px Arial, Helvetica, sans-serif;
 	margin: 0px 20px 0px 20px;
@@ -699,7 +699,7 @@ a.ProductPodHeaderLink:active {color: #904C39; text-decoration: underline;}
 	list-style-type: none;
 	background-position: left 5px;
 	background-repeat: no-repeat;
-	background-image: url(../images/shared/bullet.gif);
+	background-image: url(/images/shared/bullet.gif);
 	font-family: Arial, Helvetica, sans-serif; 
 	font-size: 10px; line-height: 14px;
 	margin: 0px 0px 0px 4px;
@@ -747,7 +747,7 @@ div#LeftContent ul li{
 	list-style-type: none;
 	background-position: left 5px;
 	background-repeat: no-repeat;
-	background-image: url(../images/shared/bullet.gif);
+	background-image: url(/images/shared/bullet.gif);
 	color: #69563E;
 	font: normal 12px/14px Arial, Helvetica, sans-serif;
 	margin: 0px 20px 0px 20px;
@@ -764,7 +764,7 @@ div#LeftContent2 ul li{
 	list-style-type: none;
 	background-position: left 5px;
 	background-repeat: no-repeat;
-	background-image: url(../images/shared/bullet.gif);
+	background-image: url(/images/shared/bullet.gif);
 	color: #69563E;
 	font: normal 12px/14px Arial, Helvetica, sans-serif;
 	margin: 0px 20px 0px 20px;
@@ -777,8 +777,8 @@ div#ContentToggle img{ margin: 16px 0px 0px 0px; }
 div#ContentToggle a:hover{color: #994C33; text-decoration: none;}*/
 
 /* =Right Details */
-div#RightContent{ width: 254px; min-height: 520px; float: right; background: url(../images/shared/details/Detail-Room-Reservation-Background.jpg) top left no-repeat; }
-div#RightContent2{ width: 254px; min-height: 520px; float: right; background: url(../images/shared/details/Detail-Blank-Background.jpg) top left no-repeat; }
+div#RightContent{ width: 254px; min-height: 520px; float: right; background: url(/images/shared/details/Detail-Room-Reservation-Background.jpg) top left no-repeat; }
+div#RightContent2{ width: 254px; min-height: 520px; float: right; background: url(/images/shared/details/Detail-Blank-Background.jpg) top left no-repeat; }
 div#RightContent3{ width: 254px; float: right; }
 
 #ReservationGUIContainer{ padding: 52px 16px 0px 15px; }
@@ -911,7 +911,7 @@ div#floatright{margin-left: 50px; position:relative; float:right; margin-right:5
 	/*padding-left: 14px;*/
 	padding-right: 14px;
 	display: inline;
-	background-image: url(../images/shared/btnToggleUp.gif);
+	background-image: url(/images/shared/btnToggleUp.gif);
 	background-repeat: no-repeat;
 	background-position: center right;
 }
@@ -924,7 +924,7 @@ div#floatright{margin-left: 50px; position:relative; float:right; margin-right:5
 	padding-right: 14px;
 	float: left;
 	display: inline;
-	background-image: url(../images/shared/btnToggleUp.gif);
+	background-image: url(/images/shared/btnToggleUp.gif);
 	background-repeat: no-repeat;
 	background-position: center left;
 }
@@ -944,7 +944,7 @@ div#floatright{margin-left: 50px; position:relative; float:right; margin-right:5
 	/*padding-left: 10px;*/
 	padding-right: 10px;
 	display: inline;
-	background-image: url(../images/shared/btnToggleUp.gif);
+	background-image: url(/images/shared/btnToggleUp.gif);
 	background-repeat: no-repeat;
 	background-position: center right;
 }

@@ -7,177 +7,187 @@
 		<link runat="server" rel="shortcut icon" href="~/images/favicon.ico" type="image/x-icon" />
 		<link runat="server" rel="icon" href="~/images/favicon.ico" type="image/ico" />
 		<meta runtat="server" name="description" content="EURASIA is ultimate experience. Make your investment reservations at the home of the famous dancing fountains, award-winning casino, fine art gallery, magnificent pools, and luxury shopping opportunities."/>
-		<!-- JS --><script type="text/javascript" src="js/commoncode.js"></script>
-		<script type="text/javascript" src="js/jquery-1.js"></script>
-		<!-- JS --><script type="text/javascript" src="js/jquery_004.js"></script> 
-		<script type="text/javascript" src="js/jquery.js"></script>
+		<!-- JS --><script type="text/javascript" src="/js/commoncode.js"></script>
+		<script type="text/javascript" src="/js/jquery-1.js"></script>
+		<!-- JS --><script type="text/javascript" src="/js/jquery_004.js"></script> 
+		<script type="text/javascript" src="/js/jquery.js"></script>
 
 		<!-- TEST DELETE IF NECESARY-->
 
-		<script type="text/javascript" src="js/base.js"></script>
+		<script type="text/javascript" src="/js/base.js"></script>
 
-		<script src="AC_RunActiveContent.js" language="javascript"></script>
+		<script src="/AC_RunActiveContent.js" language="javascript"></script>
 		<!-- CSS -->
-		<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
-		<link href="css/nav-book-gui.css" rel="stylesheet" type="text/css" media="screen">
+		<link href="/css/styles.css" rel="stylesheet" type="text/css" media="screen">
+		<link href="/css/nav-book-gui.css" rel="stylesheet" type="text/css" media="screen">
 		<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
 		<!-- TESTING PDFVIEWER-->
-		<link rel="stylesheet" href="style.css" />
-		<script type="text/javascript" src="tinybox.js"></script>
+		<link rel="stylesheet" href="/style.css" />
+		<script type="text/javascript" src="/tinybox.js"></script>
+
+		<!-- Scripts -->
+		<script type="text/javascript">
+			
+			/*To put ON state on the selected tab when the tab or the subtabs are active*/
+			function painttab(tab){
+				switch(tab){
+					//Tab 1 EURASIA OVERVIEW AND PHILOSOPHY
+					case 1: $("a.btn-euover").css("background-image","url('/images4/on/1.png')"); break;
+					//Tab 2 ISSUES AND OPPORTUNITIES
+					case 2: $("a.btn-isop").css("background-image","url('/images4/on/2.png')"); break;
+					//Tab 3 EURASIA BETTER IDEAS
+					case 3: $("a.btn-euideas").css("background-image","url('/images4/on/3.png')"); break;
+					//Tab 4 THE PEOPLE AND RESOURCES
+					case 4: $("a.btn-people").css("background-image","url('/images4/on/4.png')"); break;
+					//Tab 5 IMAGINE EURASIA
+					case 5: $("a.btn-imagine").css("background-image","url('/images4/on/5.png')"); break;
+					//Tab 6 MARKETING STRATEGIES
+					case 6: $("a.btn-marketing").css("background-image","url('/images4/on/6.png')"); break;
+					//Tab 7 TV/MOVIE STUDIOS AND LIVE ENTERTAINMENT
+					case 7: $("a.btn-livent").css("background-image","url('/images4/on/7.png')"); break;
+					//Tab 8 EURASIA DEVELOPMENT & RESOURCES
+					case 8: $("a.btn-develop").css("background-image","url('/images4/on/8.png')"); break;
+					//Tab 9 EURASIA AMUSEMENT CENTERS
+					case 9: $("a.btn-amuse").css("background-image","url('/images4/on/9.png')"); break;
+				}
+			}
+			/*To put OFF state on the selected tab when the tab or the subtabs are active*/
+			function unpainttab(tab){
+				switch(tab){
+					//Tab 1 EURASIA OVERVIEW AND PHILOSOPHY
+					case 1: $("a.btn-euover").css("background-image","url('/images4/off/1.png')"); break;
+					//Tab 2 ISSUES AND OPPORTUNITIES
+					case 2: $("a.btn-isop").css("background-image","url('/images4/off/2.png')"); break;
+					//Tab 3 EURASIA BETTER IDEAS
+					case 3: $("a.btn-euideas").css("background-image","url('/images4/off/3.png')"); break;
+					//Tab 4 THE PEOPLE AND RESOURCES
+					case 4: $("a.btn-people").css("background-image","url('/images4/off/4.png')"); break;
+					//Tab 5 IMAGINE EURASIA
+					case 5: $("a.btn-imagine").css("background-image","url('/images4/off/5.png')"); break;
+					//Tab 6 MARKETING STRATEGIES
+					case 6: $("a.btn-marketing").css("background-image","url('/images4/off/6.png')"); break;
+					//Tab 7 TV/MOVIE STUDIOS AND LIVE ENTERTAINMENT
+					case 7: $("a.btn-livent").css("background-image","url('/images4/off/7.png')"); break;
+					//Tab 8 EURASIA DEVELOPMENT & RESOURCES
+					case 8: $("a.btn-develop").css("background-image","url('/images4/off/8.png')"); break;
+					//Tab 9 EURASIA AMUSEMENT CENTERS
+					case 9: $("a.btn-amuse").css("background-image","url('/images4/off/9.png')"); break;
+				}
+			}
+		</script>
+		<script type="text/javascript">
+			function getXMLTagName(a_doc, a_attribute) {
+				var sep = '</' + a_attribute + '>';
+				var arraytags = a_doc.toString().split('</' + a_attribute + '>');
+				arraytags.length = arraytags.length - 1;
+				for (var i = 0; i < arraytags.length; i++) {
+					arraytags[i] = arraytags[i] + sep;
+					//alert(arraytags[i]);
+				}
+				return arraytags;
+			}
+
+			function getXMLFirstNode(a_doc, a_attribute) {
+				return getXMLNodeValue(a_doc, a_attribute);
+			}
+			function getXMLNodeValue2(a_node, a_attribute,a_attribute2) {
+				var theXML = a_node.toString();
+				var aStr = a_attribute.toString();
+				var aStr2 = a_attribute2.toString();
+				var sStart = '<' + aStr + '>';
+				var sEnd = '</' + aStr2 + '>';
+				var index1 = -1;
+				var index2 = 0;
+				index1 = theXML.indexOf(sStart);
+				index2 = theXML.indexOf(sEnd, index1);
+				if (index1 != -1 && index2 > index1) {
+					output = theXML.substring(index1 + sStart.length, index2);
+					return output; //OUTPUT IT PROPERLY.
+				}
+				else {
+					return undefined;
+				}
+			}
+			function isValid(a_obj) {
+				return (a_obj != undefined && a_obj != null);
+			}
+			function getXMLNodeValue(a_node, a_attribute) {
+				var theXML = a_node.toString();
+				var aStr = a_attribute.toString();
+				var sStart = '<' + aStr + '>';
+				var sEnd = '</' + aStr + '>';
+				var index1 = -1;
+				var index2 = 0;
+				index1 = theXML.indexOf(sStart);
+				index2 = theXML.indexOf(sEnd);
+				if (index1 != -1 && index2 > index1) {
+					output = theXML.substring(index1 + sStart.length, index2);
+					return output; //OUTPUT IT PROPERLY.
+				}
+				else {
+					return undefined;
+				}
+			}
+			var f_curFinishFunction = function(response) {
+				//jQuery('#flashvideo').fadeIn('slow');
+				jQuery('#HomeGallery').hide();
+				var Details22 = document.getElementById('HomeGallery');
+				Details22.innerHTML = "<div id=\"Detail\">        <div id=\"DetailHeader\"> </div>        <div id=\"DetailCopy\"></div></div>    ";
+				document.title = getXMLNodeValue(response, ('title'));
+				var Details1 = document.getElementById('DetailCopy');
+				Details1.innerHTML = getXMLNodeValue2(response, ('div id="DetailCopy"'), ('div'));
+				//DetailHeader
+				var Details3 = document.getElementById('DetailHeader');
+				Details3.innerHTML = getXMLNodeValue2(response, ('div id="DetailHeader"'), ('div'));
+				jQuery('#HomeGallery').fadeIn('slow');
+				jQuery('#Detail1').hide();
+				jQuery('#Detail3').hide();
+			}
+			var f_curFinishFunction2 = function(response) {
+				//jQuery('#flashvideo').fadeIn('slow');
+				jQuery('#HomeGallery').hide();
+				var Details22 = document.getElementById('HomeGallery');
+				Details22.innerHTML = getXMLNodeValue2(response, ('div id="DetailCopy"'), ('div'));     		
+				document.title = getXMLNodeValue(response, ('title'));
+				jQuery('#HomeGallery').fadeIn('slow');
+			}
+		function getNewPage(page_url) {
+			if(page_url.toString().indexOf("/Default.aspx") != -1){
+				//jQuery('#HomeGallery').hide();
+				ajax(page_url, '', f_curFinishFunction2);
+				//jQuery('#HomeGallery').fadeIn('slow');
+			}
+			else{
+				//jQuery('#HomeGallery').hide();
+				ajax(page_url, '', f_curFinishFunction);
+				//jQuery('#HomeGallery').fadeIn('slow');
+			}
+		}
+		</script>
+		<script language="javascript">
+			function getFlashMovie(movieName) {
+				var isIE = navigator.appName.indexOf("Microsoft") != -1;
+				return (isIE) ? window[movieName] : document[movieName];
+  			}
+  			
+  			function pauseVideo(){
+  				var movie = getFlashMovie('player');
+				movie.Pause();
+				return false;
+
+  			}
+		</script>
 		<!--End of block of pdftesting-->
 		<asp:ContentPlaceHolder id="head" runat="server">
 		</asp:ContentPlaceHolder>
 	</head>
 <body id="Home">
-
-
-	<!-- button image swap -->
-	<script type="text/javascript">
-		
-		/*To put ON state on the selected tab when the tab or the subtabs are active*/
-		function painttab(tab){
-			switch(tab){
-				//Tab 1 EURASIA OVERVIEW AND PHILOSOPHY
-				case 1: $("a.btn-euover").css("background-image","url('images4/on/1.png')"); break;
-				//Tab 2 ISSUES AND OPPORTUNITIES
-				case 2: $("a.btn-isop").css("background-image","url('images4/on/2.png')"); break;
-				//Tab 3 EURASIA BETTER IDEAS
-				case 3: $("a.btn-euideas").css("background-image","url('images4/on/3.png')"); break;
-				//Tab 4 THE PEOPLE AND RESOURCES
-				case 4: $("a.btn-people").css("background-image","url('images4/on/4.png')"); break;
-				//Tab 5 IMAGINE EURASIA
-				case 5: $("a.btn-imagine").css("background-image","url('images4/on/5.png')"); break;
-				//Tab 6 MARKETING STRATEGIES
-				case 6: $("a.btn-marketing").css("background-image","url('images4/on/6.png')"); break;
-				//Tab 7 TV/MOVIE STUDIOS AND LIVE ENTERTAINMENT
-				case 7: $("a.btn-livent").css("background-image","url('images4/on/7.png')"); break;
-				//Tab 8 EURASIA DEVELOPMENT & RESOURCES
-				case 8: $("a.btn-develop").css("background-image","url('images4/on/8.png')"); break;
-				//Tab 9 EURASIA AMUSEMENT CENTERS
-				case 9: $("a.btn-amuse").css("background-image","url('images4/on/9.png')"); break;
-			}
-		}
-		/*To put OFF state on the selected tab when the tab or the subtabs are active*/
-		function unpainttab(tab){
-			switch(tab){
-				//Tab 1 EURASIA OVERVIEW AND PHILOSOPHY
-				case 1: $("a.btn-euover").css("background-image","url('images4/off/1.png')"); break;
-				//Tab 2 ISSUES AND OPPORTUNITIES
-				case 2: $("a.btn-isop").css("background-image","url('images4/off/2.png')"); break;
-				//Tab 3 EURASIA BETTER IDEAS
-				case 3: $("a.btn-euideas").css("background-image","url('images4/off/3.png')"); break;
-				//Tab 4 THE PEOPLE AND RESOURCES
-				case 4: $("a.btn-people").css("background-image","url('images4/off/4.png')"); break;
-				//Tab 5 IMAGINE EURASIA
-				case 5: $("a.btn-imagine").css("background-image","url('images4/off/5.png')"); break;
-				//Tab 6 MARKETING STRATEGIES
-				case 6: $("a.btn-marketing").css("background-image","url('images4/off/6.png')"); break;
-				//Tab 7 TV/MOVIE STUDIOS AND LIVE ENTERTAINMENT
-				case 7: $("a.btn-livent").css("background-image","url('images4/off/7.png')"); break;
-				//Tab 8 EURASIA DEVELOPMENT & RESOURCES
-				case 8: $("a.btn-develop").css("background-image","url('images4/off/8.png')"); break;
-				//Tab 9 EURASIA AMUSEMENT CENTERS
-				case 9: $("a.btn-amuse").css("background-image","url('images4/off/9.png')"); break;
-			}
-		}
-	</script>
-
-	<script type="text/javascript">
-		function getXMLTagName(a_doc, a_attribute) {
-			var sep = '</' + a_attribute + '>';
-			var arraytags = a_doc.toString().split('</' + a_attribute + '>');
-			arraytags.length = arraytags.length - 1;
-			for (var i = 0; i < arraytags.length; i++) {
-				arraytags[i] = arraytags[i] + sep;
-				//alert(arraytags[i]);
-			}
-			return arraytags;
-		}
-
-		function getXMLFirstNode(a_doc, a_attribute) {
-			return getXMLNodeValue(a_doc, a_attribute);
-		}
-		function getXMLNodeValue2(a_node, a_attribute,a_attribute2) {
-			var theXML = a_node.toString();
-			var aStr = a_attribute.toString();
-			var aStr2 = a_attribute2.toString();
-			var sStart = '<' + aStr + '>';
-			var sEnd = '</' + aStr2 + '>';
-			var index1 = -1;
-			var index2 = 0;
-			index1 = theXML.indexOf(sStart);
-			index2 = theXML.indexOf(sEnd, index1);
-			if (index1 != -1 && index2 > index1) {
-				output = theXML.substring(index1 + sStart.length, index2);
-				return output; //OUTPUT IT PROPERLY.
-			}
-			else {
-				return undefined;
-			}
-		}
-		function isValid(a_obj) {
-			return (a_obj != undefined && a_obj != null);
-		}
-		function getXMLNodeValue(a_node, a_attribute) {
-			var theXML = a_node.toString();
-			var aStr = a_attribute.toString();
-			var sStart = '<' + aStr + '>';
-			var sEnd = '</' + aStr + '>';
-			var index1 = -1;
-			var index2 = 0;
-			index1 = theXML.indexOf(sStart);
-			index2 = theXML.indexOf(sEnd);
-			if (index1 != -1 && index2 > index1) {
-				output = theXML.substring(index1 + sStart.length, index2);
-				return output; //OUTPUT IT PROPERLY.
-			}
-			else {
-				return undefined;
-			}
-		}
-		var f_curFinishFunction = function(response) {
-			//jQuery('#flashvideo').fadeIn('slow');
-			jQuery('#HomeGallery').hide();
-			var Details22 = document.getElementById('HomeGallery');
-			Details22.innerHTML = "<div id=\"Detail\">        <div id=\"DetailHeader\"> </div>        <div id=\"DetailCopy\"></div></div>    ";
-			document.title = getXMLNodeValue(response, ('title'));
-			var Details1 = document.getElementById('DetailCopy');
-			Details1.innerHTML = getXMLNodeValue2(response, ('div id="DetailCopy"'), ('div'));
-			//DetailHeader
-			var Details3 = document.getElementById('DetailHeader');
-			Details3.innerHTML = getXMLNodeValue2(response, ('div id="DetailHeader"'), ('div'));
-			jQuery('#HomeGallery').fadeIn('slow');
-			jQuery('#Detail1').hide();
-			jQuery('#Detail3').hide();
-		}
-		var f_curFinishFunction2 = function(response) {
-			//jQuery('#flashvideo').fadeIn('slow');
-			jQuery('#HomeGallery').hide();
-			var Details22 = document.getElementById('HomeGallery');
-			Details22.innerHTML = getXMLNodeValue2(response, ('div id="DetailCopy"'), ('div'));     		
-			document.title = getXMLNodeValue(response, ('title'));
-			jQuery('#HomeGallery').fadeIn('slow');
-		}
-		
-	function getNewPage(page_url) {
-		if(page_url.toString().indexOf("Default.aspx") != -1){
-			//jQuery('#HomeGallery').hide();
-			ajax(page_url, '', f_curFinishFunction2);
-			//jQuery('#HomeGallery').fadeIn('slow');
-		}
-		else{
-			//jQuery('#HomeGallery').hide();
-			ajax(page_url, '', f_curFinishFunction);
-			//jQuery('#HomeGallery').fadeIn('slow');
-		}
-	}
-	</script>
 <div id="HeaderContainer">
 	<div id="HeaderContent">
 		<div id="Branding">
 			<div style="float: left; height: 29px;">
-				<a href="#" onclick=getNewPage('Default.aspx');><div style="position: relative; left: 17px; float: left; height: 29px;">
-					<img src="images2/logo.png" alt="Global Entertainment & Media Ltd." border="0" height="29" width="140">
+				<a href="/Default.aspx"><div style="position: relative; left: 17px; float: left; height: 29px;">
+					<img src="/images2/logo.png" alt="Global Entertainment & Media Ltd." border="0" height="29" width="140">
 				</div>
 				</a>
 				<span style="position: relative; left: 25px; font-family: 'Didact Gothic', sans-serif; font-size: 18px; color: #ffffff">LIVE ENTERTAINMENT HOTEL CASINO MEGA RESORT IN LAS VEGAS</span>
@@ -205,121 +215,121 @@
 				<li onmouseover=painttab(1); onmouseout=unpainttab(1);><a href="#" onclick="return false;" class="btn-euover">EURASIA OVERVIEW AND PHILOSOPHY</a>
 					<!--First Tab-->
 					<ul onmouseover=painttab(1); onmouseout=unpainttab(1);>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/1-overview/introduction.aspx');>Eurasia Introduction</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/1-overview/overview.aspx');>Eurasia Overview</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/1-overview/philosophy.aspx');>Eurasia Philosophy</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/1-overview/mission.aspx');>Eurasia Mission</a></li>
-						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#"  onclick=getNewPage('tabs/1-overview/reestablishing.aspx');>Reestablishing Las Vegas As The Cross-Trail Of The World</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('/tabs/1-overview/introduction.aspx');>Eurasia Introduction</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('/tabs/1-overview/overview.aspx');>Eurasia Overview</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('/tabs/1-overview/philosophy.aspx');>Eurasia Philosophy</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('/tabs/1-overview/mission.aspx');>Eurasia Mission</a></li>
+						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#"  onclick=getNewPage('/tabs/1-overview/reestablishing.aspx');>Reestablishing Las Vegas As The Cross-Trail Of The World</a></li>
 					</ul> 
 				</li>  
 				<!-- Second Tab -->
 				<li onmouseover=painttab(2); onmouseout=unpainttab(2);><a href="#" onclick="return false;" class="btn-isop">ISSUES AND OPPORTUNITIES</a> 
 					<ul onmouseover=painttab(2); onmouseout=unpainttab(2);> 
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/2-opportunities/being-a-casino-is-no-longer-enough.aspx');>Being a Casino is No Longer Enough</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/2-opportunities/long-term-slowdown.aspx');>Long-Term Slowdown</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/2-opportunities/population-growth-demand.aspx');>Population Growth Demand</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/2-opportunities/mccarran-international.aspx');>McCarran International Out of Capacity</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/2-opportunities/las-vegas-is-no-longer-the-first-choice.aspx');>Las Vegas is No longer The First Choice</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/2-opportunities/a-lack-of-luxury.aspx');>A Lack of Luxury</a></li>
-						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#"  onclick=getNewPage('tabs/2-opportunities/better-bottomlines.aspx');>Better Bottomies Through Happier</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('/tabs/2-opportunities/being-a-casino-is-no-longer-enough.aspx');>Being a Casino is No Longer Enough</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('/tabs/2-opportunities/long-term-slowdown.aspx');>Long-Term Slowdown</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('/tabs/2-opportunities/population-growth-demand.aspx');>Population Growth Demand</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('/tabs/2-opportunities/mccarran-international.aspx');>McCarran International Out of Capacity</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('/tabs/2-opportunities/las-vegas-is-no-longer-the-first-choice.aspx');>Las Vegas is No longer The First Choice</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('/tabs/2-opportunities/a-lack-of-luxury.aspx');>A Lack of Luxury</a></li>
+						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#"  onclick=getNewPage('/tabs/2-opportunities/better-bottomlines.aspx');>Better Bottomies Through Happier</a></li>
 
 					</ul>
 				</li>
 				<!-- Third Tab -->
 				<li onmouseover=painttab(3); onmouseout=unpainttab(3);><a href="#" onclick="return false;" class="btn-euideas">EURASIA BETTER IDEAS</a>
 					<ul onmouseover=painttab(3); onmouseout=unpainttab(3);>
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/3-betterideas/eurasia-malls.aspx');>Eurasia Malls</a></li> 
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/3-betterideas/eurasia-complex-centers.aspx');>Eurasia Complex and Centers</a></li> 
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/3-betterideas/seven-wonders.aspx');>The Seven Wonders of the Ancient World</a></li> 
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/3-betterideas/eurasia-eye.aspx');>The Eurasia Eye</a></li> 
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/3-betterideas/playing-fields.aspx');>The Playing Fields of Eurasia</a></li> 
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/3-betterideas/international-pav-comp.aspx');>International Pavilions & Competitions</a></li> 
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/3-betterideas/community-support.aspx');>Community Support & Youth Outreach</a></li> 
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/3-betterideas/eurasia-fun-park.aspx');>The Eurasia Fun Park</a></li> 
-						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#" onclick=getNewPage('tabs/3-betterideas/childrens-foundation.aspx');>The Amnistya Childrens Foundation</a></li> 
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/3-betterideas/eurasia-malls.aspx');>Eurasia Malls</a></li> 
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/3-betterideas/eurasia-complex-centers.aspx');>Eurasia Complex and Centers</a></li> 
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/3-betterideas/seven-wonders.aspx');>The Seven Wonders of the Ancient World</a></li> 
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/3-betterideas/eurasia-eye.aspx');>The Eurasia Eye</a></li> 
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/3-betterideas/playing-fields.aspx');>The Playing Fields of Eurasia</a></li> 
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/3-betterideas/international-pav-comp.aspx');>International Pavilions & Competitions</a></li> 
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/3-betterideas/community-support.aspx');>Community Support & Youth Outreach</a></li> 
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/3-betterideas/eurasia-fun-park.aspx');>The Eurasia Fun Park</a></li> 
+						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#" onclick=getNewPage('/tabs/3-betterideas/childrens-foundation.aspx');>The Amnistya Childrens Foundation</a></li> 
 					</ul> 
 				</li>
 				<!-- Fourth Tab -->
 				<li onmouseover=painttab(4); onmouseout=unpainttab(4);><a href="#" class="btn-people">THE PEOPLE AND RESOURCES</a> 
 					<ul onmouseover=painttab(4); onmouseout=unpainttab(4);>
-						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/jonathan-loeb.aspx');>JONATHAN Q. LOEB</a></li> 											
-						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/igor-jijikine.aspx');>IGOR JIJIKINE</a></li> 											
-						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/john-ray.aspx');>JOHN RAY</a></li> 											
-						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/michael-musick.aspx');>MICHAEL E. MUSICK</a></li> 											
-						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/cc-post.aspx');>C. C. POST</a></li> 											
-						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/john-sterling.aspx');>JOHN STERLING</a></li> 											
-						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/sharunya-galickate.aspx');>SHARUNYA GALICKATE</a></li> 											
-						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/sasha-shapiro.aspx');>SASHA SHAPIRO</a></li> 											
-						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/federico-e-martinez.aspx');>FEDERICO E. MARTINEZ</a></li> 											
-						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/federico-martinez-jr.aspx');>FEDERICO MARTINEZ, Jr.</a></li> 											
-						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/elliot-borin.aspx');>ELLIOT BORIN</a></li> 	
-						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/jonathan-kruer.aspx');>JONATHAN T. KRUER</a></li> 											
-						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/donald-davidson.aspx');>DONALD DAVIDSON</a></li> 	
-						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/steven-schwartzbard.aspx');>STEVEN SCHWARTZBARD</a></li> 											
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/4-people/anatoliy-myagkostoupov.aspx');>ANATOLIY MYAGKOSTOUPOV</a></li> 											
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/4-people/vladislav-myagkostoupov.aspx');>VLADISLAV (VLADIK) MYAGKOSTOUPOV</a></li> 
-						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#" onclick=getNewPage('tabs/4-people/tilke-wahl.aspx');>HERMANN TILKE AND PETER WAHL</a></li> 																	
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('/tabs/4-people/jonathan-loeb.aspx');>JONATHAN Q. LOEB</a></li> 											
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('/tabs/4-people/igor-jijikine.aspx');>IGOR JIJIKINE</a></li> 											
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('/tabs/4-people/john-ray.aspx');>JOHN RAY</a></li> 											
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('/tabs/4-people/michael-musick.aspx');>MICHAEL E. MUSICK</a></li> 											
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('/tabs/4-people/cc-post.aspx');>C. C. POST</a></li> 											
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('/tabs/4-people/john-sterling.aspx');>JOHN STERLING</a></li> 											
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('/tabs/4-people/sharunya-galickate.aspx');>SHARUNYA GALICKATE</a></li> 											
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('/tabs/4-people/sasha-shapiro.aspx');>SASHA SHAPIRO</a></li> 											
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('/tabs/4-people/federico-e-martinez.aspx');>FEDERICO E. MARTINEZ</a></li> 											
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('/tabs/4-people/federico-martinez-jr.aspx');>FEDERICO MARTINEZ, Jr.</a></li> 											
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('/tabs/4-people/elliot-borin.aspx');>ELLIOT BORIN</a></li> 	
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('/tabs/4-people/jonathan-kruer.aspx');>JONATHAN T. KRUER</a></li> 											
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('/tabs/4-people/donald-davidson.aspx');>DONALD DAVIDSON</a></li> 	
+						<li style="padding-top: 5px;"><a href="#" onclick=getNewPage('/tabs/4-people/steven-schwartzbard.aspx');>STEVEN SCHWARTZBARD</a></li> 											
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/4-people/anatoliy-myagkostoupov.aspx');>ANATOLIY MYAGKOSTOUPOV</a></li> 											
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/4-people/vladislav-myagkostoupov.aspx');>VLADISLAV (VLADIK) MYAGKOSTOUPOV</a></li> 
+						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#" onclick=getNewPage('/tabs/4-people/tilke-wahl.aspx');>HERMANN TILKE AND PETER WAHL</a></li> 																	
 					</ul>
 				</li>
 				<!-- Fifth tab-->
 				<li onmouseover=painttab(5); onmouseout=unpainttab(5);><a href="#" class="btn-imagine">IMAGINE EURASIA</a>
 					<ul onmouseover=painttab(5); onmouseout=unpainttab(5);>
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/5-imagine/formula-1-race.aspx');>Formula 1 Race in Las Vegas</a></li>
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/5-imagine/of-a-sea-world-and-caesarsforum.aspx');>A combination of a Sea World and CaesarsForum Shops</a></li>
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/5-imagine/eurasia-casino-hotel-resort.aspx');>EURASIA HOTEL CASINO RESORT's BENEFITS TO LAS VEGAS</a></li> 						   
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/5-imagine/eurasia-the-vision.aspx');>EURASIA THE VISION</a></li>
-						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#" onclick=getNewPage('tabs/5-imagine/secret-weapon-of-many-casinos.aspx');>secret weapon of many casino owners and architectural firms working</a></li>  						   
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/5-imagine/formula-1-race.aspx');>Formula 1 Race in Las Vegas</a></li>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/5-imagine/of-a-sea-world-and-caesarsforum.aspx');>A combination of a Sea World and CaesarsForum Shops</a></li>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/5-imagine/eurasia-casino-hotel-resort.aspx');>EURASIA HOTEL CASINO RESORT's BENEFITS TO LAS VEGAS</a></li> 						   
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/5-imagine/eurasia-the-vision.aspx');>EURASIA THE VISION</a></li>
+						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#" onclick=getNewPage('/tabs/5-imagine/secret-weapon-of-many-casinos.aspx');>secret weapon of many casino owners and architectural firms working</a></li>  						   
 					</ul>
 				</li>
 				<!-- Sixth tab-->
 				<li onmouseover=painttab(6); onmouseout=unpainttab(6);><a href="#" class="btn-marketing">MARKETING STRATEGIES</a>
 					<ul onmouseover=painttab(6); onmouseout=unpainttab(6);>
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/6-marketing/marketing-strategy-planet-x.aspx');>Joint Marketing Strategy with PLANET X TV</a></li>
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/6-marketing/marketing-strategy-neuromama-and-eurasia.aspx');>Joint Marketing Strategy of Eurasia & N e u r o m a m a .com</a></li>
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/6-marketing/marketing-strategy-entertainment-assets.aspx');>EURASIA's Marketing Strategy with Entertainment Assets</a></li>
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/6-marketing/marketing-strategy-for-launch-of-eurasia.aspx');>Marketing Strategy for the launch of EURASIA</a></li> 						   
-						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#" onclick=getNewPage('tabs/6-marketing/marketing-strategy-lauch-of-eurasia-casino-golf.aspx');>The Launch of "EURASIA" CASINO GOLF</a></li> 						   
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/6-marketing/marketing-strategy-planet-x.aspx');>Joint Marketing Strategy with XTREME X TV</a></li>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/6-marketing/marketing-strategy-neuromama-and-eurasia.aspx');>Joint Marketing Strategy of Eurasia & N e u r o m a m a .com</a></li>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/6-marketing/marketing-strategy-entertainment-assets.aspx');>EURASIA's Marketing Strategy with Entertainment Assets</a></li>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/6-marketing/marketing-strategy-for-launch-of-eurasia.aspx');>Marketing Strategy for the launch of EURASIA</a></li> 						   
+						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#" onclick=getNewPage('/tabs/6-marketing/marketing-strategy-lauch-of-eurasia-casino-golf.aspx');>The Launch of "EURASIA" CASINO GOLF</a></li> 						   
 					</ul>
 				</li>
 				<!-- Seventh tab-->
 				<li onmouseover=painttab(7); onmouseout=unpainttab(7);><a href="#" class="btn-livent">TV/MOVIE STUDIOS AND LIVE ENTERTAINMENT</a>
 					<ul onmouseover=painttab(7); onmouseout=unpainttab(7);>
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/7-entertainment/aces-of-acts.aspx');>Live Entertainment by Wholly owned Aces of Acts</a></li>
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/7-entertainment/weekly-live-tv-shows.aspx');>Production of weekly live TV Shows</a></li>
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/7-entertainment/fantazmus-tv-production.aspx');>"FANTAZMUS" TV and Motion Picture</a></li>
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/7-entertainment/fantazmus-circus.aspx');>"FANTAZMUS" Circus</a></li>
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/7-entertainment/production-film.aspx');>The Production of soap Opera and features films</a></li>
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/7-entertainment/competitions.aspx');>Competitions</a></li>
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/7-entertainment/competition-motor-speedway.aspx');>Competition - Motor SpeedWay</a></li>
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/7-entertainment/competition-fantazmus-studios.aspx');>Competition - Fantazmus Studios</a></li>
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/7-entertainment/competition-coliseum.aspx');>Competition - Coliseum Event Center Contests</a></li>
-						<li style="padding-top: 8px;padding-bottom: 6px"><a href="#" onclick=getNewPage('tabs/7-entertainment/competition-art-theatre.aspx');>Competition - Performing Arts Theatre Competitions</a></li>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/7-entertainment/aces-of-acts.aspx');>Live Entertainment by Wholly owned Aces of Acts</a></li>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/7-entertainment/weekly-live-tv-shows.aspx');>Production of weekly live TV Shows</a></li>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/7-entertainment/fantazmus-tv-production.aspx');>"FANTAZMUS" TV and Motion Picture</a></li>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/7-entertainment/fantazmus-circus.aspx');>"FANTAZMUS" Circus</a></li>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/7-entertainment/production-film.aspx');>The Production of soap Opera and features films</a></li>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/7-entertainment/competitions.aspx');>Competitions</a></li>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/7-entertainment/competition-motor-speedway.aspx');>Competition - Motor SpeedWay</a></li>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/7-entertainment/competition-fantazmus-studios.aspx');>Competition - Fantazmus Studios</a></li>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/7-entertainment/competition-coliseum.aspx');>Competition - Coliseum Event Center Contests</a></li>
+						<li style="padding-top: 8px;padding-bottom: 6px"><a href="#" onclick=getNewPage('/tabs/7-entertainment/competition-art-theatre.aspx');>Competition - Performing Arts Theatre Competitions</a></li>
 						<!--<li style="padding-top: 8px; padding-bottom: 6px"><a href="#" onclick=getNewPage('Default.aspx');>Gallery</a></li>  -->   
 					</ul>
 				</li>
 				<!-- Eighth tab-->
 				<li onmouseover=painttab(8); onmouseout=unpainttab(8);><a href="#" class="btn-develop">EURASIA DEVELOPMENT & RESOURCES</a>
 					<ul onmouseover=painttab(8); onmouseout=unpainttab(8);>
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/8-development/financing.aspx');>Financing</a></li> 						   
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/8-development/sales-advertising-public-relations.aspx');>Sales, Marketing, Advertising and Public Relations...</a></li> 						   
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/8-development/magnet-attractions.aspx');>Magnets and Attractions...</a></li> 						   
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/8-development/management-operations.aspx');>Management and Operations of EURASIA...</a></li> 						   
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('tabs/8-development/global-resources.aspx');>Utilization of Global Resources...</a></li> 						   
-						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#" onclick=getNewPage('tabs/8-development/requeriments-specifications.aspx');>Eurasia Requirements and Specifications.</a></li> 						   
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/8-development/financing.aspx');>Financing</a></li> 						   
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/8-development/sales-advertising-public-relations.aspx');>Sales, Marketing, Advertising and Public Relations...</a></li> 						   
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/8-development/magnet-attractions.aspx');>Magnets and Attractions...</a></li> 						   
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/8-development/management-operations.aspx');>Management and Operations of EURASIA...</a></li> 						   
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/8-development/global-resources.aspx');>Utilization of Global Resources...</a></li> 						   
+						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#" onclick=getNewPage('/tabs/8-development/requeriments-specifications.aspx');>Eurasia Requirements and Specifications.</a></li> 						   
 					</ul>
 				</li>
 				<!-- 9th tab-->
 				<li onmouseover=painttab(9); onmouseout=unpainttab(9);><a href="#" class="btn-amuse">EURASIA AMUSEMENT CENTERS</a>
 					<ul onmouseover=painttab(9); onmouseout=unpainttab(9);>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/9-amusement/eurasia-world-diamond.aspx');>The Diamond World</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/9-amusement/eurasia-world-formula.aspx');>The Formula One World</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/9-amusement/eurasia-world-nascar.aspx');>The Nascar World</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/9-amusement/eurasia-world-castles.aspx');>The World of Majestic Castles</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/9-amusement/eurasia-world-inventions.aspx');>Discovery & Inventions World</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/9-amusement/eurasia-world-elegance.aspx');>The World of Fashion, Beauty & Elegance</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/9-amusement/eurasia-world-golf.aspx');>The Golf World</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/9-amusement/eurasia-world-yacht-jet.aspx');>The Private Jet and Yacht World</a></li>
-						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#"  onclick=getNewPage('tabs/9-amusement/eurasia-world-extreme.aspx');>Planet X TV Extreme Sports World</a></li>						   
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('/tabs/9-amusement/eurasia-world-diamond.aspx');>The Diamond World</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('/tabs/9-amusement/eurasia-world-formula.aspx');>The Formula One World</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('/tabs/9-amusement/eurasia-world-nascar.aspx');>The Nascar World</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('/tabs/9-amusement/eurasia-world-castles.aspx');>The World of Majestic Castles</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('/tabs/9-amusement/eurasia-world-inventions.aspx');>Discovery & Inventions World</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('/tabs/9-amusement/eurasia-world-elegance.aspx');>The World of Fashion, Beauty & Elegance</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('/tabs/9-amusement/eurasia-world-golf.aspx');>The Golf World</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('/tabs/9-amusement/eurasia-world-yacht-jet.aspx');>The Private Jet and Yacht World</a></li>
+						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#"  onclick=getNewPage('/tabs/9-amusement/eurasia-world-extreme.aspx');>XTREME TV Extreme Sports World</a></li>						   
 					</ul>
 				</li>
 			</ul>
@@ -434,7 +444,7 @@
 						</div>
 						<div id="CorporateButton">
 							<a href="#">
-							<img src="images/footer/btn-corporate-links-off.jpg" alt="Corporate Links" name="corporatebtn" id="corporatebtn" class="img-swap"onmouseover="this.src='images/footer/btn-corporate-links-on1.jpg'" onmouseout="this.src='images/footer/btn-corporate-links-off.jpg'" border="0" height="24" width="150"></a>
+							<img src="/images/footer/btn-corporate-links-off.jpg" alt="Corporate Links" name="corporatebtn" id="corporatebtn" class="img-swap"onmouseover="this.src='/images/footer/btn-corporate-links-on1.jpg'" onmouseout="this.src='/images/footer/btn-corporate-links-off.jpg'" border="0" height="24" width="150"></a>
 						</div>		
 					</div>	
 				</div>
@@ -444,29 +454,29 @@
 				<div style="width: 150px; height:24px; position:relative;">
 					<div id="CorporateContainer1">
 						<div id="CorporateInner1">
-							<a href="#" onclick="TINY.box.show({url:'media/video1.html',width:720,height:480})">VIDEO 1</a><br>
-							<a href="#" onclick="TINY.box.show({url:'media/video1.html',width:720,height:480})">VIDEO 2</a><br>
-							<a href="#" onclick="TINY.box.show({url:'media/video1.html',width:720,height:480})">VIDEO 3</a><br>
-							<a href="#" onclick="TINY.box.show({url:'media/video1.html',width:720,height:480})">VIDEO 4</a><br>
+							<a href="#" onclick="pauseVideo();TINY.box.show({url:'/media/video1.html',width:720,height:480})">VIDEO 1</a><br>
+							<a href="#" onclick="TINY.box.show({url:'/media/video1.html',width:720,height:480})">VIDEO 2</a><br>
+							<a href="#" onclick="TINY.box.show({url:'/media/video1.html',width:720,height:480})">VIDEO 3</a><br>
+							<a href="#" onclick="TINY.box.show({url:'/media/video1.html',width:720,height:480})">VIDEO 4</a><br>
 						</div>
 						<div id="CorporateButton1">
 							<a href="#">
-								<img src="images/footer/btn-video-links-off.png" alt="1" name="corporatebtn" id="corporatebtn" class="img-swap" onmouseover="this.src='images/footer/btn-video-links-on.png'" onmouseout="this.src='images/footer/btn-video-links-off.png'"border="0" height="24" width="150">
+								<img src="/images/footer/btn-video-links-off.png" alt="1" name="corporatebtn" id="corporatebtn" class="img-swap" onmouseover="this.src='/images/footer/btn-video-links-on.png'" onmouseout="this.src='/images/footer/btn-video-links-off.png'"border="0" height="24" width="150">
 							</a>
 						</div>		
 					</div>
 				</div>
 			</div>
 			<div id="FooterTools2">
-				<div id="FooterSocial"><img src="images/Follow-Us.gif" alt="Follow Us:" height="16" width="55">
-					<a href="http://twitter.com/GlobalLtd" target="_blank" onmouseover="MM_swapImage('twitter','','images/footer/btn-Twitter-on.jpg',1)" onmouseout="MM_swapImgRestore()">
-						<img src="images/footer/btn-Twitter-off.jpg" alt="Twitter" name="twitter" id="twitter" border="0" height="16" width="17">
+				<div id="FooterSocial"><img src="/images/Follow-Us.gif" alt="Follow Us:" height="16" width="55">
+					<a href="http://twitter.com/GlobalLtd" target="_blank" onmouseover="MM_swapImage('twitter','','/images/footer/btn-Twitter-on.jpg',1)" onmouseout="MM_swapImgRestore()">
+						<img src="/images/footer/btn-Twitter-off.jpg" alt="Twitter" name="twitter" id="twitter" border="0" height="16" width="17">
 					</a>
-					<a href="http://www.facebook.com/pages/Global-Entertainment-Media-LTD/140161319418555?sk=info" target="_blank" onmouseover="MM_swapImage('facebook','','images/footer/btn-Facebook-on.jpg',1)" onmouseout="MM_swapImgRestore()">
-						<img src="images/footer/btn-Facebook-off.jpg" alt="Facebook" name="facebook" id="facebook" border="0" height="16" width="17">
+					<a href="http://www.facebook.com/pages/Global-Entertainment-Media-LTD/140161319418555?sk=info" target="_blank" onmouseover="MM_swapImage('facebook','','/images/footer/btn-Facebook-on.jpg',1)" onmouseout="MM_swapImgRestore()">
+						<img src="/images/footer/btn-Facebook-off.jpg" alt="Facebook" name="facebook" id="facebook" border="0" height="16" width="17">
 					</a>
-					<a href="http://www.youtube.com/Globalltd" target="_blank" onmouseover="MM_swapImage('youtube','','images/footer/btn-YouTube-on.jpg',1)" onmouseout="MM_swapImgRestore()">
-						<img src="images/footer/btn-YouTube-off.jpg" alt="YouTube" name="youtube" id="youtube" border="0" height="16" width="17">
+					<a href="http://www.youtube.com/Globalltd" target="_blank" onmouseover="MM_swapImage('youtube','','/images/footer/btn-YouTube-on.jpg',1)" onmouseout="MM_swapImgRestore()">
+						<img src="/images/footer/btn-YouTube-off.jpg" alt="YouTube" name="youtube" id="youtube" border="0" height="16" width="17">
 					</a>
 				</div>
 			</div>

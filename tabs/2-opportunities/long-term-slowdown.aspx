@@ -26,7 +26,7 @@
 							The Eurasia Project, with its multifaceted initiatives to make Las Vegas a vacation, commercial and convention destination for elite jetset shoppers, sports fans of all types, movie, TV and recording stars and their fans and support staff, entertainment and attraction-loving middle-class tourists, and, of course, international-class big time professional gamblers and regional recreational players will bring, when fully realized, 60 million … 60 million additional visitors to Las Vegas every year …. 60 million … year, after year, after year.
 							<br/><br />
 							<ul class="gallery">
-								<li><img src="images2/p1_chapter_2.jpg" alt="Rising with the EURASIA Tide" width="320px">
+								<li><img src="/images2/p1_chapter_2.jpg" alt="Rising with the EURASIA Tide" width="320px">
 								</li>
 							</ul>
 							Even more important than the increase in bulk number of visitors, however, is the effect the Eurasia development will have on visitor vacationing and spending behavior. Instead of the two-to-three day average Las Vegas stay currently the norm, Eurasia’s giant theme parks, championship golf courses, 15 million square feet of elite shops, department stores and boutiques and its 100-plus nations-of-the-world pavilions and attractions will result in the average stay expanding to four to five nights.
@@ -43,13 +43,13 @@
 			</div>
 			<div class="HomePageRule"></div>
 			<!-- Twitter Feed -->
-			<div id="TwitterFeedContainer"><img src="images/btn-Twitter-on.jpg">
+			<div id="TwitterFeedContainer"><img src="/images/btn-Twitter-on.jpg">
 				<span id="lblDisplayTweet_LblTweet"> 
 					<p>#FF #GlobalLtd @MarginInvestors @PennyStock @AcesOfACTS </p>
 				</span>
 			</div>
 			<!-- /Twitter Feed -->	
-			<div class="HomePageRule"><img src="images/spacer_002.gif" height="1" width="470"></div>
+			<div class="HomePageRule"><img src="/images/spacer_002.gif" height="1" width="470"></div>
 			<!-- Facebook Feed -->
 			<div id="TwitterFeedContainer"></div>
 			<!-- /Facebook Feed -->

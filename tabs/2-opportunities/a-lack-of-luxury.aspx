@@ -33,7 +33,7 @@
 						<br/><br />
 						The Eurasia Resorts... 45 ways to cross the border and enter an alternative reality. Forty-five ways to spend a night, a weekend or a week in an exotic foreign port. Forty-five ways to escape. All of them within 60 minutes of Los Angeles International Airport.
 						<ul class="gallery1">
-							<li><img src="images2/p1_chapter_6.jpg" alt="A Lack of Luxury" width="470px"></li>
+							<li><img src="/images2/p1_chapter_6.jpg" alt="A Lack of Luxury" width="470px"></li>
 						</ul>
 					</div>
 				</div>
@@ -44,13 +44,13 @@
 			</div>
 			<div class="HomePageRule"></div>
 			<!-- Twitter Feed -->
-			<div id="TwitterFeedContainer"><img src="images/btn-Twitter-on.jpg">
+			<div id="TwitterFeedContainer"><img src="/images/btn-Twitter-on.jpg">
 				<span id="lblDisplayTweet_LblTweet"> 
 					<p>#FF #GlobalLtd @MarginInvestors @PennyStock @AcesOfACTS </p>
 				</span>
 			</div>
 			<!-- /Twitter Feed -->	
-			<div class="HomePageRule"><img src="images/spacer_002.gif" height="1" width="470"></div>
+			<div class="HomePageRule"><img src="/images/spacer_002.gif" height="1" width="470"></div>
 			<!-- Facebook Feed -->
 			<div id="TwitterFeedContainer"></div>
 			<!-- /Facebook Feed -->

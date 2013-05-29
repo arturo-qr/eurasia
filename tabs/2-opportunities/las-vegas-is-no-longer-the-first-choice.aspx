@@ -29,7 +29,7 @@
 						<br/><br />	
 						<ul class="view view-first">
 							<li>
-								<img src="images2/p1_chapter_5.jpg" alt="Las Vegas" width="300"/>
+								<img src="/images2/p1_chapter_5.jpg" alt="Las Vegas" width="300"/>
 								<ul class="mask">
 									<li>
 										<h2>The Eurasia development will stop that bleeding...</h2>
@@ -57,13 +57,13 @@
 			</div>
 			<div class="HomePageRule"></div>
 			<!-- Twitter Feed -->
-			<div id="TwitterFeedContainer"><img src="images/btn-Twitter-on.jpg">
+			<div id="TwitterFeedContainer"><img src="/images/btn-Twitter-on.jpg">
 				<span id="lblDisplayTweet_LblTweet"> 
 					<p>#FF #GlobalLtd @MarginInvestors @PennyStock @AcesOfACTS </p>
 				</span>
 			</div>
 			<!-- /Twitter Feed -->	
-			<div class="HomePageRule"><img src="images/spacer_002.gif" height="1" width="470"></div>
+			<div class="HomePageRule"><img src="/images/spacer_002.gif" height="1" width="470"></div>
 			<!-- Facebook Feed -->
 			<div id="TwitterFeedContainer"></div>
 			<!-- /Facebook Feed -->

@@ -21,19 +21,19 @@
 					<param name="wmode" value="transparent" />
 					<param name="scale" value="tofit" />
 					<param name="allowFullScreen" value="true" />
-					<param name="flashvars" value="autoplay=true&amp;v=media/eurasia_video_final.mp4&amp;img=Untitled-6.png&amp;repeat=true&amp;btnIcon=#6CFF00&amp;playIcon=#6CFF00&amp;controlsBgAlpha=0.9&amp;bgGradient1=#000000&amp;bgGradient2=#101010" />
+					<param name="flashvars" value="autoplay=true&amp;v=media/MAIN.flv&amp;img=Untitled-6.png&amp;repeat=true&amp;btnIcon=#6CFF00&amp;playIcon=#6CFF00&amp;controlsBgAlpha=0.9&amp;bgGradient1=#000000&amp;bgGradient2=#101010" />
 					<param name="menu" value="true" />
 					<param name="devicefont" value="false" />
 					<param name="salign" value="" />
 					<param name="allowScriptAccess" value="always" />
-					<object type="application/x-shockwave-flash" data="videoplayer.swf" width="450" height="300">
+					<object id="player" type="application/x-shockwave-flash" data="videoplayer.swf" width="450" height="300">
 						<param name="movie" value="videoplayer.swf" />
 						<param name="quality" value="best" />
 						<param name="bgcolor" value="#000000" />
 						<param name="play" value="true" />
 						<param name="loop" value="true" />
 						<param name="allowFullScreen" value="true" />
-						<param name="flashvars" value="autoplay=true&amp;v=media/eurasia_video_final.mp4&amp;img=Untitled-6.png&amp;repeat=true&amp;btnIcon=#6CFF00&amp;playIcon=#6CFF00&amp;controlsBgAlpha=0.9&amp;bgGradient1=#000000&amp;bgGradient2=#101010" />
+						<param name="flashvars" value="autoplay=true&amp;v=media/MAIN.flv&amp;img=Untitled-6.png&amp;repeat=true&amp;btnIcon=#6CFF00&amp;playIcon=#6CFF00&amp;controlsBgAlpha=0.9&amp;bgGradient1=#000000&amp;bgGradient2=#101010" />
 						<param name="wmode" value="transparent" />
 						<param name="scale" value="tofit" />
 						<param name="menu" value="true" />
@@ -110,17 +110,17 @@
 			</div>
 			<div id="TwitterFeedHeader"></div>
 			<div id="TwitterFeedContainer" style="width: 380px;  padding: 0px 0px 10px 70px; height: 87px; ">
-			<!-- <a title="Live the M life" rel="lightbox[southchapel]" href="/peelad/interior_popup.swf?width=252&amp;height=525"><img src="images/home/Mlife-Banner.jpg" width="300" height="87" border="0" style="margin: 0px; float: left;"/></a> -->
+			<!-- <a title="Live the M life" rel="lightbox[southchapel]" href="/peelad/interior_popup.swf?width=252&amp;height=525"><img src="/images/home/Mlife-Banner.jpg" width="300" height="87" border="0" style="margin: 0px; float: left;"/></a> -->
 			</div>
 			<div class="HomePageRule"></div>
 			<!-- Twitter Feed -->
-			<!--div id="TwitterFeedContainer"><img src="images/btn-Twitter-on.jpg">
+			<!--div id="TwitterFeedContainer"><img src="/images/btn-Twitter-on.jpg">
 				<span id="lblDisplayTweet_LblTweet"> 
 					<p>#FF #GlobalLtd @MarginInvestors @PennyStock @AcesOfACTS </p>
 				</span>
 			</div-->
 			<!-- /Twitter Feed -->	
-			<div class="HomePageRule"><img src="images/spacer_002.gif" height="1" width="470"></div>
+			<div class="HomePageRule"><img src="/images/spacer_002.gif" height="1" width="470"></div>
 			<!-- Facebook Feed -->
 			<div id="TwitterFeedContainer"></div>
 			<!-- /Facebook Feed -->
