@@ -30,7 +30,17 @@
 	</head>
 <body id="Home">
 
-
+	<script language="javascript">
+		function getFlashMovie(movieName) {
+			var isIE = navigator.appName.indexOf("Microsoft") != -1;
+			return (isIE) ? window[movieName] : document[movieName];
+		}
+				
+		function pauseVideo(){
+			var movie = getFlashMovie('player');
+			movie.Pause();
+		}
+	</script>
 	<!-- button image swap -->
 	<script type="text/javascript">
 		
@@ -444,10 +454,7 @@
 				<div style="width: 150px; height:24px; position:relative;">
 					<div id="CorporateContainer1">
 						<div id="CorporateInner1">
-							<a href="#" onclick="TINY.box.show({url:'media/video1.html',width:720,height:480})">VIDEO 1</a><br>
-							<a href="#" onclick="TINY.box.show({url:'media/video1.html',width:720,height:480})">VIDEO 2</a><br>
-							<a href="#" onclick="TINY.box.show({url:'media/video1.html',width:720,height:480})">VIDEO 3</a><br>
-							<a href="#" onclick="TINY.box.show({url:'media/video1.html',width:720,height:480})">VIDEO 4</a><br>
+							<a href="#" onclick="pauseVideo();TINY.box.show({url:'media/video1.html',width:720,height:480})">VIDEO 1</a><br>
 						</div>
 						<div id="CorporateButton1">
 							<a href="#">
