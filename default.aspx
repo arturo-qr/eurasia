@@ -89,8 +89,8 @@
 							<br />
 							<ul class="overview-list-deep">
 								<li>Gift Certificates for $300 to $400I-PAD type tablets, TV's, Phones, Computers, Printers, and other in demand products.</li>
-								<li>Variety of 3 to 14 days free stays in any of the EURASIA's Hotel Casinos, such as rooms, sweets, 1 to 4 bedrooms condos, and 2 to 10 bedrooms Renaissance Villas.</li>
-								<li>VIP tickets for any of the Cirque Style, or any other productions and eventsin EURASIA's venues, Backstage tours, Acting Opportunities in TV and movie production studios and sets, Access to the Green Room in the studio, Private parties, Photos with celebrities.</li>
+								<li>Variety of 3 to 14 days free stays in any of the EURASIA's Hotel Casinos, such as rooms, suites, 1 to 4 bedrooms condos, and 2 to 10 bedrooms Renaissance Villas.</li>
+								<li>VIP tickets for any of the Cirque Style, or any other productions and events in EURASIA's venues, Backstage tours, Acting Opportunities in TV and movie production studios and sets, Access to the Green Room in the studio, Private parties, Photos with celebrities.</li>
 								<li>Tickets to any of the Sporting Events in EURASIA's venues</li>
 								<li>$5K to $500K in gambling chips for any EURASIA's Hotel Casinos</li>
 								<li>Tickets to any of TV and Movie Studios in EURASIA Hotel Casino Resort</li>
