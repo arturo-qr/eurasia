@@ -31,7 +31,7 @@
 						There are many other good things we could mention about Las Vegas. The Vegas of right here, right now. But we're going to skip calling them out because a.) You already know what they are and b.) What's "right" has little to do with Eurasia.
 						<br/><br />
 						<ul class="gallery">
-							<li><img src="/images2/Intro_Restablishing.jpg" alt="Restablishing Las Vegas" height="350" width="281"></li>
+							<li><img src="images2/Intro_Restablishing.jpg" alt="Restablishing Las Vegas" height="350" width="281"></li>
 						</ul>
 						
 						Our project, the Eurasia project, is not about re-inventing any wheels or trying to fix this, that or some other thing that isn't broken. No. The Eurasia model is very different. It's based upon finding what is broken and deploying visionary business models, creative financing solutions and advanced technology to fix them.
@@ -52,13 +52,13 @@
 			</div>
 			<div class="HomePageRule"></div>
 			<!-- Twitter Feed -->
-			<div id="TwitterFeedContainer"><img src="/images/btn-Twitter-on.jpg">
+			<div id="TwitterFeedContainer"><img src="images/btn-Twitter-on.jpg">
 				<span id="lblDisplayTweet_LblTweet"> 
 					<p>#FF #GlobalLtd @MarginInvestors @PennyStock @AcesOfACTS </p>
 				</span>
 			</div>
 			<!-- /Twitter Feed -->	
-			<div class="HomePageRule"><img src="/images/spacer_002.gif" height="1" width="470"></div>
+			<div class="HomePageRule"><img src="images/spacer_002.gif" height="1" width="470"></div>
 			<!-- Facebook Feed -->
 			<div id="TwitterFeedContainer"></div>
 			<!-- /Facebook Feed -->

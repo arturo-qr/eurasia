@@ -28,7 +28,7 @@
 						Other people magnets integrated into the shopping malls will be themed museums with ancient Egyptian and other artifacts loaned to Alexandra by top-rank government museums and galleries from around the world, numerous state of the arttheaters featuring everything from world premiers of the latest mosttechnologically advanced giant screen 3D fully immersive features to performances of the history’s mostrevered symphonies,ballets and operas by top touring companies.
 						<br/><br />
 						<ul class="gallery1">
-							<li><img src="/images2/being_a_casino.jpg" alt="They'll all be there, the Retail Royality, because only the Eurasia Malls will offer shop and kiosk spaces as foward styled as the products in them" width="420px"></li>
+							<li><img src="images2/being_a_casino.jpg" alt="They'll all be there, the Retail Royality, because only the Eurasia Malls will offer shop and kiosk spaces as foward styled as the products in them" width="420px"></li>
 						</ul>
 						The <strong>Alexandra Mall</strong> and the <strong>Las Vegas Dream Mall</strong> will also feature continuous live entertainment of far greater scope than has ever before been presented in any retail shopping complex. From the danger and speed of chariot racing to the beauty and grace of the newest Olympic sport, rhythmic gymnastics, Eurasia’s malls will have something for everyone. Especially, globe and nation-hopping shoppers interested in the best, most exclusive, products from the top designers and manufacturers. 
 						<br/><br />
@@ -52,13 +52,13 @@
 			</div>
 			<div class="HomePageRule"></div>
 			<!-- Twitter Feed -->
-			<div id="TwitterFeedContainer"><img src="/images/btn-Twitter-on.jpg">
+			<div id="TwitterFeedContainer"><img src="images/btn-Twitter-on.jpg">
 				<span id="lblDisplayTweet_LblTweet"> 
 					<p>#FF #GlobalLtd @MarginInvestors @PennyStock @AcesOfACTS </p>
 				</span>
 			</div>
 			<!-- /Twitter Feed -->	
-			<div class="HomePageRule"><img src="/images/spacer_002.gif" height="1" width="470"></div>
+			<div class="HomePageRule"><img src="images/spacer_002.gif" height="1" width="470"></div>
 			<!-- Facebook Feed -->
 			<div id="TwitterFeedContainer"></div>
 			<!-- /Facebook Feed -->

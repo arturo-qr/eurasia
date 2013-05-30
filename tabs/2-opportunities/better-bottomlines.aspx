@@ -24,7 +24,7 @@
 						Enjoying live entertainment can even, according to many medical researchers, temporarily relieve pain by triggering the brain to release endorphins.
 						<br/><br />
 						<ul class="gallery">
-							<li><img src="/images2/p1_chapter_7.jpg" alt="Better Bottomlines" width="270px"></li>
+							<li><img src="images2/p1_chapter_7.jpg" alt="Better Bottomlines" width="270px"></li>
 						</ul>
 						Even better and, perhaps, more surprising, a recent research report published by the prestigious Mayo Clinic says that live entertainment of the sort that will envelope you from the stresses, strains and disappointments of daily life.
 						<br/><br />
@@ -46,13 +46,13 @@
 			</div>
 			<div class="HomePageRule"></div>
 			<!-- Twitter Feed -->
-			<div id="TwitterFeedContainer"><img src="/images/btn-Twitter-on.jpg">
+			<div id="TwitterFeedContainer"><img src="images/btn-Twitter-on.jpg">
 				<span id="lblDisplayTweet_LblTweet"> 
 					<p>#FF #GlobalLtd @MarginInvestors @PennyStock @AcesOfACTS </p>
 				</span>
 			</div>
 			<!-- /Twitter Feed -->	
-			<div class="HomePageRule"><img src="/images/spacer_002.gif" height="1" width="470"></div>
+			<div class="HomePageRule"><img src="images/spacer_002.gif" height="1" width="470"></div>
 			<!-- Facebook Feed -->
 			<div id="TwitterFeedContainer"></div>
 			<!-- /Facebook Feed -->
