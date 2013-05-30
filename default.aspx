@@ -83,8 +83,8 @@
 							<li>May 22, 2013 N e u r o m a m a .com common stock is going to start trading on one of the US Stock Exchanges.</li>
 							<li>May 22 Launch of English, Spanish and Russian Languages of N e u r o m a m a .com Search Engine with (FSR) Frequent Searcher Reward and E-Mail Service.</li>
 							<li>Viral Marketing with short funny videos about people receiving rewards for using N e u r o m a m a .com Search Engine.</li>
-							<li>N e u r o m a m a .com and EURASIA will be LAUNCHED with 20 hours of monthly TV commercials on TV, Cable and Satellite Networks throughout Latin America in JOINT MARKETING STRATEGY WITH PLANET X This Partnership will provide numerous advertising and other branded content opportunities on other TV Channels viewed by hundreds millions people on TV, Cable and Satellite Networks in Latin America.</li>
-							<li>Product Placements with Branded Content of N e u r o m a m a .com and EURASIA's on <strong>PLANET X TV, MTV, CNN, FOX</strong> and many other TV, Cable and Satellite Networks, which are promoting PLANET X in Latin America.</li>
+							<li>N e u r o m a m a .com and EURASIA will be LAUNCHED with 20 hours of monthly TV commercials on TV, Cable and Satellite Networks throughout Latin America in JOINT MARKETING STRATEGY WITH XTREME This Partnership will provide numerous advertising and other branded content opportunities on other TV Channels viewed by hundreds millions people on TV, Cable and Satellite Networks in Latin America.</li>
+							<li>Product Placements with Branded Content of N e u r o m a m a .com and EURASIA's on <strong>XSCAPE TV LATINA, MTV, CNN, FOX</strong> and many other TV, Cable and Satellite Networks, which are promoting XTREME in Latin America.</li>
 							<li>FSR - Frequent Searcher Rewards for N e u r o m a m a .com users which includes:</li>
 							<br />
 							<ul class="overview-list-deep">

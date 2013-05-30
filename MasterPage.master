@@ -283,7 +283,7 @@
 				<!-- Sixth tab-->
 				<li onmouseover=painttab(6); onmouseout=unpainttab(6);><a href="#" class="btn-marketing">MARKETING STRATEGIES</a>
 					<ul onmouseover=painttab(6); onmouseout=unpainttab(6);>
-						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/6-marketing/marketing-strategy-planet-x.aspx');>Joint Marketing Strategy with XTREME X TV</a></li>
+						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/6-marketing/marketing-strategy-planet-x.aspx');>Joint Marketing Strategy with XSCAPE TV LATINA</a></li>
 						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/6-marketing/marketing-strategy-neuromama-and-eurasia.aspx');>Joint Marketing Strategy of Eurasia & N e u r o m a m a .com</a></li>
 						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/6-marketing/marketing-strategy-entertainment-assets.aspx');>EURASIA's Marketing Strategy with Entertainment Assets</a></li>
 						<li style="padding-top: 8px;"><a href="#" onclick=getNewPage('/tabs/6-marketing/marketing-strategy-for-launch-of-eurasia.aspx');>Marketing Strategy for the launch of EURASIA</a></li> 						   
@@ -328,7 +328,7 @@
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('/tabs/9-amusement/eurasia-world-elegance.aspx');>The World of Fashion, Beauty & Elegance</a></li>
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('/tabs/9-amusement/eurasia-world-golf.aspx');>The Golf World</a></li>
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('/tabs/9-amusement/eurasia-world-yacht-jet.aspx');>The Private Jet and Yacht World</a></li>
-						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#"  onclick=getNewPage('/tabs/9-amusement/eurasia-world-extreme.aspx');>XTREME TV Extreme Sports World</a></li>						   
+						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#"  onclick=getNewPage('/tabs/9-amusement/eurasia-world-extreme.aspx');>XSCAPE TV LATINA Extreme Sports World</a></li>						   
 					</ul>
 				</li>
 			</ul>
